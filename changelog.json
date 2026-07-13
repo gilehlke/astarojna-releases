@@ -1,0 +1,2471 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-07-13T17:47:17.974Z",
+  "latestVersion": "0.33.0",
+  "langs": [
+    "pt",
+    "en",
+    "ru"
+  ],
+  "entries": [
+    {
+      "version": "0.33.0",
+      "date": "2026-07-13",
+      "title": {
+        "pt": "v0.33.0 — melhorias internas e ajustes de estabilidade",
+        "en": "v0.33.0 — internal improvements and stability tweaks",
+        "ru": "v0.33.0 — внутренние улучшения и правки стабильности"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Ajustes internos e pequenas melhorias de estabilidade no aplicativo.",
+            "en": "Internal adjustments and minor stability improvements in the app.",
+            "ru": "Внутренние доработки и небольшие улучшения стабильности приложения."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.32.0",
+      "date": "2026-07-13",
+      "title": {
+        "pt": "v0.32.0 — 2ª tela robusta, head tracking suave e capacete (HMD) completo",
+        "en": "v0.32.0 — Rock-solid second screen, smooth head tracking, complete HMD",
+        "ru": "v0.32.0 — надёжный второй экран, плавный трекинг головы, полноценный HMD"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "2ª tela muito mais confiável: conecta por cabo USB (iPhone e Android) e RECONECTA sozinha — não cai mais no meio da partida nem precisa dar refresh.",
+            "en": "Much more reliable second screen: connects over USB cable (iPhone and Android) and RECONNECTS on its own — no more dropping mid-match or needing a refresh.",
+            "ru": "Гораздо надёжнее второй экран: подключение по USB-кабелю (iPhone и Android) и автоматическое ПЕРЕПОДКЛЮЧЕНИЕ — больше не отваливается посреди боя и не нужно обновлять."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Head tracking mais suave e estável: novo filtro (Accela, portado do OpenTrack), movimento sem o 'quadrado' e sem travar com o tempo.",
+            "en": "Smoother, steadier head tracking: new filter (Accela, ported from OpenTrack), no more 'blocky' motion and no more stutter over time.",
+            "ru": "Плавнее и стабильнее трекинг головы: новый фильтр (Accela, портирован из OpenTrack), без «ступенчатого» движения и без подтормаживаний со временем."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Capacete (HMD): horizonte artificial que acompanha pra onde você olha, o gauge do Volk clicável em jogo (segurando ALT) e o MFD virou painel de controle sincronizado com o tablet.",
+            "en": "Helmet (HMD): a true horizon line that follows where you look, the Volk gauge clickable in-game (hold ALT), and the MFD is now a control panel synced with the tablet.",
+            "ru": "Шлем (HMD): линия истинного горизонта, следующая за взглядом, кликабельный gauge Volk в игре (удерживая ALT) и MFD как панель управления, синхронизированная с планшетом."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Pouso por instrumentos: o ILS calibra a pista sozinho e o GPS projeta a rampa de aproximação pronta pra você chegar alinhado.",
+            "en": "Instrument landing: the ILS calibrates the runway by itself and the GPS projects a ready approach ramp so you arrive lined up.",
+            "ru": "Заход по приборам: ILS сам калибрует ВПП, а GPS строит готовую глиссаду захода, чтобы вы заходили по створу."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "GPS/mapa: dá pra arrastar pros lados, o fundo virou terreno (não mais preto) e as mensagens 'Sigam-me!' aparecem destacadas no mapa.",
+            "en": "GPS/map: you can now pan sideways, the background became terrain (no more black), and 'Follow me!' messages show highlighted on the map.",
+            "ru": "GPS/карта: теперь можно двигать вбок, фон стал местностью (больше не чёрный), а сообщения «За мной!» подсвечиваются на карте."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Acabamentos: tela de abertura 'escolha seu simulador', o app não abre mais em duplicata, janela no tamanho certo e o chat funcionando (com as cores tratadas).",
+            "en": "Polish: a 'choose your simulator' launch screen, the app no longer opens twice, correct window size, and chat working (with color markup handled).",
+            "ru": "Доработки: стартовый экран «выберите симулятор», приложение больше не открывается дважды, правильный размер окна и работающий чат (с обработкой цветовой разметки)."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.31.3",
+      "date": "2026-07-10",
+      "title": {
+        "pt": "2ª tela por cabo no iPhone (e Android sem adb) — QR por rede",
+        "en": "Second screen over cable on iPhone (and Android without adb) — QR per network",
+        "ru": "Второй экран по кабелю на iPhone (и Android без adb) — QR на каждую сеть"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "O painel da 2ª tela mostra agora um QR pra CADA rede do PC (Wi-Fi + as de cabo). Ligue a Ancoragem USB (Android) ou o Compartilhamento de Internet (iPhone) e escaneie o QR da rede 'Cabo' — conecta pelo cabo, sem digitar nada e sem Wi-Fi. O certificado passou a cobrir todas as redes (sem aviso).",
+            "en": "The second-screen panel now shows a QR for EACH of the PC's networks (Wi-Fi + cable/tethering ones). Turn on USB tethering (Android) or Personal Hotspot (iPhone) and scan the 'Cable' network's QR — connects over the cable, no typing, no Wi-Fi. The certificate now covers all networks (no warning).",
+            "ru": "Панель второго экрана теперь показывает QR для КАЖДОЙ сети ПК (Wi-Fi + кабельные). Включите USB-модем (Android) или Режим модема (iPhone) и отсканируйте QR сети «Кабель» — подключение по кабелю, без ввода и без Wi-Fi. Сертификат теперь покрывает все сети (без предупреждения)."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.31.2",
+      "date": "2026-07-10",
+      "title": {
+        "pt": "Rever o tutorial inicial (na aba Conta)",
+        "en": "Replay the intro tutorial (in the Account tab)",
+        "ru": "Пройти вводный тур снова (во вкладке Аккаунт)"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Botão 'Rever tutorial inicial' na aba Conta: reseta e mostra de novo o guia de boas-vindas (escolha de idioma + introdução).",
+            "en": "'Replay intro tutorial' button in the Account tab: resets and shows the welcome guide again (language pick + intro).",
+            "ru": "Кнопка «Пройти вводный тур снова» во вкладке Аккаунт: сбрасывает и снова показывает приветственный гид (выбор языка + введение)."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.31.1",
+      "date": "2026-07-10",
+      "title": {
+        "pt": "2ª tela por cabo (USB) — sem depender do Wi-Fi",
+        "en": "Second screen over USB cable — no Wi-Fi needed",
+        "ru": "Второй экран по USB-кабелю — без Wi-Fi"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "No painel da 2ª tela (📱), botão 'Conectar por cabo (USB)': o app detecta o tablet Android plugado, liga pelo cabo e abre a 2ª tela sozinho no navegador do tablet. Ligue 'Depuração USB' uma vez (Opções de desenvolvedor). Funciona 100% offline — ótimo quando o Wi-Fi cai. O adb já vem embutido.",
+            "en": "In the second-screen panel (📱), a 'Connect via cable (USB)' button: the app detects your plugged-in Android tablet, links it over the cable and opens the second screen automatically in the tablet's browser. Enable 'USB debugging' once (Developer options). Works fully offline — great when Wi-Fi drops. adb ships bundled.",
+            "ru": "В панели второго экрана (📱) — кнопка «Подключить по кабелю (USB)»: приложение находит подключённый Android-планшет, связывает его по кабелю и само открывает второй экран в браузере планшета. Один раз включите «Отладку по USB» (Для разработчиков). Работает полностью офлайн — удобно, когда падает Wi-Fi. adb встроен."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.31.0",
+      "date": "2026-07-10",
+      "title": {
+        "pt": "Canal de teste (opt-in) — acompanhe as versões novas",
+        "en": "Test channel (opt-in) — follow the newest builds",
+        "ru": "Тестовый канал (по желанию) — следите за новыми сборками"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Novo 'Canal de atualização' na aba Conta: Estável (padrão — só versões oficiais) ou Teste (builds novas ainda em desenvolvimento). Quer ver o que está sendo feito antes de virar oficial? Liga o Teste; pode voltar pra Estável quando quiser. Continua sendo um app só.",
+            "en": "New 'Update channel' in the Account tab: Stable (default — official releases only) or Beta (newer in-development builds). Want to see what's being built before it goes official? Turn on Beta; switch back to Stable anytime. Still one single app.",
+            "ru": "Новый «Канал обновлений» на вкладке Аккаунт: Стабильный (по умолчанию — только официальные версии) или Тест (новые сборки в разработке). Хотите видеть, что делается, до официального релиза? Включите Тест; вернуться на Стабильный можно в любой момент. По-прежнему одно приложение."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.30.0",
+      "date": "2026-07-10",
+      "title": {
+        "pt": "v0.30.0 — Rastreio de cabeça completo + dezenas de aeronaves novas",
+        "en": "v0.30.0 — Head tracking completed + dozens of new aircraft",
+        "ru": "v0.30.0 — трекинг головы завершён + десятки новых самолётов"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Rastreio de cabeça (Head Track) turbinado: assistente de calibração (olhe 5 pontos), ajuste de ângulo da câmera que mata a 'parábola' de câmera acima do monitor, FPS configurável (30/45/60) e uma tela mais limpa com 'Ajustes avançados'. Ao ligar a câmera, um aviso pede pra você ficar parado enquanto ela centraliza.",
+            "en": "Head tracking supercharged: calibration wizard (look at 5 dots), camera-angle tool that kills the 'parabola' from a camera above the monitor, adjustable FPS (30/45/60), and a cleaner screen with 'Advanced settings'. When the camera turns on, a notice asks you to stay still while it centers.",
+            "ru": "Трекинг головы прокачан: мастер калибровки (смотрите на 5 точек), инструмент угла камеры, убирающий «параболу» от камеры над монитором, настраиваемый FPS (30/45/60) и более чистый экран с «Расширенными настройками». При включении камеры появляется просьба не двигаться, пока идёт центрирование."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Dezenas de aeronaves novas no banco de limites por-aeronave: jatos de topo (MiG-29K naval, Tu-95, F-14D, AMX, Viggen JA37, Sea Vixen), o helicóptero Mi-24 'Hind' e muitas variantes — gauges com faixas/redlines certas em bem mais aviões.",
+            "en": "Dozens of new aircraft in the per-vehicle limits database: top jets (naval MiG-29K, Tu-95, F-14D, AMX, Viggen JA37, Sea Vixen), the Mi-24 'Hind' helicopter and many variants — correct gauge bands/redlines on many more planes.",
+            "ru": "Десятки новых самолётов в базе лимитов по машинам: топовые джеты (палубный МиГ-29К, Ту-95, F-14D, AMX, Viggen JA37, Sea Vixen), вертолёт Ми-24 «Hind» и множество вариантов — правильные зоны/redline на гораздо большем числе самолётов."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Textos novos do head tracking traduzidos para todos os idiomas do app.",
+            "en": "New head-tracking text translated into all the app's languages.",
+            "ru": "Новые тексты трекинга головы переведены на все языки приложения."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.29.21",
+      "date": "2026-07-10",
+      "title": {
+        "pt": "Head Track: aba renomeada + 'Ajustes avançados' num pop-up",
+        "en": "Head Track: tab renamed + 'Advanced settings' popup",
+        "ru": "Head Track: вкладка переименована + всплывающее «Расширенные настройки»"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "A aba 'VOLK' virou 'HEAD TRACK' (mais intuitivo) e saiu a marca de experimental/beta.",
+            "en": "The 'VOLK' tab is now 'HEAD TRACK' (more intuitive) and the experimental/beta mark is gone.",
+            "ru": "Вкладка «VOLK» теперь «HEAD TRACK» (интуитивнее), метка эксперимента/беты убрана."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Suavização, zona morta, gráficos de sensibilidade e inversão agora ficam num botão 'Ajustes avançados' (pop-up) — a tela principal do head tracking fica mais limpa.",
+            "en": "Smoothing, deadzone, sensitivity graphs and invert now live in an 'Advanced settings' button (popup) — the main head-tracking screen is cleaner.",
+            "ru": "Сглаживание, мёртвая зона, графики чувствительности и инверсия теперь в кнопке «Расширенные настройки» (всплывающее окно) — основной экран трекинга чище."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.29.20",
+      "date": "2026-07-10",
+      "title": {
+        "pt": "Volk-Track: conserta pitch saturado (-90°) + Centralizar no ajuste de ângulo",
+        "en": "Volk-Track: fix saturated pitch (-90°) + Recenter in the angle tool",
+        "ru": "Volk-Track: исправлен насыщенный тангаж (-90°) + «Центр» в инструменте угла"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Corrigido: o ângulo da câmera empurrava um offset no pitch que saturava (-90°) e des-centralizava — a câmera 'começava torta' e o Centralizar jogava pra cima. Agora o ângulo só corrige o comportamento FORA do centro; o repouso volta a ler 0.",
+            "en": "Fixed: the camera angle injected a pitch offset that saturated (-90°) and de-centered — the camera 'started crooked' and Recenter threw it up. Now the angle only corrects OFF-center behavior; rest reads 0 again.",
+            "ru": "Исправлено: угол камеры добавлял смещение тангажа, которое насыщалось (-90°) и сбивало центр — камера «начинала криво», а «Центр» задирал вверх. Теперь угол корректирует только поведение ВНЕ центра; покой снова читается как 0."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "O ajuste de ângulo ganhou um botão 'Centralizar' (pra rezerar depois de mexer no ângulo). E o centro não é mais lembrado entre sessões (dava leitura velha no boot) — ele é capturado ao ligar a câmera.",
+            "en": "The angle tool got a 'Recenter' button (to re-zero after changing the angle). And the center is no longer remembered between sessions (gave a stale reading at boot) — it's captured when the camera turns on.",
+            "ru": "В инструменте угла появилась кнопка «Центр» (обнулить после изменения угла). И центр больше не запоминается между сессиями (давал старое показание при запуске) — он захватывается при включении камеры."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.29.19",
+      "date": "2026-07-10",
+      "title": {
+        "pt": "Volk-Track: ajuste manual do ângulo da câmera (mata a parábola)",
+        "en": "Volk-Track: manual camera-angle tuning (kills the parabola)",
+        "ru": "Volk-Track: ручная настройка угла камеры (убирает параболу)"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Novo 'Ângulo da câmera': um pop-up com um boneco de perfil + a webcam + o campo de visão, e uma barrinha de ângulo (padrão 15° pra cima). À direita, você olha de um lado pro outro e vê o rastro — ajuste até ele ficar RETO (a parábola some).",
+            "en": "New 'Camera angle': a pop-up with a side-view figure + the webcam + its field of view, and an angle slider (default 15° up). On the right, look side to side and watch the trail — adjust until it's STRAIGHT (the parabola disappears).",
+            "ru": "Новый «Угол камеры»: всплывающее окно с фигурой в профиль + камерой + полем зрения и ползунком угла (по умолчанию 15° вверх). Справа смотрите из стороны в сторону и следите за следом — регулируйте, пока он не станет ПРЯМЫМ (парабола исчезает)."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "A correção de câmera agora compensa quando você centraliza olhando pra baixo (monitor baixo): antes sobrava uma parábola residual; o ângulo manual mata ela.",
+            "en": "The camera correction now compensates when you recenter looking down (low monitor): a residual parabola used to remain; the manual angle kills it.",
+            "ru": "Коррекция камеры теперь компенсирует рецентрирование со взглядом вниз (низкий монитор): раньше оставалась остаточная парабола; ручной угол её убирает."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.29.18",
+      "date": "2026-07-10",
+      "title": {
+        "pt": "Volk-Track: FPS da câmera ajustável + pitch menos sensível",
+        "en": "Volk-Track: adjustable camera FPS + less touchy pitch",
+        "ru": "Volk-Track: настраиваемый FPS камеры + менее резкий тангаж"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Corrigido o tranco em tela cheia: a câmera tinha FPS-alvo fixo (30) e a tela cheia derrubava pra ~15 (movimento 'quadrado'). Agora dá pra escolher 30/45/60 FPS, e a calibração MAXIMIZA a janela em vez de forçar tela cheia exclusiva.",
+            "en": "Fixed the fullscreen stutter: the camera had a fixed 30-FPS target and fullscreen dropped it to ~15 ('blocky' movement). Now you can pick 30/45/60 FPS, and calibration MAXIMIZES the window instead of forcing exclusive fullscreen.",
+            "ru": "Исправлено подтормаживание в полноэкранном режиме: у камеры был фиксированный target 30 FPS, и полный экран ронял его до ~15 («квадратное» движение). Теперь можно выбрать 30/45/60 FPS, а калибровка РАЗВОРАЧИВАЕТ окно вместо принудительного полного экрана."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "A calibração agora deixa o pitch com METADE da sensibilidade (monitores baixos deixavam olhar pra cima/baixo sensível demais). O slider 'olhar pra baixo' saiu — pra afinar cima/baixo separado, use os gráficos de sensibilidade.",
+            "en": "Calibration now sets pitch to HALF sensitivity (low monitors made looking up/down too touchy). The 'look-down' slider is gone — to fine-tune up/down separately, use the sensitivity graphs.",
+            "ru": "Калибровка теперь задаёт тангажу ПОЛОВИННУЮ чувствительность (низкие мониторы делали взгляд вверх/вниз слишком резким). Ползунок «взгляд вниз» убран — для раздельной настройки используйте графики чувствительности."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.29.17",
+      "date": "2026-07-10",
+      "title": {
+        "pt": "Volk-Track: calibração com posicionamento da câmera + sensib. pra baixo",
+        "en": "Volk-Track: calibration with camera placement + look-down sensitivity",
+        "ru": "Volk-Track: калибровка с установкой камеры + чувств. взгляда вниз"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "A calibração agora começa com uma tela de posicionamento: lembra de rodar em tela cheia e desenha uma cruz no centro pra você centralizar a webcam no topo do monitor e mirar no rosto. Depois vêm os 5 pontos.",
+            "en": "Calibration now starts with a placement screen: reminds you to run fullscreen and draws a center cross so you can center the webcam at the top of the monitor and aim it at your face. Then the 5 dots.",
+            "ru": "Калибровка теперь начинается с экрана установки: напоминает включить полноэкранный режим и рисует крест по центру, чтобы вы разместили камеру сверху монитора и направили на лицо. Затем 5 точек."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Nova 'Sensib. olhar p/ baixo': depois de calibrar, cima e baixo ficam iguais, mas dá pra reduzir só o olhar pra baixo (a webcam lê o pitch pra baixo pior). A calibração identifica sozinha qual lado é 'pra baixo'.",
+            "en": "New 'Look-down sensitivity': after calibrating, up and down are equal, but you can reduce just looking down (the webcam reads down-pitch worse). Calibration auto-detects which side is 'down'.",
+            "ru": "Новая «Чувств. взгляда вниз»: после калибровки вверх и вниз равны, но можно уменьшить только взгляд вниз (камера хуже читает наклон вниз). Калибровка сама определяет, где «вниз»."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.29.16",
+      "date": "2026-07-10",
+      "title": {
+        "pt": "Volk-Track: calibração de câmera + fim da 'parábola'",
+        "en": "Volk-Track: camera calibration + end of the 'parabola'",
+        "ru": "Volk-Track: калибровка камеры + конец «параболы»"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Novo assistente de calibração: você olha pro centro e pras 4 bordas da tela (segura ~2s em cada) e o app ajusta sozinho a sensibilidade ao seu monitor e ao quanto você gira a cabeça.",
+            "en": "New calibration wizard: look at the center and the 4 screen edges (hold ~2s each) and the app auto-tunes sensitivity to your monitor and to how much you turn your head.",
+            "ru": "Новый мастер калибровки: смотрите в центр и на 4 края экрана (держите ~2с) — приложение само подстраивает чувствительность под ваш монитор и под то, насколько вы поворачиваете голову."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Corrigida a 'parábola': com a câmera em cima do monitor, girar a cabeça de lado jogava a leitura pra baixo. Agora o recenter é rotacional e realinha os eixos — guinada horizontal fica reta.",
+            "en": "Fixed the 'parabola': with the camera above the monitor, turning your head sideways pulled the reading downward. Recenter is now rotational and realigns the axes — horizontal look stays flat.",
+            "ru": "Исправлена «парабола»: с камерой над монитором поворот головы вбок уводил показания вниз. Теперь рецентр вращательный и выравнивает оси — горизонтальный обзор остаётся ровным."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.29.15",
+      "date": "2026-07-10",
+      "title": {
+        "pt": "Volk-Track: suavização finalmente pega + independente do FPS",
+        "en": "Volk-Track: smoothing finally takes effect + FPS-independent",
+        "ru": "Volk-Track: сглаживание наконец действует + не зависит от FPS"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "O slider de suavização agora funciona de verdade. O 'start rápido' era medido na saída já amplificada pela curva e acabava comendo TODO movimento; agora ele mede a velocidade da CABEÇA, então movimento normal/lento fica 100% suavizado (no máximo bem 'arrastado', como o antigo) e só um giro BRUSCO de verdade pula a suavização.",
+            "en": "The smoothing slider now really works. The 'fast start' was measured on the output already amplified by the curve and ended up eating EVERY movement; now it measures HEAD speed, so a normal/slow move is fully smoothed (at max nicely 'dragged', like the old one) and only a genuine quick flick skips the smoothing.",
+            "ru": "Ползунок сглаживания теперь действительно работает. «Быстрый старт» измерялся по выходу, уже усиленному кривой, и в итоге съедал ЛЮБОЕ движение; теперь он измеряет скорость ГОЛОВЫ, поэтому обычное/медленное движение полностью сглаживается (на максимуме приятно «тянет», как старое), и только по-настоящему резкий рывок пропускает сглаживание."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "A suavização agora independe do FPS: se a taxa de quadros oscila (27, 30, 44…), o efeito continua igual em tempo real.",
+            "en": "Smoothing is now FPS-independent: if the frame rate fluctuates (27, 30, 44…), the effect stays the same in real time.",
+            "ru": "Сглаживание теперь не зависит от FPS: если частота кадров колеблется (27, 30, 44…), эффект остаётся тем же в реальном времени."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.29.14",
+      "date": "2026-07-10",
+      "title": {
+        "pt": "Volk-Track: suavização com 'start rápido' + menos botões",
+        "en": "Volk-Track: smoothing with 'fast start' + fewer buttons",
+        "ru": "Volk-Track: сглаживание с «быстрым стартом» + меньше кнопок"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "A suavização agora é adaptativa: em movimentos normais ela suaviza (no 100% fica bem 'arrastado', como o antigo), mas num movimento BRUSCO ela ignora o começo e dá um start rápido — o melhor dos dois mundos.",
+            "en": "Smoothing is now adaptive: on normal movements it smooths (at 100% it's nicely 'dragged', like the old one), but on a QUICK movement it skips the start and snaps fast — best of both worlds.",
+            "ru": "Сглаживание теперь адаптивное: при обычных движениях оно сглаживает (на 100% приятно «тянет», как старое), но при РЕЗКОМ движении пропускает начало и быстро подхватывает — лучшее из двух миров."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Menos botões: ligar a câmera já começa a enviar pro jogo (o botão 'Emitir' saiu), e a saída é sempre FreeTrack (a opção OpenTrack/UDP saiu). O 'Centralizar' continua. Mais espaço na tela.",
+            "en": "Fewer buttons: turning on the camera already starts sending to the game (the 'Emit' button is gone), and the output is always FreeTrack (the OpenTrack/UDP option is gone). 'Recenter' stays. More room on screen.",
+            "ru": "Меньше кнопок: включение камеры сразу начинает отправку в игру (кнопка «Излучать» убрана), а вывод всегда FreeTrack (опция OpenTrack/UDP убрана). «Центрировать» остаётся. Больше места на экране."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.29.13",
+      "date": "2026-07-10",
+      "title": {
+        "pt": "Volk-Track: suavização com efeito + editar pontos nos dois gráficos",
+        "en": "Volk-Track: smoothing that works + edit points on both graphs",
+        "ru": "Volk-Track: сглаживание работает + правка точек на обоих графиках"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "O slider de suavização voltou a fazer diferença de verdade (a faixa tinha ficado estreita demais): de bem responsivo a bem suave.",
+            "en": "The smoothing slider actually makes a difference again (its range had become too narrow): from very responsive to very smooth.",
+            "ru": "Ползунок сглаживания снова реально влияет (диапазон был слишком узким): от очень отзывчивого до очень плавного."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Editor de curva: cada gráfico (lado positivo E negativo) tem seu próprio botão '+' pra adicionar ponto, e agora é o BOTÃO DIREITO que exclui um ponto (nos dois).",
+            "en": "Curve editor: each graph (positive AND negative side) has its own '+' button to add a point, and now RIGHT-CLICK deletes a point (on both).",
+            "ru": "Редактор кривой: у каждого графика (положительная И отрицательная сторона) своя кнопка '+' для добавления точки, и теперь ПРАВЫЙ КЛИК удаляет точку (на обоих)."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.29.12",
+      "date": "2026-07-10",
+      "title": {
+        "pt": "Volk-Track: câmera em HD (opcional) + dicas de qualidade",
+        "en": "Volk-Track: HD camera (optional) + quality tips",
+        "ru": "Volk-Track: HD-камера (опция) + советы по качеству"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Nova opção 'Câmera em HD (720p)' na config do Volk: mais pixels no rosto = landmarks melhores (ajuda no pitch), ao custo de mais CPU. E uma dica do que MAIS melhora o rastreio: luz boa e uniforme, câmera na altura dos olhos apontada pra você, e o rosto preenchendo a imagem.",
+            "en": "New 'HD camera (720p)' option in Volk settings: more pixels on your face = better landmarks (helps pitch), at the cost of more CPU. Plus a tip on what helps tracking MOST: good even light, camera at eye level pointed at you, and your face filling the frame.",
+            "ru": "Новая опция «Камера HD (720p)» в настройках Volk: больше пикселей на лице = лучше landmarks (помогает pitch), ценой большей нагрузки на CPU. Плюс совет, что БОЛЬШЕ всего помогает трекингу: хороший равномерный свет, камера на уровне глаз, направленная на вас, и лицо, заполняющее кадр."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.29.11",
+      "date": "2026-07-10",
+      "title": {
+        "pt": "Volk-Track: menos saltos (pitch) + mapping estilo OpenTrack",
+        "en": "Volk-Track: fewer jumps (pitch) + OpenTrack-style mapping",
+        "ru": "Volk-Track: меньше скачков (pitch) + маппинг как в OpenTrack"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Menos saltos, principalmente no pitch (olhar cima/baixo): um filtro de mediana rejeita 'picos' de 1 quadro da câmera (o pulo 0→16° some) e o pitch amplifica menos, que é o eixo mais ruidoso da webcam. Somado à zona morta, fica bem mais no controle.",
+            "en": "Fewer jumps, especially on pitch (looking up/down): a median filter rejects 1-frame camera 'spikes' (the 0→16° jump is gone) and pitch amplifies less, since it's the webcam's noisiest axis. Together with the deadzone, it feels much more in control.",
+            "ru": "Меньше скачков, особенно по pitch (взгляд вверх/вниз): медианный фильтр отбрасывает однокадровые «выбросы» камеры (скачок 0→16° исчез), а pitch усиливается меньше — это самая шумная ось веб-камеры. Вместе с мёртвой зоной ощущается гораздо контролируемее."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Ajuste de sensibilidade estilo OpenTrack: a 'Entrada máx' saiu do dropdown e virou o PONTO FINAL do gráfico — arraste pra esquerda pra ficar mais sensível (menos cabeça → máximo), pra direita pra menos. A linha sempre termina no teto (agora 180° no yaw, 90° no pitch, sem passar disso).",
+            "en": "OpenTrack-style sensitivity: 'Max input' left the dropdown and became the END POINT of the graph — drag it left for more sensitivity (less head → max), right for less. The line always ends at the ceiling (now 180° yaw, 90° pitch, no more than that).",
+            "ru": "Настройка чувствительности как в OpenTrack: «Макс. вход» ушёл из выпадающего списка и стал КОНЕЧНОЙ точкой графика — тяните влево для большей чувствительности (меньше головы → максимум), вправо для меньшей. Линия всегда заканчивается на потолке (теперь 180° yaw, 90° pitch, не больше)."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.29.10",
+      "date": "2026-07-10",
+      "title": {
+        "pt": "Volk-Track: zona morta, curvas suaves e limites livres",
+        "en": "Volk-Track: deadzone, smooth curves and free limits",
+        "ru": "Volk-Track: мёртвая зона, плавные кривые и свободные пределы"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Nova ZONA MORTA (Config do Volk): congela tremidos pequenos, então a mira não 'corrige sozinha' depois que você para de mexer a cabeça — dá a sensação de controle de verdade. Ajuste no slider (em graus).",
+            "en": "New DEADZONE (Volk settings): freezes tiny jitter, so the aim no longer 'corrects itself' after you stop moving your head — it finally feels in control. Adjust with the slider (in degrees).",
+            "ru": "Новая МЁРТВАЯ ЗОНА (настройки Volk): замораживает мелкое дрожание, поэтому прицел больше не «поправляется сам» после того, как вы остановили голову — наконец-то чувствуется контроль. Настройка ползунком (в градусах)."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "As curvas de sensibilidade agora são SUAVES: adicionar um ponto dobra a curva de leve (spline), em vez de criar um bico reto.",
+            "en": "Sensitivity curves are now SMOOTH: adding a point gently bends the curve (spline) instead of making a hard kink.",
+            "ru": "Кривые чувствительности теперь ПЛАВНЫЕ: добавление точки мягко изгибает кривую (сплайн), а не создаёт резкий излом."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Entrada e saída máximas AGORA são separadas: escolha quantos graus de cabeça (entrada) e o quanto o jogo gira (saída, até 270° no yaw) de forma independente.",
+            "en": "Max input and output are now separate: independently pick how many degrees of head (input) and how far the game turns (output, up to 270° yaw).",
+            "ru": "Макс. вход и выход теперь раздельные: независимо выбирайте, сколько градусов головы (вход) и насколько поворачивается игра (выход, до 270° по yaw)."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.29.9",
+      "date": "2026-07-10",
+      "title": {
+        "pt": "Volk-Track: olhar pra cima até 120°",
+        "en": "Volk-Track: look up to 120°",
+        "ru": "Volk-Track: обзор вверх до 120°"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "O alcance vertical (pitch) foi de 90° pra 120°: dá pra jogar a cabeça pra cima/pra trás com um movimento pequeno. Junto com o giro lateral, a ideia é mover a cabeça pouco e olhar muito — o que ajuda mais em telas pequenas 16:9. (As curvas voltam ao padrão pra herdar o alcance novo.)",
+            "en": "Vertical (pitch) range went from 90° to 120°: throw your head up/back with a small movement. Along with the side-to-side turn, the idea is to move your head a little and look a lot — which helps most on small 16:9 screens. (Curves reset to default to inherit the new range.)",
+            "ru": "Вертикальный диапазон (pitch) вырос с 90° до 120°: закиньте голову вверх/назад небольшим движением. Вместе с поворотом в стороны идея в том, чтобы двигать головой мало, а смотреть далеко — что особенно помогает на маленьких экранах 16:9. (Кривые сброшены к стандартным ради нового диапазона.)"
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.29.8",
+      "date": "2026-07-10",
+      "title": {
+        "pt": "Volk-Track: olhar até 270° e sem engasgos",
+        "en": "Volk-Track: look up to 270° and no more hitches",
+        "ru": "Volk-Track: обзор до 270° и без подёргиваний"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "O alcance lateral do olhar foi de 180° pra 270°: gire a cabeça pouco e olhe bem pra trás — a ideia é mover a cabeça pouco e olhar muito, útil sobretudo em telas pequenas. (As curvas de sensibilidade voltam ao padrão pra herdar o alcance novo.)",
+            "en": "Side look range went from 180° to 270°: turn your head a little and look well behind you — the idea is to move your head a little and look a lot, especially useful on small screens. (Sensitivity curves reset to default to inherit the new range.)",
+            "ru": "Боковой диапазон обзора вырос со 180° до 270°: поверните голову немного и смотрите далеко назад — идея в том, чтобы двигать головой мало, а смотреть далеко, особенно полезно на маленьких экранах. (Кривые чувствительности сброшены к стандартным ради нового диапазона.)"
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Fim dos 'engasgos' da câmera: um filtro adaptativo (One Euro) deixa o movimento suave parado e responsivo no movimento rápido, sem o atraso da suavização fixa. A câmera roda a 30fps pra não pesar no PC.",
+            "en": "No more camera 'hitches': an adaptive filter (One Euro) keeps motion smooth at rest and responsive during fast movement, without the lag of fixed smoothing. The camera runs at 30fps to stay light on the PC.",
+            "ru": "Конец «подёргиваний» камеры: адаптивный фильтр (One Euro) держит движение плавным в покое и отзывчивым при быстром движении, без задержки фиксированного сглаживания. Камера работает на 30fps, чтобы не нагружать ПК."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.29.7",
+      "date": "2026-07-10",
+      "title": {
+        "pt": "Volk-Track: mais alcance e movimento mais fluido",
+        "en": "Volk-Track: more range and smoother motion",
+        "ru": "Volk-Track: больше диапазон и плавнее движение"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "O rastreio de cabeça ganhou ~50% mais alcance nos inputs: agora você move a cabeça um pouco mais antes de chegar no fim do curso, o que deixa a resposta menos twitchy. (As curvas de sensibilidade voltam ao padrão pra herdar o curso novo.)",
+            "en": "Head tracking got ~50% more input range: you now move your head a bit further before reaching the end of travel, which makes the response less twitchy. (Sensitivity curves reset to default to inherit the new travel.)",
+            "ru": "Трекинг головы получил ~50% больше диапазона ввода: теперь голову нужно повернуть чуть дальше до конца хода, отклик стал менее резким. (Кривые чувствительности сброшены к стандартным ради нового хода.)"
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "A câmera do Volk-Track passou a pedir 60fps quando o aparelho suporta — movimento contínuo bem mais fluido, com menos 'engasgos'.",
+            "en": "The Volk-Track camera now requests 60fps when the device supports it — much smoother continuous motion, with fewer hitches.",
+            "ru": "Камера Volk-Track теперь запрашивает 60fps, если устройство поддерживает — гораздо плавнее непрерывное движение, меньше «подёргиваний»."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.29.6",
+      "date": "2026-07-06",
+      "title": {
+        "pt": "Sem GPS no overlay, sem tela preta",
+        "en": "No GPS in the overlay, no black screen",
+        "ru": "Нет GPS в оверлее — нет чёрного экрана"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Se o overlay está ligado mas você não adicionou o GPS, o app não projeta mais aquela tela preta 'aguardando GPS'. A janela do GPS só aparece quando o GPS está no overlay.",
+            "en": "If the overlay is on but you haven't added the GPS, the app no longer projects that black 'waiting for GPS' screen. The GPS window only appears when the GPS is in the overlay.",
+            "ru": "Если оверлей включён, но вы не добавили GPS, приложение больше не показывает тот чёрный экран «ожидание GPS». Окно GPS появляется только когда GPS есть в оверлее."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.29.5",
+      "date": "2026-07-06",
+      "title": {
+        "pt": "Rastreio de cabeça (HMD/Volk) agora é Premium",
+        "en": "Head tracking (HMD/Volk) is now Premium",
+        "ru": "Трекинг головы (HMD/Volk) теперь Premium"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "O capacete de caça (HMD) e o rastreio de cabeça (Volk-Track) passaram a fazer parte do Premium (antes eram do Pro). Se você é Premium, agora tem acesso a eles.",
+            "en": "The fighter helmet (HMD) and head tracking (Volk-Track) are now part of Premium (they used to be Pro). If you're Premium, you now have access to them.",
+            "ru": "Шлем истребителя (HMD) и трекинг головы (Volk-Track) теперь входят в Premium (раньше были в Pro). Если у вас Premium — теперь они вам доступны."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.29.4",
+      "date": "2026-07-06",
+      "title": {
+        "pt": "Contador de teste em horas e dias",
+        "en": "Trial counter in hours and days",
+        "ru": "Счётчик пробного периода в часах и днях"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "O selo de TESTE agora mostra o tempo de forma adaptativa: minutos em testes curtos, mas horas ('2h 15min') e dias ('3d 4h') em testes mais longos — não estoura mais em minutos.",
+            "en": "The TRIAL badge now shows time adaptively: minutes for short trials, but hours ('2h 15min') and days ('3d 4h') for longer ones — no more overflowing into minutes.",
+            "ru": "Значок ТЕСТ теперь показывает время адаптивно: минуты для коротких периодов, но часы ('2h 15min') и дни ('3d 4h') для длинных — больше не переполняется минутами."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.29.3",
+      "date": "2026-07-06",
+      "title": {
+        "pt": "Presets respeitam o seu plano",
+        "en": "Presets respect your plan",
+        "ru": "Пресеты учитывают ваш план"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Ao baixar um preset: gauges PRO que você ainda não tem viram mostradores básicos (dá pra editar); gauges Premium fora do seu plano são removidos. Na loja, um selo 'melhor no PRO/Premium' avisa antes de baixar.",
+            "en": "When you download a preset: PRO gauges you don't have yet turn into basic dials (editable); Premium gauges outside your plan are removed. In the store, a 'better on PRO/Premium' badge warns you before downloading.",
+            "ru": "При скачивании пресета: PRO-приборы, которых у вас ещё нет, становятся базовыми (можно редактировать); Premium-приборы вне вашего плана удаляются. В магазине значок «лучше на PRO/Premium» предупреждает заранее."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.29.2",
+      "date": "2026-07-06",
+      "title": {
+        "pt": "Loja de presets: baixe e compartilhe layouts",
+        "en": "Preset store: download and share layouts",
+        "ru": "Магазин пресетов: скачивайте и делитесь раскладками"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Loja de presets (Configurações › Presets): baixe layouts prontos da comunidade e aplique como um perfil novo, num clique. Ordene por mais baixados, mais curtidos ou recentes.",
+            "en": "Preset store (Settings › Presets): download ready-made layouts from the community and apply them as a new profile in one click. Sort by most downloaded, most liked or recent.",
+            "ru": "Магазин пресетов (Настройки › Пресеты): скачивайте готовые раскладки от сообщества и применяйте как новый профиль в один клик. Сортировка по скачиваниям, лайкам или новизне."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Publique o seu: compartilhe o layout do seu perfil atual (é só a 'planta' em JSON — nada de imagem ou captura de tela). Vai pro ar após uma revisão rápida.",
+            "en": "Publish yours: share your current profile's layout (just the JSON 'blueprint' — no image, no screen capture). It goes live after a quick review.",
+            "ru": "Опубликуйте свою: поделитесь раскладкой текущего профиля (только JSON-«чертёж» — без картинок и скриншотов). Появится после быстрой проверки."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.29.1",
+      "date": "2026-07-06",
+      "title": {
+        "pt": "Avalie o app + tela de novidades ao atualizar",
+        "en": "Rate the app + a what's-new screen after updates",
+        "ru": "Оцените приложение + экран новинок после обновления"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Novidades ao atualizar: quando o app se atualiza, uma telinha rápida mostra o que mudou naquela versão. É só fechar e seguir voando.",
+            "en": "What's new after an update: when the app updates, a quick screen shows what changed in that version. Just close it and keep flying.",
+            "ru": "Новинки после обновления: когда приложение обновляется, быстрый экран показывает, что изменилось в этой версии. Просто закройте и летите дальше."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Avaliar o app: uma pesquisa curtinha (duas notas de 1 a 5 + um comentário opcional) pra você dizer o que achou. Aparece sozinha depois de um tempo de uso — ou quando você quiser, em Configurações › Sobre.",
+            "en": "Rate the app: a tiny survey (two 1-to-5 ratings + an optional comment) to tell us what you think. It shows up on its own after a while of use — or whenever you want, under Settings › About.",
+            "ru": "Оценить приложение: короткий опрос (две оценки от 1 до 5 + необязательный комментарий), чтобы сказать, что вы думаете. Появляется сам после некоторого времени использования — или когда захотите, в Настройки › О программе."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.29.0",
+      "date": "2026-07-06",
+      "title": {
+        "pt": "GPS 'seguir' sincroniza, config do HMD no clique-direito e canal de testes",
+        "en": "GPS 'follow' syncs, HMD settings on right-click, and a test channel",
+        "ru": "GPS 'следование' синхронно, настройки HMD по правому клику и тестовый канал"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Desligar o 'seguir/SEG' no GPS de uma tela agora desliga na outra também — as telas voltam pra mesma vista.",
+            "en": "Turning off 'follow/SEG' on the GPS on one screen now turns it off on the other too — the screens snap back to the same view.",
+            "ru": "Отключение 'следования/SEG' на GPS на одном экране теперь отключает и на другом — экраны возвращаются к одному виду."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Config do HMD ficou no clique-direito do capacete: a aba VR saiu do menu de edição, que ficou mais limpo.",
+            "en": "HMD settings moved to right-clicking the helmet: the VR tab left the edit menu, which is cleaner now.",
+            "ru": "Настройки HMD переехали на правый клик по шлему: вкладка VR ушла из меню редактирования, стало чище."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "A dica de 'clique com o botão direito num gauge pra configurar' ficou bem mais visível.",
+            "en": "The 'right-click a gauge to configure it' hint is much more visible now.",
+            "ru": "Подсказка 'кликните правой кнопкой по прибору, чтобы настроить' стала гораздо заметнее."
+          }
+        },
+        {
+          "category": "infra",
+          "text": {
+            "pt": "Bastidores: um canal de testes (app DEV instalável lado a lado) e o canal da Microsoft Store.",
+            "en": "Behind the scenes: a test channel (a DEV app you can install side by side) and the Microsoft Store channel.",
+            "ru": "За кулисами: тестовый канал (приложение DEV, устанавливаемое рядом) и канал Microsoft Store."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.28.32",
+      "date": "2026-07-02",
+      "title": {
+        "pt": "Mapa arrastado sincroniza entre telas + config do HMD no overlay",
+        "en": "Panned map syncs across screens + HMD settings in the overlay",
+        "ru": "Перетаскивание карты синхронно на всех экранах + настройки HMD в оверлее"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Arrastar o mapa num aparelho copia a MESMA vista pros outros (PC, ultrawide, tablet 4K) — o centro é normalizado, então funciona em qualquer resolução. O zoom já sincronizava; agora o pan também.",
+            "en": "Dragging the map on one device copies the SAME view to the others (PC, ultrawide, 4K tablet) — the center is normalized, so it works at any resolution. Zoom already synced; now pan does too.",
+            "ru": "Перетаскивание карты на одном устройстве копирует ТУ ЖЕ картинку на другие (ПК, ultrawide, планшет 4K) — центр нормализован, поэтому работает при любом разрешении. Зум уже синхронизировался; теперь и панорама."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Config do HMD na aba Overlay: quando há um HMD no overlay, o painel de ajuste (modelo, cor, barras, gatilho) aparece à direita — não precisa mais ir na aba VR.",
+            "en": "HMD settings in the Overlay tab: when there's an HMD in the overlay, the tuning panel (model, color, bars, trigger) shows on the right — no need to go to the VR tab.",
+            "ru": "Настройки HMD во вкладке Оверлей: когда в оверлее есть HMD, панель настройки (модель, цвет, полосы, триггер) появляется справа — больше не нужно идти во вкладку VR."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Só um HMD por vez: adicionar um capacete (ou trocar de modelo pela paleta) substitui o anterior, pra não empilhar dois capacetes na tela.",
+            "en": "One HMD at a time: adding a helmet (or switching model from the palette) replaces the previous one, so you don't stack two helmets on screen.",
+            "ru": "Только один HMD за раз: добавление шлема (или смена модели из палитры) заменяет предыдущий, чтобы не накладывать два шлема на экран."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.28.30",
+      "date": "2026-07-02",
+      "title": {
+        "pt": "Alvo BOMB corrigido, F-35 com brilho e centralizar de um clique",
+        "en": "BOMB target fixed, glowing F-35, one-click recenter",
+        "ru": "Исправлена метка BOMB, свечение F-35, центровка одним кликом"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Alvo BOMB: não some mais quando você vira a cabeça, e parou de rolar pro lado errado quando você inclina a aeronave — a caixa fica de pé marcando a direção e a altura.",
+            "en": "BOMB target: no longer disappears when you turn your head, and stopped rolling the wrong way when you bank the aircraft — the box stays upright, marking direction and height.",
+            "ru": "Метка BOMB: больше не исчезает, когда вы поворачиваете голову, и перестала крениться в другую сторону при крене самолёта — рамка стоит ровно, показывая направление и высоту."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "F-35: o fundo verde do capacete agora é um brilho redondo que some suave nas bordas (em vez do retângulo chapado).",
+            "en": "F-35: the helmet's green background is now a round glow that fades out at the edges (instead of the flat rectangle).",
+            "ru": "F-35: зелёный фон шлема теперь круглое свечение, плавно исчезающее к краям (вместо плоского прямоугольника)."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Centralizar sincronizado: apertar 'centralizar' no tablet recentra o PC no mesmo instante (acabou a dessincronia da câmera).",
+            "en": "Synced recenter: pressing 'recenter' on the tablet now recenters the PC at the same instant (no more camera desync).",
+            "ru": "Синхронная центровка: нажатие «центрировать» на планшете центрирует ПК в тот же миг (рассинхрон камеры устранён)."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Novo gauge 'Volk' (feedback + centralizar): um retângulo que mostra pra onde sua cabeça aponta. Clicar nele centraliza a câmera — no PC e no tablet, sem roubar a cena. Segure ALT pra ver a dica. Adicione pela aba HMD / VR.",
+            "en": "New 'Volk' gauge (feedback + recenter): a rectangle showing where your head points. Clicking it recenters the camera — on PC and tablet, without stealing the scene. Hold ALT for the hint. Add it from the HMD / VR tab.",
+            "ru": "Новый датчик «Volk» (обратная связь + центровка): прямоугольник, показывающий, куда направлена голова. Клик по нему центрирует камеру — на ПК и планшете, не крадя сцену. Удерживайте ALT для подсказки. Добавьте на вкладке HMD / VR."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.28.22",
+      "date": "2026-07-02",
+      "title": {
+        "pt": "HMD peça por peça, alvo configurável e Volk mais solto",
+        "en": "Build the HMD piece by piece, configurable target, looser Volk",
+        "ru": "HMD по частям, настраиваемая цель и более свободный Volk"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "HMD mais limpo: o fundo preto sumiu (não tapa mais o jogo no overlay) e as frases de teste embaixo foram removidas.",
+            "en": "Cleaner HMD: the black background is gone (no longer covers the game in the overlay) and the test captions at the bottom were removed.",
+            "ru": "Чище HMD: чёрный фон убран (больше не закрывает игру в оверлее), тестовые подписи снизу удалены."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Astarojna peça por peça: cada indicador (velocidade, altitude, horizonte, proa, MACH, G…) pode ser adicionado SOLTO no editor de telas — pela paleta, categoria HMD / VR, card Astarojna.",
+            "en": "Astarojna piece by piece: each indicator (speed, altitude, horizon, heading, MACH, G…) can be added individually in the screen editor — via the palette, HMD / VR category, Astarojna card.",
+            "ru": "Astarojna по частям: каждый индикатор (скорость, высота, горизонт, курс, число M, G…) можно добавить отдельно в редакторе экранов — через палитру, категория HMD / VR, карточка Astarojna."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Caixa de alvo (BOMB) configurável: pode ficar sempre visível (ignorando o gatilho de cabeça) e acompanhar pra onde você olha — olhar pra esquerda centraliza o alvo à esquerda.",
+            "en": "Configurable target (BOMB) box: it can stay always visible (ignoring the head-turn trigger) and follow where you look — looking left centers the target on your left.",
+            "ru": "Настраиваемая рамка цели (BOMB): может оставаться всегда видимой (игнорируя триггер по повороту головы) и следовать за взглядом — смотрите влево, и цель слева окажется по центру."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Volk-Track mais solto: arfagem até 90°, translações (lateral/vertical/aproximação) até 50, e a nova translação vertical. A bolinha da direção da cabeça foi corrigida (subir a cabeça sobe a bolinha).",
+            "en": "Looser Volk-Track: pitch up to 90°, translations (sway/vertical/dolly) up to 50, plus the new vertical translation. The head-direction dot was fixed (looking up moves it up).",
+            "ru": "Более свободный Volk-Track: тангаж до 90°, смещения (бок/вертикаль/приближение) до 50, плюс новое вертикальное смещение. Точка направления головы исправлена (взгляд вверх поднимает её)."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Volk no tablet/celular: em vez de travar, agora explica que a câmera precisa de HTTPS e sugere um app de webcam (DroidCam/Iriun) pro PC.",
+            "en": "Volk on tablet/phone: instead of crashing, it now explains the camera needs HTTPS and suggests a webcam app (DroidCam/Iriun) for the PC.",
+            "ru": "Volk на планшете/телефоне: вместо сбоя теперь объясняет, что камере нужен HTTPS, и предлагает приложение веб-камеры (DroidCam/Iriun) для ПК."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.28.19",
+      "date": "2026-07-01",
+      "title": {
+        "pt": "HMD na sua tela: modelos na paleta + Volk (virar a cabeça)",
+        "en": "HMD on your screen: models in the palette + Volk (head turn)",
+        "ru": "HMD на экране: модели в палитре + Volk (поворот головы)"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Os modelos de HMD agora estão na paleta de mostradores: no editor de telas, categoria \"HMD / VR\", escolha o capacete (Astarojna, JHMCS, F-35, Flanker, Scorpion, Targo) e some ao overlay.",
+            "en": "The HMD models are now in the gauge palette: in the screen editor, \"HMD / VR\" category, pick the helmet (Astarojna, JHMCS, F-35, Flanker, Scorpion, Targo) and add it to the overlay.",
+            "ru": "Модели HMD теперь в палитре приборов: в редакторе экранов, категория «HMD / VR», выберите шлем (Astarojna, JHMCS, F-35, Flanker, Scorpion, Targo) и добавьте на оверлей."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Botão \"Trazer HMD pro overlay\" na aba VR: um clique põe o capacete inteiro no overlay já com o gatilho de virar a cabeça armado a 10°.",
+            "en": "\"Bring HMD to overlay\" button in the VR tab: one click drops the whole helmet onto the overlay with the head-turn trigger already armed at 10°.",
+            "ru": "Кнопка «Вывести HMD на оверлей» во вкладке VR: один клик добавляет весь шлем на оверлей с уже включённым триггером по повороту головы на 10°."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Volk-Track (head tracking pela webcam) liberado no Pro — é o que faz o HMD aparecer só quando você vira a cabeça. A câmera só liga quando você manda.",
+            "en": "Volk-Track (webcam head tracking) unlocked for Pro — it's what makes the HMD show up only when you turn your head. The camera only turns on when you say so.",
+            "ru": "Volk-Track (трекинг головы через веб-камеру) открыт для Pro — именно он показывает HMD только при повороте головы. Камера включается только по вашей команде."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "O modelo Astarojna ficou 100% configurável: ligue/desligue cada elemento (velocidade, manete, altitude, subida, horizonte, proa, MACH, G…) e escolha reta/curvada e invertida por barra.",
+            "en": "The Astarojna model is now 100% configurable: toggle each element on/off (speed, throttle, altitude, climb, horizon, heading, MACH, G…) and pick straight/curved and inverted per bar.",
+            "ru": "Модель Astarojna теперь на 100% настраиваемая: включайте/выключайте каждый элемент (скорость, РУД, высота, набор, горизонт, курс, число M, G…) и выбирайте прямую/изогнутую и инвертированную по каждой шкале."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "A dica da Luna virou um balão flutuante discreto no canto da tela, além de ajustes de estabilidade.",
+            "en": "The Luna tip became a discreet floating bubble in the screen corner, plus stability fixes.",
+            "ru": "Подсказка Луны стала ненавязчивым плавающим окошком в углу экрана, плюс исправления стабильности."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.28.17",
+      "date": "2026-07-01",
+      "title": {
+        "pt": "HMD / VR (beta): mostradores estilo capacete de caça",
+        "en": "HMD / VR (beta): fighter-helmet-style gauges",
+        "ru": "HMD / VR (бета): приборы в стиле шлема истребителя"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Novo módulo HMD / VR (beta, Pro): mostradores no estilo capacete de caça, com seis visuais — JHMCS, F-35, Scorpion, Flanker (Su), Gripen Targo e um estilo autoral Astarojna. Escolha a cor, um contorno de contraste e ligue/desligue cada elemento.",
+            "en": "New HMD / VR module (beta, Pro): fighter-helmet-style gauges with six looks — JHMCS, F-35, Scorpion, Flanker (Su), Gripen Targo and an original Astarojna style. Pick the color, a contrast outline, and toggle each element on or off.",
+            "ru": "Новый модуль HMD / VR (бета, Pro): приборы в стиле нашлемного индикатора истребителя, шесть вариантов — JHMCS, F-35, Scorpion, Flanker (Су), Gripen Targo и авторский стиль Astarojna. Выберите цвет, контрастный контур и включайте/выключайте каждый элемент."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Projeção no overlay: coloque o HMD sobre o jogo como um mostrador — velocidade, altitude, horizonte, proa e alvos, tudo no seu campo de visão.",
+            "en": "Overlay projection: drop the HMD over the game as a gauge — speed, altitude, horizon, heading and targets, all in your field of view.",
+            "ru": "Проекция на оверлей: разместите HMD поверх игры как прибор — скорость, высота, горизонт, курс и цели прямо в поле зрения."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Gatilho de cabeça (Volk): com o head tracking ligado, o HMD aparece só quando você vira a cabeça, como um capacete de verdade (giro sempre; cima/baixo opcional). Sem tracker, fica sempre visível.",
+            "en": "Head-turn trigger (Volk): with head tracking on, the HMD shows up only when you turn your head, like a real helmet (yaw always; up/down optional). With no tracker, it stays visible.",
+            "ru": "Триггер по повороту головы (Volk): при включённом трекинге головы HMD появляется, только когда вы поворачиваете голову, как настоящий шлем (поворот всегда; вверх/вниз опционально). Без трекера — виден всегда."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Alvos ao vivo (Pro): marcadores de proa vermelhos pros pontos de bombardeio e azuis pros aeroportos — no HMD, na fita de proa e no MFD — com a caixa \"BOMB\" triangulada pela sua posição e altitude.",
+            "en": "Live targets (Pro): red heading bugs for bombing points and blue ones for airfields — on the HMD, the heading tape and the MFD — with the \"BOMB\" box triangulated from your position and altitude.",
+            "ru": "Цели в реальном времени (Pro): красные метки курса для точек бомбометания и синие для аэродромов — на HMD, на ленте курса и на МФД — с рамкой «BOMB», рассчитанной по вашему положению и высоте."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Ajuste fino: arraste as leituras e caixas do HMD pro lugar que quiser, e cada perfil lembra o seu próprio HMD.",
+            "en": "Fine-tuning: drag the HMD readouts and boxes wherever you want, and each profile remembers its own HMD.",
+            "ru": "Тонкая настройка: перетаскивайте показания и рамки HMD куда угодно, и каждый профиль запоминает свой HMD."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.28.0",
+      "date": "2026-06-20",
+      "title": {
+        "pt": "Conta = sua licença: login simples e updates automáticos",
+        "en": "Account = your license: simpler login and automatic updates",
+        "ru": "Аккаунт = ваша лицензия: простой вход и автообновления"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Agora você entra no app com a sua conta Astarojna (e-mail e senha) — a mesma do site. Acabou a chave de licença pra copiar e colar: a conta É a sua licença, e libera o que você comprou automaticamente.",
+            "en": "You now sign in with your Astarojna account (email and password) — the same one from the website. No more license keys to copy and paste: your account IS your license and unlocks what you bought automatically.",
+            "ru": "Теперь вход в приложение — по аккаунту Astarojna (почта и пароль), тому же, что на сайте. Больше не нужно копировать ключ лицензии: аккаунт — это и есть ваша лицензия, и он автоматически открывает то, что вы купили."
+          }
+        },
+        {
+          "category": "infra",
+          "text": {
+            "pt": "Atualizações automáticas de verdade: o app checa, baixa e instala as novas versões sozinho (com assinatura verificada), sem você baixar nada à mão.",
+            "en": "Real automatic updates: the app checks, downloads and installs new versions on its own (with a verified signature), no manual download needed.",
+            "ru": "Настоящие автообновления: приложение само проверяет, скачивает и устанавливает новые версии (с проверкой подписи), без ручной загрузки."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Aviso de sessão discreto: se a sua conta abrir em outro PC, ficar muito tempo offline, ou for encerrada à distância, um aviso âmbar explica o que houve — sem travar o app.",
+            "en": "Discreet session notice: if your account is opened on another PC, stays offline too long, or is ended remotely, an amber notice explains what happened — without locking the app.",
+            "ru": "Ненавязчивое уведомление о сессии: если аккаунт открыт на другом ПК, слишком долго офлайн или сессия завершена удалённо — жёлтое уведомление объяснит, что произошло, не блокируя приложение."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "O aviso de sessão encerrada agora continua aparecendo depois de reabrir o app (antes sumia ao reiniciar).",
+            "en": "The 'session ended' notice now sticks around after you reopen the app (it used to disappear on restart).",
+            "ru": "Уведомление о завершённой сессии теперь сохраняется после перезапуска приложения (раньше пропадало)."
+          }
+        },
+        {
+          "category": "refactor",
+          "text": {
+            "pt": "Limpeza por baixo do capô: removido o antigo sistema de chave de licença, deixando o app mais enxuto e seguro.",
+            "en": "Under-the-hood cleanup: removed the old license-key system, making the app leaner and safer.",
+            "ru": "Чистка под капотом: удалена старая система ключей лицензии — приложение стало легче и безопаснее."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Luna Gauges (prévia técnica): base do novo editor de mostradores customizados — você desenha o instrumento, com zonas relativas à VNE e leituras digital/analógica. Ainda em desenvolvimento.",
+            "en": "Luna Gauges (technical preview): foundation of the new custom-gauge editor — you design the instrument, with VNE-relative zones and digital/analog readouts. Still in development.",
+            "ru": "Luna Gauges (технический предпросмотр): основа нового редактора пользовательских приборов — вы рисуете инструмент, с зонами относительно VNE и цифровым/аналоговым отсчётом. Ещё в разработке."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.27.0",
+      "date": "2026-06-15",
+      "title": {
+        "pt": "Astarojna ganha cara: arte da Luna, idioma redondo e build assinada",
+        "en": "Astarojna gets its face: Luna artwork, clean localization, signed build",
+        "ru": "Astarojna обретает лицо: арт Луны, чистая локализация, подписанная сборка"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Idioma 100% consistente: acabou a mistura de português com o idioma escolhido. Os painéis de edição (que ficavam em PT fixo) agora seguem o idioma, e os 6 idiomas BETA (DE/IT/FR/JA/ZH/SV) foram completados — 448 textos sem lacuna.",
+            "en": "Fully consistent language: no more Portuguese bleeding into the selected language. The editing panels (previously hardcoded PT) now follow the language, and the 6 BETA languages (DE/IT/FR/JA/ZH/SV) were completed — 448 strings with no gaps.",
+            "ru": "Полностью единый язык: больше нет примеси португальского в выбранном языке. Панели редактирования (раньше зашитые на PT) теперь следуют языку, а 6 BETA-языков (DE/IT/FR/JA/ZH/SV) дополнены — 448 строк без пропусков."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Arte definitiva da Luna, a mascote: o ícone do app, o logo dentro do app e o mural do instalador agora têm a dachshund aviadora de verdade (adeus, placeholder).",
+            "en": "Luna's definitive artwork: the app icon, in-app logo, and installer banner now show the real aviator dachshund (goodbye, placeholder).",
+            "ru": "Финальный арт Луны: иконка приложения, логотип внутри и баннер установщика теперь показывают настоящую таксу-авиатора (прощай, заглушка)."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Marca por idioma: 'ASTAROJNA' em latim pra todo mundo; 'ОСТОРОЖНО' em cirílico só quando o idioma é russo.",
+            "en": "Brand per language: 'ASTAROJNA' in Latin for everyone; 'ОСТОРОЖНО' in Cyrillic only when the language is Russian.",
+            "ru": "Бренд по языку: 'ASTAROJNA' латиницей для всех; 'ОСТОРОЖНО' кириллицей только когда язык русский."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Proporção das telas corrigida: os gauges não somem mais (nem ganham pixels fantasma) ao redimensionar a janela — o espaço de design ficou estável e só a escala muda.",
+            "en": "Screen proportions fixed: gauges no longer vanish (or gain phantom pixels) when you resize the window — the design space is now stable and only the scale changes.",
+            "ru": "Исправлены пропорции экрана: приборы больше не исчезают (и не получают фантомные пиксели) при изменении размера окна — пространство дизайна стабильно, меняется только масштаб."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Três perfis padrão embutidos (Jet, Pistão e Jet Premium) já vêm prontos numa instalação nova.",
+            "en": "Three built-in default profiles (Jet, Piston, and Jet Premium) ship ready on a fresh install.",
+            "ru": "Три встроенных профиля по умолчанию (Jet, Piston и Jet Premium) готовы при чистой установке."
+          }
+        },
+        {
+          "category": "infra",
+          "text": {
+            "pt": "Build assinada com auto-update: o instalador agora carrega a assinatura do atualizador, abrindo caminho pra updates automáticos.",
+            "en": "Signed build with auto-update: the installer now carries the updater signature, paving the way for automatic updates.",
+            "ru": "Подписанная сборка с авто-обновлением: установщик теперь несёт подпись апдейтера, открывая путь к автоматическим обновлениям."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.24.14",
+      "date": "2026-06-11",
+      "title": {
+        "pt": "EICAS afiado: redlines de verdade e áudio destravado",
+        "en": "Sharper EICAS: real redlines and unlocked audio",
+        "ru": "EICAS острее: настоящие красные линии и разблокированный звук"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "EICAS liso como manteiga: a transição CSS que brigava com a suavização de 60fps foi removida — barras e leituras agora fluem como os outros gauges. Fontes dos indicadores um pouco maiores.",
+            "en": "EICAS butter-smooth: the CSS transition fighting the 60fps smoothing is gone — bars and readings now flow like every other gauge. Slightly bigger indicator fonts.",
+            "ru": "EICAS плавный как масло: CSS-переход, мешавший сглаживанию 60fps, убран — столбики и показания теперь текут, как у остальных приборов. Шрифты индикаторов чуть крупнее."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Manete com redline no 100% e um respiro acima pro regime 101-110 (WEP); a linha vermelha de cada barra agora fica onde faz sentido, não no topo decorativo.",
+            "en": "Throttle redline at 100% with breathing room above for the 101-110 range (WEP); each bar's red line now sits where it means something, not at a decorative top.",
+            "ru": "РУД с красной линией на 100% и запасом сверху для режима 101-110 (WEP); красная линия каждого столбика теперь там, где она что-то значит, а не декоративно сверху."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "RPM com redline CALIBRADA por aeronave: voe ~5s com manete a 100-110% e o app grava a maior leitura como linha vermelha (lembrada entre sessões e adaptativa — igual ao teste de consumo). 'CAL' âmbar pisca enquanto o teste está pendente.",
+            "en": "RPM with a PER-AIRCRAFT calibrated redline: fly ~5s at 100-110% throttle and the app records the highest reading as the red line (remembered between sessions and adaptive — just like the fuel flow test). An amber 'CAL' blinks while the test is pending.",
+            "ru": "Обороты с КАЛИБРУЕМОЙ красной линией по самолёту: ~5с на газу 100-110% — и приложение запоминает наибольшее показание как красную линию (между сессиями, адаптивно — как тест расхода). Янтарный 'CAL' мигает, пока тест не пройден."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Óleo com redline na entrada da faixa ruim (110°C): a barra fica âmbar na faixa amarela e PISCA vermelho/branco quando cruza o limite crítico.",
+            "en": "Oil redline at the start of the bad range (110°C): the bar turns amber in the yellow band and BLINKS red/white past the critical limit.",
+            "ru": "Масло с красной линией на входе в плохую зону (110°C): столбик янтарный в жёлтой зоне и МИГАЕТ красно-белым за критическим пределом."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "A barra de seleção das Configurações saiu da moldura — fica claro que a moldura abaixo é o conteúdo do menu escolhido.",
+            "en": "The Settings section selector moved outside the frame — it's now clear the framed box below is the chosen menu's content.",
+            "ru": "Панель выбора раздела в Настройках вынесена из рамки — теперь ясно, что рамка ниже это содержимое выбранного меню."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Saída de áudio: botão ↻ destrava a lista completa de dispositivos do Windows (o WebView2 esconde a lista até a permissão de mídia ser concedida) e o app reage a dispositivos plugados/removidos.",
+            "en": "Audio output: a ↻ button unlocks the full Windows device list (WebView2 hides it until media permission is granted) and the app reacts to devices being plugged/unplugged.",
+            "ru": "Аудиовыход: кнопка ↻ разблокирует полный список устройств Windows (WebView2 прячет его до выдачи разрешения на медиа), и приложение реагирует на подключение/отключение устройств."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.24.13",
+      "date": "2026-06-11",
+      "title": {
+        "pt": "Rumo ao MVP: VSI clássico, unidades por perfil e EICAS",
+        "en": "Road to MVP: classic VSI, per-profile units and EICAS",
+        "ru": "Путь к MVP: классический вариометр, единицы профиля и EICAS"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Velocidade vertical virou um VSI clássico de aviação: escala não-linear com zero às 9h, subida em cima e descida embaixo. Teto de 30 m/s no métrico; em pés, mostrador em milhares de ft/min (.5 / 1 / 2 / 3 / 4) como o instrumento real.",
+            "en": "Vertical speed became a classic aviation VSI: non-linear scale with zero at 9 o'clock, climb on top, descent below. Capped at 30 m/s in metric; in feet, the dial reads thousands of ft/min (.5 / 1 / 2 / 3 / 4) like the real instrument.",
+            "ru": "Вертикальная скорость стала классическим авиационным вариометром: нелинейная шкала с нулём на 9 часов, набор сверху, снижение снизу. Потолок 30 м/с в метрической; в футах шкала в тысячах фут/мин (.5 / 1 / 2 / 3 / 4), как у настоящего прибора."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Estilo e unidades agora são DO PERFIL: cada perfil nasce com o seu estilo (astarojna ou clássico) e o seu sistema de unidades, escolhidos já na janela de criação.",
+            "en": "Style and units now belong to the PROFILE: each profile is born with its own style (astarojna or classic) and unit system, picked right in the creation window.",
+            "ru": "Стиль и единицы теперь принадлежат ПРОФИЛЮ: каждый профиль рождается со своим стилем (astarojna или классический) и своей системой единиц — прямо в окне создания."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Unidades PERSONALIZADAS por categoria: velocidade (km/h, mph, kt), distâncias (km, mi, NM), altitude (m, ft), temperaturas (°C, °F) e combustível (kg, lb, L, galões US/imperiais).",
+            "en": "CUSTOM units per category: speed (km/h, mph, kt), distances (km, mi, NM), altitude (m, ft), temperatures (°C, °F) and fuel (kg, lb, L, US/imperial gallons).",
+            "ru": "СВОИ единицы по категориям: скорость (км/ч, mph, kt), дистанции (км, mi, NM), высота (м, ft), температуры (°C, °F) и топливо (кг, lb, L, галлоны US/имперские)."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Novo gauge EICAS — painel digital de motores: 4 colunas (manete, RPM, empuxo ou potência, óleo) com barras verticais POR MOTOR, de 1 a 8 motores via clique direito (a largura acompanha).",
+            "en": "New EICAS gauge — digital engine panel: 4 columns (throttle, RPM, thrust or power, oil) with vertical bars PER ENGINE, from 1 to 8 engines via right-click (width follows).",
+            "ru": "Новый прибор EICAS — цифровая панель двигателей: 4 колонки (РУД, обороты, тяга или мощность, масло) с вертикальными столбиками НА КАЖДЫЙ ДВИГАТЕЛЬ, от 1 до 8 через правый клик (ширина подстраивается)."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "O EICAS herda os avisos do painel de motores: tag AIRBRAKE piscando na coluna da manete e AB/WEP piscando no motor em regime de emergência.",
+            "en": "EICAS inherits the engine panel warnings: blinking AIRBRAKE tag on the throttle column and AB/WEP blinking on the engine in emergency power.",
+            "ru": "EICAS наследует предупреждения панели двигателей: мигающий тег AIRBRAKE на колонке РУД и AB/WEP у двигателя в чрезвычайном режиме."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.24.12",
+      "date": "2026-06-11",
+      "title": {
+        "pt": "Alertas de fábrica, repetições e grupos elásticos",
+        "en": "Factory alerts, repeats and elastic groups",
+        "ru": "Тревоги из коробки, повторы и эластичные группы"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Sons de alerta vêm CONFIGURADOS de fábrica: buzina contínua pra overspeed de trem/flap/VNE e freio+potência, chime de combustível, plim pros limites de G e master caution nas temperaturas. EGT removido (leitura quebrada no jogo gerava alarme falso).",
+            "en": "Alert sounds come PRECONFIGURED: continuous horn for gear/flap/VNE overspeed and airbrake+throttle, fuel chime, plim for G limits and master caution on temperatures. EGT removed (broken in-game reading caused false alarms).",
+            "ru": "Звуки тревог настроены ИЗ КОРОБКИ: непрерывный гудок для превышения шасси/закрылков/VNE и тормоз+тяга, сигнал топлива, плим для перегрузок и master caution для температур. EGT убран (сломанные показания в игре давали ложную тревогу)."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Combustível em DUAS faixas (amarela e vermelha), cada uma com som próprio; repetição configurável por alerta: 1-4 toques ou CONTÍNUO enquanto durar.",
+            "en": "Fuel split into TWO bands (yellow and red), each with its own sound; per-alert repetition: 1-4 dings or CONTINUOUS while it lasts.",
+            "ru": "Топливо разделено на ДВЕ зоны (жёлтая и красная) со своими звуками; повторы на тревогу: 1-4 раза или НЕПРЕРЫВНО, пока длится."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Airbrake virou alavanca retangular no estilo do flaps; gear, flaps e airbrake com leitura amanteigada (60fps).",
+            "en": "Airbrake became a rectangular lever in the flaps style; gear, flaps and airbrake readings are now butter-smooth (60fps).",
+            "ru": "Воздушный тормоз стал прямоугольным рычагом в стиле закрылков; шасси, закрылки и тормоз читаются плавно (60fps)."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Grupos: zona de soltar pra arrastar o 1º gauge pra um grupo VAZIO, e alça ↘ no grupo selecionado redimensiona o conjunto inteiro mantendo a proporção.",
+            "en": "Groups: a drop zone to drag the 1st gauge into an EMPTY group, and a ↘ handle on the selected group resizes the whole set keeping its proportion.",
+            "ru": "Группы: зона сброса для первого прибора в ПУСТУЮ группу и ручка ↘ на выбранной группе масштабирует весь набор с сохранением пропорции."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Lápis ✎ renomeia qualquer perfil direto no seletor; a versão no rodapé/Sobre agora vem do app em runtime (sempre a real).",
+            "en": "A ✎ pencil renames any profile right in the selector; the footer/About version now comes from the app at runtime (always real).",
+            "ru": "Карандаш ✎ переименовывает любой профиль прямо в списке; версия в подвале/О программе берётся из приложения на лету (всегда настоящая)."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Opções da Edição centralizadas e a 'zona morta' do canvas não fica mais escondida atrás do menu fixo.",
+            "en": "Editor options centered and the canvas 'dead zone' no longer hides behind the sticky menu.",
+            "ru": "Опции редактора по центру, и «мёртвая зона» холста больше не прячется за закреплённым меню."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.24.11",
+      "date": "2026-06-11",
+      "title": {
+        "pt": "Cabeçalho poliglota",
+        "en": "Polyglot header",
+        "ru": "Полиглот-шапка"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "A última parte sem tradução caiu: botões voo/edição, status da conexão, som, tela cheia e overlay — o cabeçalho inteiro segue o idioma global.",
+            "en": "The last untranslated bit is gone: flight/edit buttons, connection status, sound, fullscreen and overlay — the whole header follows the global language.",
+            "ru": "Последняя непереведённая часть исчезла: кнопки полёт/редактор, статус соединения, звук, полный экран и оверлей — вся шапка следует глобальному языку."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.24.10",
+      "date": "2026-06-11",
+      "title": {
+        "pt": "9 idiomas + Configurações poliglotas",
+        "en": "9 languages + polyglot Settings",
+        "ru": "9 языков + полиглот-настройки"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Seis idiomas novos em BETA (alemão, italiano, francês, japonês, chinês e sueco) com bandeirinhas no seletor — onde faltar tradução, cai pro inglês.",
+            "en": "Six new BETA languages (German, Italian, French, Japanese, Chinese and Swedish) with little flags in the picker — anything untranslated falls back to English.",
+            "ru": "Шесть новых BETA-языков (немецкий, итальянский, французский, японский, китайский и шведский) с флажками в селекторе — непереведённое падает на английский."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Menu de Configurações 100% traduzido (títulos e conteúdos); o idioma agora é GLOBAL — vale pro app inteiro, em todos os perfis.",
+            "en": "Settings menu 100% translated (titles and contents); the language is now GLOBAL — applies to the whole app, across all profiles.",
+            "ru": "Меню настроек переведено на 100% (заголовки и содержимое); язык теперь ГЛОБАЛЬНЫЙ — действует на всё приложение и все профили."
+          }
+        },
+        {
+          "category": "refactor",
+          "text": {
+            "pt": "Menu enxuto: tela de calibração (dev) saiu do app; Conta, Licença e Sobre viraram uma página só.",
+            "en": "Leaner menu: the (dev) calibration screen left the app; Account, License and About merged into one page.",
+            "ru": "Меню компактнее: dev-экран калибровки убран из приложения; Аккаунт, Лицензия и О программе — одна страница."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Alarmes só armados em PARTIDA ATIVA (com 1s de tolerância) — acabou a buzina de combustível no menu/hangar.",
+            "en": "Alarms armed only in an ACTIVE match (1s grace) — no more fuel horn in the menu/hangar.",
+            "ru": "Тревоги активны только в АКТИВНОМ бою (1с допуска) — больше никакого топливного гудка в меню/ангаре."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Painel Voo volta a mostrar os gauges sempre — a detecção de partida afeta só overlay e alarmes.",
+            "en": "Flight panel shows gauges at all times again — match detection only affects the overlay and alarms.",
+            "ru": "Панель полёта снова всегда показывает приборы — детекция боя влияет только на оверлей и тревоги."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Rodapé mostra o motor simplificado (pistão/jato) — o Su-30 não aparece mais como 'jet-early'.",
+            "en": "Footer shows the simplified engine type (piston/jet) — the Su-30 no longer reads 'jet-early'.",
+            "ru": "В подвале упрощённый тип двигателя (поршневой/реактивный) — Су-30 больше не «jet-early»."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.24.9",
+      "date": "2026-06-11",
+      "title": {
+        "pt": "Sons sintetizados + mixer de alertas",
+        "en": "Synthesized sounds + alert mixer",
+        "ru": "Синтезированные звуки + микшер тревог"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Seis sons de alerta sintetizados de fábrica (antes não havia nenhum arquivo de som — os alertas eram mudos).",
+            "en": "Six alert sounds synthesized out of the box (there were no sound files before — alerts were mute).",
+            "ru": "Шесть звуков тревог синтезированы из коробки (раньше звуковых файлов не было — тревоги молчали)."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Buzina contínua (estilo horn de baixa rotação do R22) pro overspeed de trem/flaps.",
+            "en": "Continuous horn (R22 low-rotor style) for gear/flaps overspeed.",
+            "ru": "Непрерывный гудок (в стиле сигнала низких оборотов R22) для превышения скорости шасси/закрылков."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Chime de combustível estilo carro: 1 toque na faixa amarela, 2 na vermelha.",
+            "en": "Car-style fuel chime: 1 ding entering the yellow band, 2 in the red.",
+            "ru": "Автомобильный сигнал топлива: 1 звонок в жёлтой зоне, 2 — в красной."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Saída de áudio selecionável (alertas no headset, jogo nas caixas), volume individual por som com botão de teste, e volume geral padrão em 50%.",
+            "en": "Selectable audio output (alerts on the headset, game on speakers), per-sound volume with test buttons, master volume defaults to 50%.",
+            "ru": "Выбор аудиовыхода (тревоги в гарнитуру, игра в колонки), громкость каждого звука с кнопкой теста, общая громкость по умолчанию 50%."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Som configurável por ALERTA (overspeed, G, estol, temperaturas, combustível...) na aba Alertas Sonoros.",
+            "en": "Configurable sound per ALERT (overspeed, G, stall, temperatures, fuel...) in the Sound Alerts tab.",
+            "ru": "Настраиваемый звук для каждой ТРЕВОГИ (превышение скорости, перегрузка, сваливание, температуры, топливо...) во вкладке звуковых тревог."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Selo Premium/Pro no cabeçalho + 'Mapa Tático' renomeado pra GPS.",
+            "en": "Premium/Pro badge in the header + 'Tactical Map' renamed to GPS.",
+            "ru": "Значок Premium/Pro в шапке + «Тактическая карта» переименована в GPS."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.24.8",
+      "date": "2026-06-11",
+      "title": {
+        "pt": "Cockpit: horizonte, bússola, altímetro, manete e GPS",
+        "en": "Cockpit: horizon, compass, altimeter, throttle and GPS",
+        "ru": "Кабина: авиагоризонт, компас, высотомер, РУД и GPS"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Horizonte artificial girava pro LADO ERRADO (o WT manda o roll invertido — confirmado em voo). Corrigido no horizonte e no MFD; escada de pitch agora vai até ±90°.",
+            "en": "The artificial horizon rolled the WRONG WAY (WT sends roll inverted — confirmed in flight). Fixed in the horizon and the MFD; pitch ladder now goes to ±90°.",
+            "ru": "Авиагоризонт крутился НЕ В ТУ СТОРОНУ (WT шлёт крен инвертированным — подтверждено в полёте). Исправлено в горизонте и MFD; шкала тангажа теперь до ±90°."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Manete em escala 0-100 como o jogo mostra (acima de 100 = selo WEP; antes a agulha parava em ~91% com manete toda).",
+            "en": "Throttle on a 0-100 scale like the game shows (above 100 = WEP badge; the needle used to stop at ~91% at full throttle).",
+            "ru": "РУД по шкале 0-100 как в игре (выше 100 = значок WEP; раньше стрелка останавливалась на ~91% при полном газе)."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Altímetro: TODOS os dígitos da janelinha rolam contínuos, como tambores mecânicos.",
+            "en": "Altimeter: ALL drum digits roll continuously, like mechanical odometers.",
+            "ru": "Высотомер: ВСЕ цифры барабанчика крутятся непрерывно, как механический одометр."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Bússola: ponteiro de proa aponta pra baixo (branco no clássico, verde no astarojna); o bug do GPS aponta pra fora e não pisca mais.",
+            "en": "Compass: heading pointer points down (white on classic, green on astarojna); the GPS bug points outward and no longer blinks.",
+            "ru": "Компас: указатель курса смотрит вниз (белый в классике, зелёный в astarojna); метка GPS смотрит наружу и больше не мигает."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "GPS: segue o avião de fábrica (FLW), raio de chegada configurável no botão direito, clique marca exatamente onde clicou (sem ímã pro alvo), formato sempre livre, e avião/rota deslizando a 60fps.",
+            "en": "GPS: follows the aircraft by default (FLW), configurable arrival radius via right-click, clicks land exactly where you clicked (no target magnet), always free-form, and aircraft/route glide at 60fps.",
+            "ru": "GPS: следует за самолётом по умолчанию (FLW), радиус прибытия настраивается правой кнопкой, клик ставит точку ровно где кликнули (без «магнита»), всегда свободный формат, самолёт/маршрут скользят на 60fps."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Clicar no GPS não rouba mais o foco do War Thunder; microengasgos nos gauges com o GPS aberto eliminados.",
+            "en": "Clicking the GPS no longer steals War Thunder's focus; micro-stutters with the GPS open eliminated.",
+            "ru": "Клик по GPS больше не отбирает фокус у War Thunder; микро-подёргивания с открытым GPS устранены."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.24.7",
+      "date": "2026-06-11",
+      "title": {
+        "pt": "Editor renovado: paleta, perfis e proporções",
+        "en": "Editor overhaul: palette, profiles and proportions",
+        "ru": "Обновлённый редактор: палитра, профили и пропорции"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Paleta nova de gauges: categorias → tela limpa com PREVIEWS reais; gauges repetidos permitidos.",
+            "en": "New gauge palette: categories → clean screen with REAL previews; duplicate gauges allowed.",
+            "ru": "Новая палитра приборов: категории → чистый экран с НАСТОЯЩИМИ превью; дубликаты приборов разрешены."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Perfis direto na Edição: criar limpo/pré-definido/clone, trava de nome duplicado e lixeira no seletor.",
+            "en": "Profiles right in the editor: create empty/preset/clone, duplicate-name lock and a trash can in the selector.",
+            "ru": "Профили прямо в редакторе: создать пустой/стандартный/копию, защита от дублей имени и корзина в списке."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Lista do painel com sigla + nome completo e reordenação por arrastar (inclusive entre grupos).",
+            "en": "Panel list with code + full name and drag-to-reorder (including across groups).",
+            "ru": "Список панели с кодом + полным именем и перетаскиванием для сортировки (в том числе между группами)."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Proporção desconta o chrome do app (header/alertas/rodapé): a Edição mostra exatamente o que a Voo exibe; tela cheia com F11 ou ⛶.",
+            "en": "Aspect ratio accounts for the app chrome (header/alerts/footer): the editor shows exactly what Flight displays; fullscreen via F11 or ⛶.",
+            "ru": "Пропорция учитывает хром приложения (шапка/тревоги/подвал): редактор показывает ровно то, что видно в полёте; полный экран по F11 или ⛶."
+          }
+        },
+        {
+          "category": "refactor",
+          "text": {
+            "pt": "EGT e os dois painéis de temperatura aposentados (fora da paleta; perfis antigos migrados automaticamente).",
+            "en": "EGT and the two temperature panels retired (out of the palette; old profiles migrated automatically).",
+            "ru": "EGT и две панели температур выведены из палитры (старые профили мигрируют автоматически)."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Sub-abas da Edição fixas no topo durante o scroll.",
+            "en": "Editor sub-tabs pinned to the top while scrolling.",
+            "ru": "Вкладки редактора закреплены сверху при прокрутке."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.24.6",
+      "date": "2026-06-11",
+      "title": {
+        "pt": "Telemetria lisa de ponta a ponta",
+        "en": "Butter-smooth telemetry end to end",
+        "ru": "Телеметрия без рывков от и до"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "O engasgo rítmico de ~1s morreu: o app mantém o servidor do War Thunder no modo rápido (leituras a ~40ms na UI, medido em voo).",
+            "en": "The rhythmic ~1s stutter is dead: the app keeps the War Thunder server in fast mode (~40ms readings in the UI, measured in flight).",
+            "ru": "Ритмичный рывок ~1с устранён: приложение держит сервер War Thunder в быстром режиме (~40мс в UI, замерено в полёте)."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Janelas imunes ao throttling do WebView2 (não precisa mais 'abrir a tela dev' pra destravar nada).",
+            "en": "Windows immune to WebView2 throttling (no more 'open the dev screen' workaround).",
+            "ru": "Окна невосприимчивы к троттлингу WebView2 (больше не нужно «открывать dev-экран»)."
+          }
+        },
+        {
+          "category": "refactor",
+          "text": {
+            "pt": "O overlay recebe a telemetria DIRETO do coletor Rust — não depende mais da janela principal.",
+            "en": "The overlay receives telemetry STRAIGHT from the Rust collector — no longer depends on the main window.",
+            "ru": "Оверлей получает телеметрию НАПРЯМУЮ от коллектора на Rust — не зависит от главного окна."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Conexões locais sempre via 127.0.0.1 (eliminado o engasgo de ~2s do localhost/IPv6 também no mapa e chat).",
+            "en": "Local connections always via 127.0.0.1 (the ~2s localhost/IPv6 stall eliminated for map and chat too).",
+            "ru": "Локальные соединения всегда через 127.0.0.1 (задержка ~2с localhost/IPv6 устранена и для карты с чатом)."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.24.5",
+      "date": "2026-05-30",
+      "title": {
+        "pt": "GPS: arrastar/redimensionar sem minimizar o jogo",
+        "en": "GPS: drag/resize without minimizing the game",
+        "ru": "GPS: перемещение/размер без сворачивания игры"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Arrastar ou redimensionar a janela do GPS não minimiza mais o War Thunder em tela cheia (move/resize agora não rouba o foco).",
+            "en": "Dragging or resizing the GPS window no longer minimizes fullscreen War Thunder (move/resize no longer steal focus).",
+            "ru": "Перемещение или изменение размера окна GPS больше не сворачивает War Thunder в полноэкранном режиме (move/resize не перехватывают фокус)."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Faixa de arrasto do GPS maior e visível ao passar o mouse, e alça de redimensionar maior (mais fácil de pegar).",
+            "en": "Bigger, hover-visible GPS drag strip and a bigger resize handle (easier to grab).",
+            "ru": "Полоса перетаскивания GPS больше и видна при наведении, ручка изменения размера крупнее (легче захватить)."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.24.4",
+      "date": "2026-05-30",
+      "title": {
+        "pt": "Telemetria à prova de freeze + overlay só em partida + GPS no editor",
+        "en": "Freeze-proof telemetry + overlay only in match + GPS in editor",
+        "ru": "Телеметрия без зависаний + оверлей только в бою + GPS в редакторе"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "A coleta de telemetria foi pro Rust: não congela mais quando o War Thunder em tela cheia cobre o app (a manete não distorce mais ao voltar).",
+            "en": "Telemetry polling moved to Rust: no longer freezes when fullscreen War Thunder occludes the app (throttle no longer distorts on return).",
+            "ru": "Опрос телеметрии перенесён в Rust: больше не зависает, когда War Thunder в полноэкранном режиме перекрывает приложение (РУД больше не искажается при возврате)."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "O overlay agora aparece SÓ em partida ativa (detecta seu avião no mapa) — some no menu/hangar.",
+            "en": "Overlay now shows ONLY in an active match (detects your aircraft on the map) — hidden in menu/hangar.",
+            "ru": "Оверлей теперь показывается ТОЛЬКО в активном бою (определяет ваш самолёт на карте) — скрыт в меню/ангаре."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "GPS editável no canvas de edição (mapa real) e a posição/tamanho ajustados em jogo são salvos de volta no app.",
+            "en": "GPS is editable in the editing canvas (real map), and position/size adjusted in-game is saved back into the app.",
+            "ru": "GPS редактируется на холсте редактирования (реальная карта), а позиция/размер, изменённые в игре, сохраняются обратно в приложение."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "GPS: raio de 'chegou no destino' agora em metros reais (~150m) + botão NEXT pra pular waypoint.",
+            "en": "GPS: 'arrived' radius now in real meters (~150m) + NEXT button to skip a waypoint.",
+            "ru": "GPS: радиус «прибытия» теперь в реальных метрах (~150 м) + кнопка NEXT для пропуска точки."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Foco do GPS não é mais perdido após minimizar/redimensionar; a rota é preservada ao minimizar.",
+            "en": "GPS no longer loses focus after minimize/resize; the route is preserved when minimizing.",
+            "ru": "GPS больше не теряет фокус после сворачивания/изменения размера; маршрут сохраняется при сворачивании."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.24.3",
+      "date": "2026-05-30",
+      "title": {
+        "pt": "Correções críticas + GPS tela cheia + suavização total",
+        "en": "Critical fixes + fullscreen GPS + full smoothing",
+        "ru": "Критические исправления + полноэкранный GPS + сглаживание везде"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Corrigido o bug de leituras absurdas (-41400 rpm, 140% de manete): a predição não extrapola mais saltos bruscos (corte de motor, sair da partida).",
+            "en": "Fixed the absurd-readings bug (-41400 rpm, 140% throttle): prediction no longer extrapolates sharp jumps (engine cut, leaving a match).",
+            "ru": "Исправлен баг абсурдных показаний (-41400 об/мин, 140% РУД): предсказание больше не экстраполирует резкие скачки (отсечка двигателя, выход из боя)."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Corrigido o congelamento das leituras ao minimizar e voltar (watchdog destrava o polling preso).",
+            "en": "Fixed readings freezing after minimize/restore (a watchdog unsticks the stalled polling).",
+            "ru": "Исправлено зависание показаний после сворачивания/восстановления (сторож разблокирует застрявший опрос)."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "GPS preenche toda a área do gauge (não só um quadrado); aeródromos viraram overlay no mapa; botão de minimizar o GPS (vira um botão).",
+            "en": "GPS fills the whole gauge area (not just a square); airfields became a map overlay; minimize button for the GPS (turns into a button).",
+            "ru": "GPS заполняет всю область прибора (не только квадрат); аэродромы стали оверлеем на карте; кнопка сворачивания GPS (превращается в кнопку)."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "GPS: recuperação automática do '?' cinza (recarrega o mapa) + botão ↻ MAPA.",
+            "en": "GPS: auto-recovery from the gray '?' (reloads the map) + ↻ MAP button.",
+            "ru": "GPS: авто-восстановление из серого '?' (перезагрузка карты) + кнопка ↻ КАРТА."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Suavização e predição agora aplicadas em todos os gauges (corrigido CompactGauge e o roll do horizonte artificial).",
+            "en": "Smoothing and prediction now applied to all gauges (fixed CompactGauge and the artificial horizon's roll).",
+            "ru": "Сглаживание и предсказание теперь применяются ко всем приборам (исправлены CompactGauge и крен авиагоризонта)."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Painel de motores e indicador geral com opção sem moldura, avisos WEP/AB e alertas no gauge inteiro (flaps/trem).",
+            "en": "Engine panel and general indicator with frameless option, WEP/AB warnings and whole-gauge alerts (flaps/gear).",
+            "ru": "Панель двигателей и общий индикатор с опцией без рамки, предупреждениями WEP/AB и подсветкой всего прибора (закрылки/шасси)."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.24.2",
+      "date": "2026-05-30",
+      "title": {
+        "pt": "Overlay: proporção, posicionamento e foco do GPS",
+        "en": "Overlay: aspect ratio, layout and GPS focus",
+        "ru": "Оверлей: пропорция, размещение и фокус GPS"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Proporção do overlay agora é configurável direto na aba Overlay (16:9, 9:16, etc.) e o canvas usa a proporção escolhida.",
+            "en": "Overlay aspect ratio is now configurable right in the Overlay tab (16:9, 9:16, etc.) and the canvas uses the chosen ratio.",
+            "ru": "Пропорцию оверлея теперь можно задать прямо во вкладке «Оверлей» (16:9, 9:16 и т.д.), и холст использует выбранную пропорцию."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Overlay nasce em layout livre: dá pra arrastar e redimensionar cada gauge no canvas de edição.",
+            "en": "Overlay starts in free layout: you can drag and resize each gauge on the editing canvas.",
+            "ru": "Оверлей по умолчанию в свободной раскладке: каждый прибор можно перетаскивать и менять размер на холсте редактирования."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "GPS no overlay não rouba mais o foco do War Thunder (jogo não perde som/inputs ao clicar no mapa).",
+            "en": "Overlay GPS no longer steals focus from War Thunder (the game keeps sound/inputs when you click the map).",
+            "ru": "GPS в оверлее больше не перехватывает фокус у War Thunder (игра не теряет звук/управление при клике по карте)."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Fita de proa (HDG) mais baixa e bug de proa do GPS mais evidente (losango com contorno e brilho).",
+            "en": "Heading (HDG) tape sits lower and the GPS heading bug is more visible (outlined, glowing diamond).",
+            "ru": "Лента курса (HDG) опущена ниже, а метка курса от GPS заметнее (ромб с контуром и свечением)."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Foto de referência do overlay agora preenche exatamente o canvas (mesma proporção), sem distorcer.",
+            "en": "Overlay reference photo now fills the canvas exactly (same aspect ratio), no distortion.",
+            "ru": "Фото-референс оверлея теперь точно заполняет холст (та же пропорция), без искажений."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Gauges compactos do overlay (trem/flap/comb) ganharam luzes de alerta: overspeed de trem/flap e combustível baixo.",
+            "en": "Compact overlay gauges (gear/flap/fuel) got alert lights: gear/flap overspeed and low fuel.",
+            "ru": "Компактные приборы оверлея (шасси/закрылки/топливо) получили сигнальные лампы: превышение скорости шасси/закрылков и низкий уровень топлива."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Tamanho do mapa/GPS do overlay é configurável antes de abrir o jogo (a janela já nasce no tamanho definido).",
+            "en": "Overlay map/GPS size is configurable before launching the game (the window opens at the set size).",
+            "ru": "Размер карты/GPS оверлея настраивается до запуска игры (окно открывается заданного размера)."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Editor do overlay: xadrez só no canvas (fica claro onde é/não é a tela), crosshair de centro pra centralizar gauges, e gauges podem ser estacionados fora do canvas (com limite).",
+            "en": "Overlay editor: checker only on the canvas (clear what is/isn't the screen), a center crosshair to center gauges, and gauges can be parked off-canvas (bounded).",
+            "ru": "Редактор оверлея: шахматный фон только на холсте (ясно, где экран), перекрестие центра для центрирования приборов, приборы можно размещать за пределами холста (с лимитом)."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Luzes de overspeed dos gauges do overlay (trem/flap) piscam branco↔vermelho; números do motor no overlay agora suavizados.",
+            "en": "Overspeed lights on overlay gauges (gear/flap) blink white↔red; overlay engine numbers are now smoothed.",
+            "ru": "Лампы превышения скорости приборов оверлея (шасси/закрылки) мигают бело↔красным; числа двигателя в оверлее теперь сглажены."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Painel de motores: barra THR com 100% no lugar certo e zona 100-110% visível, RPM/empuxo não vazam mais do card, % do throttle suavizado.",
+            "en": "Engine panel: THR bar with 100% in the right place and the 100-110% zone visible, RPM/thrust no longer overflow the card, smoothed throttle %.",
+            "ru": "Панель двигателей: шкала THR с правильным положением 100% и видимой зоной 100-110%, RPM/тяга больше не выходят за карточку, сглаженный % газа."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Luz DN/UP do trem pisca suave (60fps) em vez do pisca brusco anterior.",
+            "en": "Gear DN/UP light blinks smoothly (60fps) instead of the previous choppy blink.",
+            "ru": "Лампа DN/UP шасси мигает плавно (60fps) вместо прежнего резкого мигания."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Painel de motores: opção sem moldura (só os cards), E1/E2 ao lado do THR pra barra subir mais, e compactação responsiva (RPM vira 13,5k quando estreito).",
+            "en": "Engine panel: frameless option (cards only), E1/E2 beside THR so the bar can rise higher, and responsive compaction (RPM shows as 13.5k when narrow).",
+            "ru": "Панель двигателей: вариант без рамки (только карточки), E1/E2 рядом с THR чтобы шкала была выше, и адаптивное сжатие (RPM показывается как 13,5k когда узко)."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Painel de motores: limite mínimo de tamanho pra não quebrar o visual quando afinado demais.",
+            "en": "Engine panel: minimum size limit so the layout doesn't break when shrunk too far.",
+            "ru": "Панель двигателей: минимальный размер, чтобы вёрстка не ломалась при сильном уменьшении."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.24.1",
+      "date": "2026-05-29",
+      "title": {
+        "pt": "Canvas dedicado do overlay + correções",
+        "en": "Dedicated overlay canvas + fixes",
+        "ru": "Выделенный холст оверлея + исправления"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Proporção do painel agora salva e aplica de verdade na tela de voo (botão 'salvar proporção').",
+            "en": "Panel aspect ratio now saves and actually applies on the flight screen (with a 'save aspect' button).",
+            "ru": "Пропорция панели теперь сохраняется и реально применяется на экране полёта (кнопка «сохранить пропорцию»)."
+          }
+        },
+        {
+          "category": "refactor",
+          "text": {
+            "pt": "Overlay editado num canvas interno (não abre mais janela) — fim do bug da 'janela morta'; a janela real só renderiza em jogo.",
+            "en": "Overlay is edited in an internal canvas (no more window) — kills the 'dead window' bug; the real window only renders in game.",
+            "ru": "Оверлей редактируется во внутреннем холсте (без отдельного окна) — конец бага «мёртвого окна»; реальное окно только отображает в игре."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Overlay com proporção própria e foto de referência no canvas interno.",
+            "en": "Overlay has its own aspect ratio and a reference photo in the internal canvas.",
+            "ru": "У оверлея собственная пропорция и фото-референс во внутреннем холсте."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "G-meter analógico com tamanho consistente com os demais instrumentos.",
+            "en": "Analog G-meter sized consistently with the other instruments.",
+            "ru": "Аналоговый G-метр приведён к размеру остальных приборов."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Overlay só aparece com o War Thunder rodando E em partida; cobre o monitor principal.",
+            "en": "Overlay only shows when War Thunder is running AND in a match; covers the primary monitor.",
+            "ru": "Оверлей появляется только когда War Thunder запущен И идёт бой; покрывает основной монитор."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.24.0",
+      "date": "2026-05-29",
+      "title": {
+        "pt": "Consolidada: telas independentes + correções",
+        "en": "Consolidated: independent screens + fixes",
+        "ru": "Консолидация: независимые экраны + исправления"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Painel e overlay agora têm instrumentos totalmente independentes — dá pra configurar só o overlay (monitor único).",
+            "en": "Panel and overlay now have fully independent instruments — you can set up the overlay only (single monitor).",
+            "ru": "Панель и оверлей теперь имеют полностью независимые приборы — можно настроить только оверлей (один монитор)."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Editar overlay ficou confiável (sem janela 'morta') e o GPS pode ser arrastado livre no modo edição.",
+            "en": "Overlay editing is reliable now (no more 'dead' window) and the GPS can be dragged freely in edit mode.",
+            "ru": "Редактирование оверлея стало надёжным (больше нет «мёртвого» окна), а GPS можно свободно перетаскивать в режиме редактирования."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Movimento aleatório do laboratório de suavização mais orgânico e output filtrado mais estável.",
+            "en": "Smoothing lab's random motion is more organic and the filtered output is more stable.",
+            "ru": "Случайное движение в лаборатории сглаживания стало более органичным, а отфильтрованный вывод — стабильнее."
+          }
+        },
+        {
+          "category": "refactor",
+          "text": {
+            "pt": "Barra de status fixa e canvas que bate 1:1 com a tela de voo nas proporções.",
+            "en": "Status bar locked and the canvas matches the flight screen 1:1 across aspect ratios.",
+            "ru": "Строка состояния зафиксирована, холст совпадает с экраном полёта 1:1 при всех пропорциях."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Nova aba Novidades com o histórico de versões.",
+            "en": "New What's New tab with the version history.",
+            "ru": "Новая вкладка «Что нового» с историей версий."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.23.1",
+      "date": "2026-05-29",
+      "title": {
+        "pt": "Suavização redesenhada + foto de referência",
+        "en": "Redesigned smoothing + reference photo",
+        "ru": "Переработанное сглаживание + фото-референс"
+      },
+      "changes": [
+        {
+          "category": "refactor",
+          "text": {
+            "pt": "Motor de suavização agora roda a 60fps, independente da taxa de leitura — leitura fluida sem o atraso de antes.",
+            "en": "Smoothing engine now runs at 60fps, independent of the read rate — fluid readings without the old lag.",
+            "ru": "Движок сглаживания теперь работает на 60 кадрах/с независимо от частоты опроса — плавные показания без прежней задержки."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Dois tipos de suavização: Lerp (convergência direta) e Mola (com inércia mecânica), escolhíveis no geral ou por instrumento.",
+            "en": "Two smoothing types: Lerp (direct convergence) and Spring (mechanical inertia), selectable globally or per instrument.",
+            "ru": "Два типа сглаживания: Lerp (прямое схождение) и Пружина (механическая инерция), выбираются глобально или для каждого прибора."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Predição de movimento com intensidade ajustável — antecipa o próximo valor pra leituras ainda mais responsivas.",
+            "en": "Movement prediction with adjustable intensity — anticipates the next value for even more responsive readings.",
+            "ru": "Предсказание движения с регулируемой интенсивностью — предугадывает следующее значение для ещё более отзывчивых показаний."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Laboratório de suavização com 3 camadas: movimento real, leitura crua (200ms) e resultado filtrado, lado a lado pra calibrar.",
+            "en": "Smoothing lab with 3 layers: real movement, raw reading (200ms) and filtered result, side by side for calibration.",
+            "ru": "Лаборатория сглаживания с 3 слоями: реальное движение, сырое показание (200мс) и отфильтрованный результат рядом для калибровки."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Aba de edição agora tem rolagem — mais espaço pro canvas e seletores de instrumentos sem aperto.",
+            "en": "Edit tab now scrolls — more room for the canvas and breathing space for instrument pickers.",
+            "ru": "Вкладка редактирования теперь прокручивается — больше места для холста и удобный выбор приборов."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Foto de referência do cockpit no editor de overlay — carregue uma imagem do seu painel e posicione os instrumentos por cima.",
+            "en": "Cockpit reference photo in the overlay editor — load an image of your panel and position instruments over it.",
+            "ru": "Фото-референс кабины в редакторе оверлея — загрузите изображение вашей панели и расположите приборы поверх."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.23.0",
+      "date": "2026-05-29",
+      "title": {
+        "pt": "Interface reorganizada + suavização configurável",
+        "en": "Reorganized interface + configurable smoothing",
+        "ru": "Переработанный интерфейс + настраиваемое сглаживание"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Aba de edição reorganizada em sub-abas (Instrumentos, Layout, Overlay) com o canvas sempre visível.",
+            "en": "Edit tab reorganized into sub-tabs (Instruments, Layout, Overlay) with the canvas always visible.",
+            "ru": "Вкладка редактирования разбита на под-вкладки (Приборы, Макет, Оверлей), холст всегда виден."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Configurações divididas em seções claras (Geral, Visual, Suavização, Telemetria, e mais).",
+            "en": "Settings split into clear sections (General, Visual, Smoothing, Telemetry, and more).",
+            "ru": "Настройки разделены на понятные разделы (Общие, Вид, Сглаживание, Телеметрия и др.)."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Laboratório de suavização para calibrar como os instrumentos respondem à telemetria.",
+            "en": "Smoothing lab to calibrate how instruments respond to telemetry.",
+            "ru": "Лаборатория сглаживания для калибровки отклика приборов на телеметрию."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Taxa de leitura configurável (10ms–500ms) com aviso de desempenho para valores muito baixos.",
+            "en": "Configurable read rate (10ms–500ms) with a performance warning for very low values.",
+            "ru": "Настраиваемая частота опроса (10мс–500мс) с предупреждением о производительности."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.22.1",
+      "date": "2026-05-29",
+      "title": {
+        "pt": "Correções pós-validação em voo",
+        "en": "Post-flight-validation fixes",
+        "ru": "Исправления после лётной проверки"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Edição do painel e do overlay agora são independentes — uma não trava mais a outra.",
+            "en": "Panel and overlay editing are now independent — one no longer locks the other.",
+            "ru": "Редактирование панели и оверлея теперь независимы."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Posições e tamanhos do overlay são salvos corretamente entre sessões.",
+            "en": "Overlay positions and sizes are saved correctly between sessions.",
+            "ru": "Позиции и размеры оверлея корректно сохраняются между сессиями."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "GPS no overlay não rouba mais o foco do War Thunder ao ser clicado.",
+            "en": "Overlay GPS no longer steals War Thunder's focus when clicked.",
+            "ru": "GPS в оверлее больше не перехватывает фокус War Thunder при нажатии."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Arrastar instrumentos com zoom aplicado agora acompanha o cursor com precisão.",
+            "en": "Dragging instruments with zoom applied now tracks the cursor accurately.",
+            "ru": "Перетаскивание приборов с зумом теперь точно следует за курсором."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Indicador de motores com número de motores configurável e área de ajuste proporcional.",
+            "en": "Engine indicator with configurable engine count and proportional hitbox.",
+            "ru": "Индикатор двигателей с настраиваемым количеством двигателей."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.22.0",
+      "date": "2026-05-29",
+      "title": {
+        "pt": "Refinamento visual completo",
+        "en": "Complete visual refinement",
+        "ru": "Полная визуальная доработка"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Layout responsivo: proporções de tela configuráveis (16:9, 21:9, 32:9, verticais) sem barra de rolagem na tela de voo.",
+            "en": "Responsive layout: configurable aspect ratios (16:9, 21:9, 32:9, vertical) with no scrollbar on the flight screen.",
+            "ru": "Адаптивный макет: настраиваемые пропорции (16:9, 21:9, 32:9, вертикальные) без полосы прокрутки."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Instrumentos podem ficar bem menores, com textos que se adaptam ao tamanho disponível.",
+            "en": "Instruments can get much smaller, with text that adapts to the available size.",
+            "ru": "Приборы могут быть гораздо меньше, с адаптивным текстом."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Versões compactas dos indicadores para o overlay (barras baixas e largas).",
+            "en": "Compact indicator versions for the overlay (low, wide bars).",
+            "ru": "Компактные версии индикаторов для оверлея."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Novo instrumento: fita de proa (HDG) com fundo transparente e cores configuráveis.",
+            "en": "New instrument: heading tape (HDG) with transparent background and configurable colors.",
+            "ru": "Новый прибор: лента курса (HDG) с прозрачным фоном и настраиваемыми цветами."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Opacidade automática: trem e flaps somem quando recolhidos e reaparecem ao serem usados.",
+            "en": "Auto-opacity: gear and flaps fade out when retracted and reappear when used.",
+            "ru": "Авто-прозрачность: шасси и закрылки исчезают при уборке."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Barra de status com altura ajustável, sem mais saltos de layout.",
+            "en": "Status bar with adjustable height, no more layout jumps.",
+            "ru": "Регулируемая высота строки состояния."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.21.3",
+      "date": "2026-05-29",
+      "title": {
+        "pt": "Correção do auto-update",
+        "en": "Auto-update fix",
+        "ru": "Исправление авто-обновления"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Corrigido o endereço de verificação de atualizações — o app agora detecta novas versões corretamente.",
+            "en": "Fixed the update check address — the app now detects new versions correctly.",
+            "ru": "Исправлен адрес проверки обновлений — приложение корректно находит новые версии."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.21.1",
+      "date": "2026-05-28",
+      "title": {
+        "pt": "Polimentos do licenciamento",
+        "en": "Licensing polish",
+        "ru": "Доработка лицензирования"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Campo de chave de licença mais claro, com botão de colar.",
+            "en": "Clearer license key field with a paste button.",
+            "ru": "Более понятное поле ключа лицензии с кнопкой вставки."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Corrigido erro ao fechar o aplicativo.",
+            "en": "Fixed an error when closing the app.",
+            "ru": "Исправлена ошибка при закрытии приложения."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Mensagens de conexão com o War Thunder organizadas (menos ruído quando o jogo está fechado).",
+            "en": "War Thunder connection messages tidied up (less noise when the game is closed).",
+            "ru": "Сообщения о подключении к War Thunder упорядочены."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.21.0",
+      "date": "2026-05-28",
+      "title": {
+        "pt": "Licenciamento + atualizações automáticas",
+        "en": "Licensing + automatic updates",
+        "ru": "Лицензирование + автообновления"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Sistema de licença por máquina — ativação com chave e proteção contra cópia.",
+            "en": "Per-machine license system — key activation and copy protection.",
+            "ru": "Система лицензий на устройство — активация ключом и защита от копирования."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Atualizações automáticas: o app avisa e instala novas versões assinadas.",
+            "en": "Automatic updates: the app notifies and installs new signed versions.",
+            "ru": "Автообновления: приложение уведомляет и устанавливает новые подписанные версии."
+          }
+        },
+        {
+          "category": "infra",
+          "text": {
+            "pt": "Distribuição segura via servidor de licenças.",
+            "en": "Secure distribution via license server.",
+            "ru": "Безопасное распространение через сервер лицензий."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.20.0",
+      "date": "2026-05-28",
+      "title": {
+        "pt": "Qualidade de vida",
+        "en": "Quality of life",
+        "ru": "Удобство использования"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Aba de configurações separada da edição.",
+            "en": "Settings tab separated from editing.",
+            "ru": "Вкладка настроек отделена от редактирования."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Modo compacto para os instrumentos essenciais.",
+            "en": "Compact mode for essential instruments.",
+            "ru": "Компактный режим для основных приборов."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Exportar e importar perfis em arquivo.",
+            "en": "Export and import profiles to a file.",
+            "ru": "Экспорт и импорт профилей в файл."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Atalhos de teclado (F1–F3, F9, Esc).",
+            "en": "Keyboard shortcuts (F1–F3, F9, Esc).",
+            "ru": "Горячие клавиши (F1–F3, F9, Esc)."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.19.2",
+      "date": "2026-05-28",
+      "title": {
+        "pt": "Telemetria centralizada",
+        "en": "Centralized telemetry",
+        "ru": "Централизованная телеметрия"
+      },
+      "changes": [
+        {
+          "category": "refactor",
+          "text": {
+            "pt": "Uma única fonte de leitura distribuída para todas as janelas — fim das leituras diferentes entre painel e overlay.",
+            "en": "A single read source distributed to all windows — no more mismatched readings between panel and overlay.",
+            "ru": "Единый источник данных для всех окон — больше нет расхождений между панелью и оверлеем."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Overlay verdadeiro com transparência real e modo que não rouba o foco do jogo.",
+            "en": "True overlay with real transparency and a mode that doesn't steal the game's focus.",
+            "ru": "Настоящий оверлей с реальной прозрачностью, не перехватывающий фокус игры."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Indicador de navegação volta a chegar ao instrumento mesmo em janelas separadas.",
+            "en": "Navigation indicator reaches the instrument again even in separate windows.",
+            "ru": "Навигационный индикатор снова доходит до прибора в отдельных окнах."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.19.1",
+      "date": "2026-05-28",
+      "title": {
+        "pt": "Overlay e ajustes finos",
+        "en": "Overlay and fine-tuning",
+        "ru": "Оверлей и тонкая настройка"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Overlay com duas janelas: instrumentos passivos e GPS interativo.",
+            "en": "Overlay with two windows: passive instruments and interactive GPS.",
+            "ru": "Оверлей с двумя окнами: пассивные приборы и интерактивный GPS."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Botões do GPS reposicionam quando o instrumento fica pequeno.",
+            "en": "GPS buttons reposition when the instrument gets small.",
+            "ru": "Кнопки GPS перемещаются при уменьшении прибора."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Trem de pouso não acende mais como 'em trânsito' quando está totalmente recolhido.",
+            "en": "Landing gear no longer lights up as 'in transit' when fully retracted.",
+            "ru": "Шасси больше не горит как «в движении» при полной уборке."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Limites de tamanho dos instrumentos respeitados no modo livre.",
+            "en": "Instrument size limits respected in free mode.",
+            "ru": "Ограничения размера приборов соблюдаются в свободном режиме."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.19.0",
+      "date": "2026-05-27",
+      "title": {
+        "pt": "Modo livre + overlay editável",
+        "en": "Free mode + editable overlay",
+        "ru": "Свободный режим + редактируемый оверлей"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Instrumentos complexos (MFD, GPS) funcionam no modo livre.",
+            "en": "Complex instruments (MFD, GPS) work in free mode.",
+            "ru": "Сложные приборы (MFD, GPS) работают в свободном режиме."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Overlay editável com cadeado de bloqueio.",
+            "en": "Editable overlay with a lock toggle.",
+            "ru": "Редактируемый оверлей с блокировкой."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Melhor desempenho ao arrastar instrumentos.",
+            "en": "Better performance when dragging instruments.",
+            "ru": "Лучшая производительность при перетаскивании."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.18.1",
+      "date": "2026-05-27",
+      "title": {
+        "pt": "Ajustes pós-teste em voo",
+        "en": "Post-flight-test adjustments",
+        "ru": "Корректировки после лётных тестов"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Suavização adaptativa nas manetes de trem e flaps.",
+            "en": "Adaptive smoothing on gear and flap levers.",
+            "ru": "Адаптивное сглаживание рычагов шасси и закрылков."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Tempo de combustível restante mais estável.",
+            "en": "More stable remaining fuel time.",
+            "ru": "Более стабильное время остатка топлива."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.18.0",
+      "date": "2026-05-27",
+      "title": {
+        "pt": "Alarmes sonoros + luzes operacionais",
+        "en": "Audio alarms + operational lights",
+        "ru": "Звуковые сигналы + рабочие индикаторы"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Alarmes sonoros configuráveis para situações críticas.",
+            "en": "Configurable audio alarms for critical situations.",
+            "ru": "Настраиваемые звуковые сигналы для критических ситуаций."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Luzes operacionais para trem, flaps e combustível.",
+            "en": "Operational lights for gear, flaps and fuel.",
+            "ru": "Рабочие индикаторы шасси, закрылков и топлива."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.17.0",
+      "date": "2026-05-27",
+      "title": {
+        "pt": "Versão base",
+        "en": "Baseline version",
+        "ru": "Базовая версия"
+      },
+      "changes": [
+        {
+          "category": "infra",
+          "text": {
+            "pt": "Primeiro marco do projeto com controle de versão.",
+            "en": "First project milestone under version control.",
+            "ru": "Первая веха проекта под контролем версий."
+          }
+        }
+      ]
+    }
+  ]
+}
