@@ -1,13 +1,40 @@
 {
   "schema": 1,
-  "generatedAt": "2026-07-13T17:47:17.974Z",
-  "latestVersion": "0.33.0",
+  "generatedAt": "2026-07-15T15:46:22.906Z",
+  "latestVersion": "0.34.0",
   "langs": [
     "pt",
     "en",
     "ru"
   ],
   "entries": [
+    {
+      "version": "0.34.0",
+      "date": "2026-07-14",
+      "title": {
+        "pt": "v0.34.0 — Luna Gauges: instrumentos vivos e biblioteca",
+        "en": "v0.34.0 — Luna Gauges: live instruments and library",
+        "ru": "v0.34.0 — Luna Gauges: живые приборы и библиотека"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Luna Gauges chegou ao Pro: crie instrumentos personalizados que leem a telemetria ao vivo e use-os no painel, overlay e 2ª tela.",
+            "en": "Luna Gauges arrives for Pro: create custom instruments that read live telemetry and use them on the panel, overlay, and second screen.",
+            "ru": "Luna Gauges доступна в Pro: создавайте свои приборы, читающие телеметрию в реальном времени, и используйте их на панели, в оверлее и на втором экране."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Biblioteca Luna reorganizada: salve gauges em pastas, mova-os entre coleções e gere uma coleção editável completa a partir de um desenho.",
+            "en": "The Luna library is organized around folders: save gauges in folders, move them between collections, and generate a complete editable collection from one design.",
+            "ru": "Библиотека Luna теперь организована по папкам: сохраняйте приборы в папки, переносите их между коллекциями и создавайте полный редактируемый набор из одного дизайна."
+          }
+        }
+      ]
+    },
     {
       "version": "0.33.0",
       "date": "2026-07-13",
