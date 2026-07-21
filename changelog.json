@@ -1,13 +1,235 @@
 {
   "schema": 1,
-  "generatedAt": "2026-07-15T15:46:22.906Z",
-  "latestVersion": "0.34.0",
+  "generatedAt": "2026-07-21T01:26:57.587Z",
+  "latestVersion": "0.35.0",
   "langs": [
     "pt",
     "en",
     "ru"
   ],
   "entries": [
+    {
+      "version": "0.35.0",
+      "date": "2026-07-20",
+      "title": {
+        "pt": "v0.35 — a Base ficou mais completa",
+        "en": "v0.35 — the Base got more complete",
+        "ru": "v0.35 — the Base got more complete"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "A 2ª tela voltou pra Base: qualquer celular ou tablet vira um painel do seu voo, via rede (QR) ou cabo USB.",
+            "en": "The second screen is back in the Base: any phone or tablet becomes a panel for your flight, over the network (QR) or USB cable.",
+            "ru": "The second screen is back in the Base: any phone or tablet becomes a panel for your flight, over the network (QR) or USB cable."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Head tracking pela câmera (Volk) agora é da Base: use a câmera do PC ou do celular pra rastrear sua cabeça (o capacete HMD segue no Premium).",
+            "en": "Camera head tracking (Volk) is now in the Base: use your PC or phone camera to track your head (the HMD helmet stays Premium).",
+            "ru": "Camera head tracking (Volk) is now in the Base: use your PC or phone camera to track your head (the HMD helmet stays Premium)."
+          }
+        },
+        {
+          "category": "refactor",
+          "text": {
+            "pt": "VOR, ILS e PAPI passaram a fazer parte do pacote de navegação Premium (eles usam o GPS/mapa tático como estação).",
+            "en": "VOR, ILS and PAPI are now part of the Premium navigation pack (they use the GPS/tactical map as their station).",
+            "ru": "VOR, ILS and PAPI are now part of the Premium navigation pack (they use the GPS/tactical map as their station)."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.34.9",
+      "date": "2026-07-16",
+      "title": {
+        "pt": "v0.34.9 — ícones no editor de gauges",
+        "en": "v0.34.9 — icons in the gauge editor",
+        "ru": "v0.34.9 — значки в редакторе приборов"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "42 ícones desenhados à mão (água, óleo, combustível, trem, flaps, setas, avisos e mais) pra você marcar de relance o que cada gauge mede. No editor: + ADICIONAR → ícone.",
+            "en": "42 hand-drawn icons (water, oil, fuel, gear, flaps, arrows, warnings and more) so you can mark at a glance what each gauge reads. In the editor: + ADD → icon.",
+            "ru": "42 нарисованных вручную значка (вода, масло, топливо, шасси, закрылки, стрелки, предупреждения и другие), чтобы с первого взгляда понимать, что показывает прибор. В редакторе: + ДОБАВИТЬ → значок."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.34.8",
+      "date": "2026-07-16",
+      "title": {
+        "pt": "v0.34.8 — melhorias internas de ferramentas",
+        "en": "v0.34.8 — internal tooling improvements",
+        "ru": "v0.34.8 — внутренние улучшения инструментов"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Ferramentas internas e ajustes de estabilidade.",
+            "en": "Internal tooling and stability tweaks.",
+            "ru": "Внутренние инструменты и правки стабильности."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.34.7",
+      "date": "2026-07-16",
+      "title": {
+        "pt": "v0.34.7 — pouso automático removido",
+        "en": "v0.34.7 — autoland removed",
+        "ru": "v0.34.7 — автопосадка убрана"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "O indicador de pouso automático (experimental) saiu do app.",
+            "en": "The experimental autoland indicator was removed from the app.",
+            "ru": "Экспериментальный индикатор автопосадки убран из приложения."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.34.6",
+      "date": "2026-07-16",
+      "title": {
+        "pt": "v0.34.6 — melhorias internas de ferramentas",
+        "en": "v0.34.6 — internal tooling improvements",
+        "ru": "v0.34.6 — внутренние улучшения инструментов"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Ferramentas internas e ajustes de estabilidade.",
+            "en": "Internal tooling and stability tweaks.",
+            "ru": "Внутренние инструменты и правки стабильности."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.34.5",
+      "date": "2026-07-15",
+      "title": {
+        "pt": "v0.34.5 — melhorias internas de ferramentas",
+        "en": "v0.34.5 — internal tooling improvements",
+        "ru": "v0.34.5 — внутренние улучшения инструментов"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Ferramentas internas e ajustes de estabilidade.",
+            "en": "Internal tooling and stability tweaks.",
+            "ru": "Внутренние инструменты и правки стабильности."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.34.4",
+      "date": "2026-07-15",
+      "title": {
+        "pt": "v0.34.4 — Voltar ao menu de simuladores",
+        "en": "v0.34.4 — Back to the simulator menu",
+        "ru": "v0.34.4 — Возврат в меню симуляторов"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Agora dá pra voltar pra tela inicial de escolha de jogo sem fechar o app: pelo botão “voltar” do mouse, ou em Configurações → Simulador → “Menu de simuladores”.",
+            "en": "You can now return to the game-picker start screen without closing the app: via the mouse “back” button, or in Settings → Simulator → “Simulators menu”.",
+            "ru": "Теперь можно вернуться на стартовый экран выбора игры не закрывая приложение: кнопкой «назад» на мыши или в Настройки → Симулятор → «Меню симуляторов»."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.34.3",
+      "date": "2026-07-15",
+      "title": {
+        "pt": "v0.34.3 — DCS World chega em beta",
+        "en": "v0.34.3 — DCS World arrives in beta",
+        "ru": "v0.34.3 — DCS World в бета-версии"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "DCS World (beta): o app agora lê a telemetria do DCS e alimenta os mesmos instrumentos, overlay e 2ª tela. Atitude, velocidades, altitude (com rádio-altímetro real!), proa, AoA, G, motor, trem e flaps.",
+            "en": "DCS World (beta): the app now reads DCS telemetry and feeds the same instruments, overlay and 2nd screen. Attitude, speeds, altitude (with a real radar altimeter!), heading, AoA, G, engine, gear and flaps.",
+            "ru": "DCS World (бета): приложение теперь читает телеметрию DCS и питает те же приборы, оверлей и 2-й экран. Тангаж/крен, скорости, высота (с настоящим радиовысотомером!), курс, угол атаки, перегрузка, двигатель, шасси и закрылки."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Escolha o simulador na tela inicial (card DCS · beta) e instale o script de leitura em 1 clique nas Configurações → Simulador. Só leitura, seguro em multiplayer, não mexe nos seus outros programas de DCS.",
+            "en": "Pick your simulator on the start screen (DCS · beta card) and install the read-only script in one click under Settings → Simulator. Read-only, safe in multiplayer, doesn't touch your other DCS programs.",
+            "ru": "Выберите симулятор на стартовом экране (карточка DCS · бета) и установите скрипт чтения в один клик в Настройки → Симулятор. Только чтение, безопасно в мультиплеере, не трогает другие программы DCS."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.34.2",
+      "date": "2026-07-15",
+      "title": {
+        "pt": "v0.34.2 — Luna Gauges na 2ª tela + sincronia ao vivo",
+        "en": "v0.34.2 — Luna Gauges on the 2nd screen + live sync",
+        "ru": "v0.34.2 — Luna Gauges на 2-м экране + живая синхронизация"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Corrigido: seus Luna Gauges agora aparecem na 2ª tela (o tablet não recebia o desenho, só a referência — por isso ficavam em branco).",
+            "en": "Fixed: your Luna Gauges now show up on the 2nd screen (the tablet only got the reference, not the drawing — so they came up blank).",
+            "ru": "Исправлено: ваши Luna Gauges теперь отображаются на 2-м экране (планшет получал только ссылку, а не сам рисунок — поэтому было пусто)."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Edição ao vivo: mudou um gauge no PC e a 2ª tela atualiza na hora, sem precisar recarregar a página.",
+            "en": "Live editing: change a gauge on the PC and the 2nd screen updates instantly, no page reload needed.",
+            "ru": "Живое редактирование: меняете прибор на ПК — 2-й экран обновляется сразу, без перезагрузки страницы."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.34.1",
+      "date": "2026-07-15",
+      "title": {
+        "pt": "v0.34.1 — HMD travado no centro da tela",
+        "en": "v0.34.1 — HMD locked to screen center",
+        "ru": "v0.34.1 — HMD зафиксирован по центру экрана"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "No overlay, o HMD agora nasce sempre no centro exato da tela — alinhado com o crosshair e o HMD nativo do jogo. Um ajuste fino de calibração fica na aba VR, se você precisar.",
+            "en": "In the overlay, the HMD now always sits at the exact center of the screen — aligned with the crosshair and the game's own HMD. A fine calibration nudge lives in the VR tab if you need it.",
+            "ru": "В оверлее HMD теперь всегда находится точно по центру экрана — совпадает с прицелом и родным HMD игры. Точная подстройка есть во вкладке VR, если понадобится."
+          }
+        }
+      ]
+    },
     {
       "version": "0.34.0",
       "date": "2026-07-14",
