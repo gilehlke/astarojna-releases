@@ -1,13 +1,48 @@
 {
   "schema": 1,
-  "generatedAt": "2026-07-21T01:26:57.587Z",
-  "latestVersion": "0.35.0",
+  "generatedAt": "2026-07-21T20:24:07.635Z",
+  "latestVersion": "0.36.0",
   "langs": [
     "pt",
     "en",
     "ru"
   ],
   "entries": [
+    {
+      "version": "0.36.0",
+      "date": "2026-07-21",
+      "title": {
+        "pt": "v0.36 — várias telas principais + 2ª tela por aparelho",
+        "en": "v0.36 — multiple main screens + a screen per device",
+        "ru": "v0.36 — несколько основных экранов + экран на устройство"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Até 5 telas principais no Premium: monte painéis diferentes e troque entre eles por toque ou por atalho — como um grande MFD. Cada tela tem proporção e nome próprios.",
+            "en": "Up to 5 main screens on Premium: build different panels and switch between them by touch or hotkey — like a big MFD. Each screen has its own aspect and name.",
+            "ru": "До 5 основных экранов в Premium: соберите разные панели и переключайтесь касанием или горячей клавишей — как большой МФИ. У каждого экрана свои пропорции и имя."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Cada celular ou tablet pode mostrar uma tela diferente. E agora há limite de aparelhos por plano: 1 na Base, até 5 no Premium (aparece o contador N/M).",
+            "en": "Every phone or tablet can show a different screen. And there's now a device limit per plan: 1 on Base, up to 5 on Premium (with an N/M counter).",
+            "ru": "Каждый телефон или планшет может показывать свой экран. Появился лимит устройств по тарифу: 1 на Base, до 5 на Premium (со счётчиком N/M)."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Os atalhos de troca de tela funcionam com o War Thunder em foco, sem roubar o foco do jogo. E os botões da 2ª tela ganharam ícones desenhados no lugar dos emojis.",
+            "en": "The screen-switch hotkeys work with War Thunder focused, without stealing the game's focus. And the 2nd-screen buttons got drawn icons instead of emojis.",
+            "ru": "Горячие клавиши переключения экрана работают, когда War Thunder в фокусе, не перехватывая фокус игры. А кнопки второго экрана получили нарисованные значки вместо эмодзи."
+          }
+        }
+      ]
+    },
     {
       "version": "0.35.0",
       "date": "2026-07-20",
