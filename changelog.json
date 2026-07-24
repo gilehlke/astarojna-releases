@@ -1,13 +1,40 @@
 {
   "schema": 1,
-  "generatedAt": "2026-07-24T18:34:45.967Z",
-  "latestVersion": "0.36.6",
+  "generatedAt": "2026-07-24T19:53:11.663Z",
+  "latestVersion": "0.36.7",
   "langs": [
     "pt",
     "en",
     "ru"
   ],
   "entries": [
+    {
+      "version": "0.36.7",
+      "date": "2026-07-24",
+      "title": {
+        "pt": "v0.36.7 — pau e bola no editor + atitude sai do bind",
+        "en": "v0.36.7 — turn & slip in the editor + attitude out of binding",
+        "ru": "v0.36.7 — указатель поворота в редакторе + атитюд вне привязки"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Novo elemento no editor de gauges: o \"pau e bola\" (turn & slip) convencional, que você adiciona dentro da moldura — agulha = taxa de curva, bola = derrapagem (\"pise na bola\"). Cores da agulha, bola, tubo e marcas todas configuráveis. A agulha funciona até nos aviões que não mandam a taxa (deriva de banca + velocidade).",
+            "en": "New element in the gauge editor: the conventional turn & slip (\"needle and ball\") you drop inside the frame — needle = turn rate, ball = sideslip (\"step on the ball\"). Needle, ball, tube and mark colors all configurable. The needle works even on aircraft that don't send the rate (derived from bank + speed).",
+            "ru": "Новый элемент в редакторе приборов: классический указатель поворота и скольжения («стрелка и шарик»), который вы кладёте внутрь оправы — стрелка = скорость разворота, шарик = скольжение («дави на шарик»). Цвета стрелки, шарика, трубки и меток настраиваются. Стрелка работает даже на самолётах, не передающих скорость разворота (выводится из крена и скорости)."
+          }
+        },
+        {
+          "category": "refactor",
+          "text": {
+            "pt": "Arrumação: rolamento, arfagem e derrapagem deixaram de aparecer como \"métrica de ponteiro\" na criação de gauges — são atitude, pertencem ao horizonte e ao pau e bola, não a um ponteiro solto. E o desenho do inclinômetro virou fonte única (era copiado em dois lugares).",
+            "en": "Tidy-up: roll, pitch and sideslip no longer show up as a \"needle metric\" when creating gauges — they're attitude, they belong to the horizon and the turn & slip, not to a lone needle. And the inclinometer drawing became a single source (it was copied in two places).",
+            "ru": "Наведение порядка: крен, тангаж и скольжение больше не показываются как «метрика стрелки» при создании приборов — это атитюд, он принадлежит горизонту и указателю поворота, а не отдельной стрелке. А рисунок инклинометра стал единым источником (был скопирован в двух местах)."
+          }
+        }
+      ]
+    },
     {
       "version": "0.36.6",
       "date": "2026-07-24",
