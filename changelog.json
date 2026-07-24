@@ -1,13 +1,48 @@
 {
   "schema": 1,
-  "generatedAt": "2026-07-24T17:11:31.969Z",
-  "latestVersion": "0.36.3",
+  "generatedAt": "2026-07-24T18:06:00.934Z",
+  "latestVersion": "0.36.4",
   "langs": [
     "pt",
     "en",
     "ru"
   ],
   "entries": [
+    {
+      "version": "0.36.4",
+      "date": "2026-07-24",
+      "title": {
+        "pt": "v0.36.4 — horizonte artificial no editor + Horizonte Globo (experimental)",
+        "en": "v0.36.4 — artificial horizon in the editor + Globe Horizon (experimental)",
+        "ru": "v0.36.4 — авиагоризонт в редакторе + «Шар» (экспериментально)"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Horizonte GLOBO (experimental), novo gauge do painel: em vez da bola chapada, uma esfera de verdade. Além de arfagem e rolamento ela gira com a PROA e a escala de rumo passa pela frente — a ideia daquelas bússolas de bola penduradas no para-brisa, no jeito do Draken. O rumo se lê no meridiano central, sob o índice ▼.",
+            "en": "Globe Horizon (experimental), a new panel gauge: instead of the flat ball, an actual sphere. On top of pitch and roll it spins with HEADING and the compass scale passes across the front — the idea of those ball compasses hanging from the windshield, done the Draken way. Heading reads on the centre meridian, under the ▼ index.",
+            "ru": "Горизонт-ШАР (экспериментально), новый прибор панели: вместо плоского шарика — настоящая сфера. Кроме тангажа и крена она вращается вместе с КУРСОМ, и шкала курса проходит спереди — та самая идея шаровых компасов на лобовом стекле, в духе Draken. Курс читается по центральному меридиану, под указателем ▼."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Horizonte artificial virou camada do editor de gauges, com janela redonda e três modos: globo, clássico (céu e terra giram) e estático (céu e terra só sobem e descem, quem gira é o avião — jeito russo). Cores, escada de arfagem, escala de inclinação e moldura são todas configuráveis.",
+            "en": "The artificial horizon is now a gauge-editor layer, with a round window and three modes: globe, classic (sky and ground rotate) and static (sky and ground only move up and down, the aircraft symbol is what rolls — the Russian way). Colours, pitch ladder, bank scale and bezel are all configurable.",
+            "ru": "Авиагоризонт стал слоем редактора приборов, с круглым окном и тремя режимами: шар, классический (небо и земля вращаются) и статический (небо и земля только поднимаются и опускаются, вращается символ самолёта — по-русски). Цвета, шкала тангажа, шкала крена и оправа настраиваются."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Arfagem e rolamento viraram leituras disponíveis no editor: dá pra ligar num ponteiro ou numa leitura numérica do seu gauge. Elas não aparecem na lista de gauges do painel — são fonte de dado, não indicador.",
+            "en": "Pitch and roll are now readings you can use in the editor: bind them to a needle or a numeric readout in your own gauge. They don't show up in the panel's gauge list — they're a data source, not an instrument.",
+            "ru": "Тангаж и крен теперь доступны как показания в редакторе: их можно привязать к стрелке или цифровому индикатору своего прибора. В списке приборов панели они не появляются — это источник данных, а не индикатор."
+          }
+        }
+      ]
+    },
     {
       "version": "0.36.3",
       "date": "2026-07-24",
