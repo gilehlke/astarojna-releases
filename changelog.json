@@ -1,13 +1,40 @@
 {
   "schema": 1,
-  "generatedAt": "2026-07-24T18:15:15.337Z",
-  "latestVersion": "0.36.5",
+  "generatedAt": "2026-07-24T18:34:45.967Z",
+  "latestVersion": "0.36.6",
   "langs": [
     "pt",
     "en",
     "ru"
   ],
   "entries": [
+    {
+      "version": "0.36.6",
+      "date": "2026-07-24",
+      "title": {
+        "pt": "v0.36.6 — Horizonte Bola АГД (grade) + barrinha de slip",
+        "en": "v0.36.6 — Ball (АГД) attitude horizon + slip strip",
+        "ru": "v0.36.6 — авиагоризонт «Шар» (АГД, сетка) + полоса скольжения"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Novo horizonte experimental: a Bola АГД (all-attitude indicator clássico). Em vez da faixa de rumo do Globo, a esfera inteira é gradeada em meridianos verticais com graduação de arfagem ao longo de cada um, e o equador leva a escala de rumo (N/E/S/W). A referência é aquele instrumento russo de bola. Está no painel como gauge próprio e no editor como o modo \"globo gradeado\".",
+            "en": "New experimental horizon: the Ball (classic all-attitude indicator). Instead of the Globe's heading band, the whole sphere is gridded with vertical meridians graduated in pitch along each one, and the equator carries the heading scale (N/E/S/W). The reference is that Russian ball instrument. It's in the panel as its own gauge and in the editor as the \"gridded globe\" mode.",
+            "ru": "Новый экспериментальный горизонт: «Шар» (классический АГД). Вместо ленты курса у «Глобуса» вся сфера покрыта вертикальными меридианами с градуировкой тангажа вдоль каждого, а по экватору идёт шкала курса (N/E/S/W). Ориентир — тот самый русский шаровой прибор. Есть в панели как отдельный прибор и в редакторе как режим «шар с сеткой»."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Barrinha de slip (pau e bola) na base dos dois horizontes de esfera: a bolinha corre pro lado da derrapagem — \"pise na bola\" pra coordenar a curva. Usa o mesmo sideslip do Turn & Bank. Dá pra ligar/desligar na camada de horizonte do editor.",
+            "en": "Slip strip (the inclinometer ball) at the bottom of both sphere horizons: the ball slides toward the sideslip — \"step on the ball\" to coordinate the turn. Uses the same sideslip as the Turn & Bank. Toggle it on the editor's horizon layer.",
+            "ru": "Полоса скольжения (шарик-инклинометр) внизу обоих шаровых горизонтов: шарик уходит в сторону скольжения — «дави на шарик», чтобы скоординировать вираж. Использует то же скольжение, что и указатель поворота. Включается в слое горизонта редактора."
+          }
+        }
+      ]
+    },
     {
       "version": "0.36.5",
       "date": "2026-07-24",
