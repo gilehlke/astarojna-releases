@@ -1,13 +1,48 @@
 {
   "schema": 1,
-  "generatedAt": "2026-07-24T18:06:00.934Z",
-  "latestVersion": "0.36.4",
+  "generatedAt": "2026-07-24T18:15:15.337Z",
+  "latestVersion": "0.36.5",
   "langs": [
     "pt",
     "en",
     "ru"
   ],
   "entries": [
+    {
+      "version": "0.36.5",
+      "date": "2026-07-24",
+      "title": {
+        "pt": "v0.36.5 — ícone e etiqueta como itens próprios + vibração na 2ª tela",
+        "en": "v0.36.5 — icon and unit label as their own items + haptics on the 2nd screen",
+        "ru": "v0.36.5 — значок и подпись как отдельные элементы + вибрация на 2-м экране"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "No editor, o ícone virou item independente: um clique em \"ícone\" adiciona a camada (já no automático, seguindo o indicador do gauge) e a escolha — automático ou um do catálogo — é feita nas propriedades, igual a qualquer outra camada.",
+            "en": "In the editor the icon is now an independent item: one click on \"icon\" adds the layer (already automatic, following the gauge's reading) and the choice — automatic or one from the catalogue — happens in the properties, like any other layer.",
+            "ru": "В редакторе значок стал самостоятельным элементом: один клик по \"значку\" добавляет слой (сразу автоматический, следует за показанием прибора), а выбор — авто или из каталога — делается в свойствах, как у любого слоя."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Os ícones dos indicadores agora são a SIGLA em texto: IAS, ALT, MACH, EGT, OIL, AoA… num mostrador pequeno a sigla identifica melhor que desenho. Os 20 desenhos continuam no catálogo (categoria \"Indicadores (desenho)\") pra quem preferir. E a etiqueta de unidade ganhou botão próprio: \"+ ADICIONAR → unidade ×N\" — antes ela estava escondida dentro das propriedades do texto.",
+            "en": "Reading icons are now the ABBREVIATION as text: IAS, ALT, MACH, EGT, OIL, AoA… on a small dial the abbreviation identifies it better than a drawing. The 20 drawings stay in the catalogue (\"Indicators (drawing)\") for whoever prefers them. And the unit label got its own button: \"+ ADD → unit ×N\" — it used to be buried in the text layer's properties.",
+            "ru": "Значки показаний теперь — СОКРАЩЕНИЕ текстом: IAS, ALT, MACH, EGT, OIL, AoA… на маленьком циферблате сокращение читается лучше рисунка. 20 рисунков остались в каталоге («Показания (рисунок)»). А у подписи единицы появилась своя кнопка: «+ ДОБАВИТЬ → единица ×N» — раньше она пряталась в свойствах текста."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "2ª tela: feedback TÁTIL. Cada toque em botão dá um tranco curto no vibrador do aparelho, pra confirmar o comando sem tirar o olho do jogo. Liga e desliga no botão de vibração (canto superior direito); só aparece no Android, porque o iPhone/iPad não expõe vibração ao navegador.",
+            "en": "2nd screen: HAPTIC feedback. Every button tap gives a short buzz on the device, confirming the command without taking your eyes off the game. Toggle it on the vibration button (top right); Android only, since iPhone/iPad don't expose vibration to the browser.",
+            "ru": "2-й экран: ТАКТИЛЬНАЯ отдача. Каждое касание кнопки даёт короткий импульс вибрации — подтверждение команды, не отрывая глаз от игры. Включается кнопкой вибрации (справа сверху); только Android, iPhone/iPad не дают браузеру вибрацию."
+          }
+        }
+      ]
+    },
     {
       "version": "0.36.4",
       "date": "2026-07-24",
