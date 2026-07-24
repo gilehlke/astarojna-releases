@@ -1,13 +1,48 @@
 {
   "schema": 1,
-  "generatedAt": "2026-07-24T19:53:11.663Z",
-  "latestVersion": "0.36.7",
+  "generatedAt": "2026-07-24T20:21:43.106Z",
+  "latestVersion": "0.36.8",
   "langs": [
     "pt",
     "en",
     "ru"
   ],
   "entries": [
+    {
+      "version": "0.36.8",
+      "date": "2026-07-24",
+      "title": {
+        "pt": "v0.36.8 — presets de bom senso: compasso, VSI, altímetro + VNE real",
+        "en": "v0.36.8 — sensible presets: compass, VSI, altimeter + real VNE",
+        "ru": "v0.36.8 — разумные пресеты: компас, вариометр, высотомер + реальный VNE"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Cada mostrador criado no editor agora nasce com o \"bom senso\" do instrumento de verdade: HDG vira um COMPASSO de 360° contínuo (N no topo, ponteiro emenda 359→0); V/S nasce com o ZERO à esquerda (climb pra cima, descida pra baixo); ALT vira um ALTÍMETRO de anel 0-9 com o ponteiro dando a volta (a leitura digital mostra a altitude cheia). Pra isso o ponteiro ganhou o modo \"dar a volta\" (wrap).",
+            "en": "Every dial created in the editor is now born with the real instrument's common sense: HDG becomes a continuous 360° COMPASS (N at top, needle wraps 359→0); V/S is born with ZERO on the left (climb up, descent down); ALT becomes an ALTIMETER with a 0-9 ring and the needle wrapping around (the digital readout shows full altitude). For this the needle gained a \"wrap around\" mode.",
+            "ru": "Каждый циферблат в редакторе теперь рождается с «здравым смыслом» настоящего прибора: HDG становится непрерывным КОМПАСОМ 360° (N сверху, стрелка переходит 359→0); V/S — с НУЛЁМ слева (набор вверх, снижение вниз); ALT — ВЫСОТОМЕРОМ с кольцом 0-9 и стрелкой, идущей по кругу (цифровое табло показывает полную высоту). Для этого у стрелки появился режим «идти по кругу» (wrap)."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "O velocímetro Luna agora adota a VNE REAL da aeronave, como os gauges nativos: a escala e as zonas verde/amarela/vermelha se ajustam a cada avião. O \"simular zonas\" virou só o preview do editor (com um botão pra fixar a VNE, se você quiser).",
+            "en": "The Luna airspeed dial now adopts the aircraft's REAL VNE, like the native gauges: the scale and the green/amber/red zones adjust per plane. \"Simulate zones\" became just the editor preview (with a button to pin the VNE if you want).",
+            "ru": "Прибор скорости Luna теперь берёт РЕАЛЬНЫЙ VNE самолёта, как штатные приборы: шкала и зоны зелёная/жёлтая/красная подстраиваются под каждый самолёт. «Симуляция зон» стала лишь предпросмотром редактора (с кнопкой закрепить VNE, если нужно)."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "No \"novo gauge\" do editor apareceram os INSTRUMENTOS prontos: compasso, horizonte globo, bola АГД, horizonte clássico e pau e bola — você começa o gauge inteiro num clique, sem precisar empilhar a camada sobre outro mostrador.",
+            "en": "The editor's \"new gauge\" got ready-made INSTRUMENTS: compass, globe horizon, ball (АГД), classic horizon and turn & slip — you start a whole gauge in one click, no need to stack the layer on top of another dial.",
+            "ru": "В «новом приборе» редактора появились готовые ПРИБОРЫ: компас, горизонт-шар, шар (АГД), классический горизонт и указатель поворота — целый прибор одним кликом, без наложения слоя поверх другого циферблата."
+          }
+        }
+      ]
+    },
     {
       "version": "0.36.7",
       "date": "2026-07-24",
