@@ -1,13 +1,126 @@
 {
   "schema": 1,
-  "generatedAt": "2026-07-21T20:24:07.635Z",
-  "latestVersion": "0.36.0",
+  "generatedAt": "2026-07-24T17:11:31.969Z",
+  "latestVersion": "0.36.3",
   "langs": [
     "pt",
     "en",
     "ru"
   ],
   "entries": [
+    {
+      "version": "0.36.3",
+      "date": "2026-07-24",
+      "title": {
+        "pt": "v0.36.3 — editor de gauges: escala certa, etiqueta e ícone automáticos",
+        "en": "v0.36.3 — gauge editor: right scale, automatic label and icon",
+        "ru": "v0.36.3 — редактор приборов: верная шкала, авто-подпись и авто-значок"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Criar coleção agora abre uma lista com todos os indicadores e você marca só os que quer — cada linha já mostra o passo dos números e a unidade que aquele gauge vai receber.",
+            "en": "Create collection now opens a list of every reading and you tick only the ones you want — each row already shows the number step and the unit that gauge will get.",
+            "ru": "«Создать коллекцию» теперь открывает список всех показаний, и вы отмечаете только нужные — в каждой строке уже видно шаг чисел и единицу, которую получит прибор."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Escala corrigida ao clonar: um mostrador de IAS (número a cada 200) copiado pro ângulo de ataque só mostrava o \"0\". Agora cada indicador recebe a leitura que faz sentido nele — AoA de 5 em 5 com traço de grau em grau, óleo e água de 20 em 20, altitude e RPM em milhares, EGT em centenas. Vale também ao trocar a métrica do mostrador no editor.",
+            "en": "Scale fixed when cloning: an IAS dial (a number every 200) copied to angle of attack showed only \"0\". Now every reading gets a scale that makes sense for it — AoA every 5 with a tick per degree, oil and water every 20, altitude and RPM in thousands, EGT in hundreds. Same when you switch the dial's metric in the editor.",
+            "ru": "Исправлена шкала при копировании: циферблат IAS (число каждые 200), скопированный на угол атаки, показывал только «0». Теперь каждое показание получает разумную шкалу — AoA каждые 5 с деления через градус, масло и вода каждые 20, высота и обороты в тысячах, EGT в сотнях. То же при смене метрики циферблата в редакторе."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Etiqueta automática: em vez de digitar \"km/h x100\" na mão, a camada de texto pode seguir o indicador — unidade com multiplicador, sigla do indicador (no idioma do gauge) ou os dois. Mexeu no divisor, a etiqueta acompanha.",
+            "en": "Automatic label: instead of typing \"km/h x100\" by hand, a text layer can follow the reading — unit with multiplier, the reading's abbreviation (in the gauge's language), or both. Change the divisor and the label follows.",
+            "ru": "Авто-подпись: вместо ручного «km/h x100» текстовый слой может следовать за показанием — единица с множителем, сокращение показания (на языке прибора) или и то, и другое. Изменили делитель — подпись обновится."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "20 ícones novos desenhados à mão, um por indicador (IAS, TAS, MACH, ALT, RA, V/S, HDG, RPM, THR, MAP, hélice, óleo, água, cabeça do cilindro, EGT, combustível, consumo, G, AoA, radiador) e uma camada de \"ícone automático\" que segue a métrica do gauge. Dá pra escolher qual ícone cada indicador usa — ou deixar em branco.",
+            "en": "20 new hand-drawn icons, one per reading (IAS, TAS, MACH, ALT, RA, V/S, HDG, RPM, THR, MAP, prop, oil, water, cylinder head, EGT, fuel, flow, G, AoA, radiator) plus an \"automatic icon\" layer that follows the gauge's metric. You choose which icon each reading uses — or leave it blank.",
+            "ru": "20 новых рисованных значков, по одному на показание (IAS, TAS, MACH, ALT, RA, V/S, HDG, RPM, THR, MAP, винт, масло, вода, головка цилиндра, EGT, топливо, расход, G, AoA, радиатор) плюс слой «авто-значок», который следует за метрикой прибора. Вы выбираете, какой значок у какого показания — или оставляете пустым."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Listas de indicador em ordem alfabética (na paleta de adicionar gauge e no editor), gauges novos nascem com nome curto de cabine (IAS, AoA, OIL) e a camada de ícone parou de aparecer como \"imagem\" na lista de layers.",
+            "en": "Reading lists in alphabetical order (in the add-gauge palette and in the editor), new gauges are born with a short cockpit name (IAS, AoA, OIL), and the icon layer stopped showing up as \"image\" in the layer list.",
+            "ru": "Списки показаний по алфавиту (в палитре добавления прибора и в редакторе), новые приборы получают короткое кабинное имя (IAS, AoA, OIL), а слой значка перестал отображаться как «изображение» в списке слоёв."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.36.2",
+      "date": "2026-07-22",
+      "title": {
+        "pt": "v0.36.2 — ajustes da calibração e da 2ª tela",
+        "en": "v0.36.2 — calibration and 2nd-screen fixes",
+        "ru": "v0.36.2 — правки калибровки и 2-го экрана"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Calibrar a câmera pelo celular agora abre a aba Head Track sozinha e mostra os alvos por cima — antes você precisava abrir a aba na mão.",
+            "en": "Calibrating the camera from your phone now opens the Head Track tab on its own and shows the targets on top — before, you had to open the tab by hand.",
+            "ru": "Калибровка камеры с телефона теперь сама открывает вкладку Head Track и показывает точки поверх — раньше вкладку приходилось открывать вручную."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Leitura do head tracking pelo celular ficou bem mais suave: quando a fonte é o app do celular, entra mais suavização e predição (dá pra afinar nos sliders — é um perfil só do celular).",
+            "en": "Head tracking from the phone is much smoother now: when the source is the phone app, extra smoothing and prediction kick in (tune it in the sliders — it's a phone-only profile).",
+            "ru": "Отслеживание головы с телефона стало заметно плавнее: когда источник — приложение на телефоне, добавляются сглаживание и предсказание (настраивается ползунками — это отдельный профиль телефона)."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Editor de overlay no tablet ganhou o seletor de proporção de tela (antes só 16:9), e os botões Atualizar e VOLK do celular ganharam visual de MFD.",
+            "en": "The overlay editor on the tablet got an aspect-ratio picker (before it was 16:9 only), and the phone's Reload and VOLK buttons got an MFD look.",
+            "ru": "В редакторе оверлея на планшете появился выбор пропорций экрана (раньше только 16:9), а кнопки «Обновить» и VOLK на телефоне получили вид МФИ."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.36.1",
+      "date": "2026-07-21",
+      "title": {
+        "pt": "v0.36.1 — calibração do Volk pelo celular",
+        "en": "v0.36.1 — calibrate Volk from your phone",
+        "ru": "v0.36.1 — калибровка Volk с телефона"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Dá pra calibrar o head tracking direto do celular: um menu novo no VOLK com botão Calibrar. O celular usa o acelerômetro pra medir a inclinação e o app do PC roda os pontos em tela cheia — e isso vira um perfil SÓ do celular, sem bagunçar a calibração da webcam.",
+            "en": "You can now calibrate head tracking straight from your phone: a new menu in VOLK with a Calibrate button. The phone uses its accelerometer to measure the tilt and the PC app runs the points in fullscreen — and it becomes a profile just for the phone, without messing up your webcam calibration.",
+            "ru": "Теперь голову можно калибровать прямо с телефона: новое меню в VOLK с кнопкой «Калибровка». Телефон измеряет наклон акселерометром, а приложение на ПК показывает точки на весь экран — и это становится отдельным профилем для телефона, не затрагивая калибровку веб-камеры."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Canal de Teste mais confiável: se não houver versão de teste mais nova, o app pega a estável (antes dava pra ficar preso numa versão antiga).",
+            "en": "Test channel is more reliable: if there's no newer test build, the app takes the stable one (before, you could get stuck on an old version).",
+            "ru": "Тестовый канал надёжнее: если новой тестовой сборки нет, приложение берёт стабильную (раньше можно было застрять на старой версии)."
+          }
+        }
+      ]
+    },
     {
       "version": "0.36.0",
       "date": "2026-07-21",
