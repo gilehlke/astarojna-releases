@@ -1,13 +1,56 @@
 {
   "schema": 1,
-  "generatedAt": "2026-07-24T20:21:43.106Z",
-  "latestVersion": "0.36.8",
+  "generatedAt": "2026-07-25T22:26:49.139Z",
+  "latestVersion": "0.37.0",
   "langs": [
     "pt",
     "en",
     "ru"
   ],
   "entries": [
+    {
+      "version": "0.37.0",
+      "date": "2026-07-25",
+      "title": {
+        "pt": "v0.37.0 — editor de gauges repaginado + horizontes de esfera + 2ª tela móvel",
+        "en": "v0.37.0 — reworked gauge editor + sphere horizons + mobile 2nd screen",
+        "ru": "v0.37.0 — переработанный редактор приборов + шаровые горизонты + мобильный 2-й экран"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Editor de gauges (Luna) muito mais esperto: cada indicador nasce com a escala CERTA (o ângulo de ataque não sai mais só com o \"0\"), etiqueta de unidade e ícone automáticos que seguem a métrica, coleção com checkbox pra escolher só os indicadores que você quer, e mais de 60 ícones desenhados à mão — incluindo as siglas (IAS, ALT, MACH…) como ícone.",
+            "en": "The gauge editor (Luna) got much smarter: every reading is born with the RIGHT scale (angle of attack no longer shows only the \"0\"), automatic unit label and icon that follow the metric, a checkbox collection to pick only the readings you want, and 60+ hand-drawn icons — including the abbreviations (IAS, ALT, MACH…) as icons.",
+            "ru": "Редактор приборов (Luna) стал намного умнее: каждое показание рождается с ПРАВИЛЬНОЙ шкалой (угол атаки больше не показывает только «0»), авто-подпись единицы и значок, следующие за метрикой, коллекция с флажками для выбора нужных показаний и более 60 рисованных значков — включая сокращения (IAS, ALT, MACH…) как значки."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Horizonte artificial no editor + dois instrumentos de esfera novos (experimentais): o Horizonte Globo, que gira com a proa como a bola do Draken, e a Bola АГД, gradeada como o all-attitude clássico russo. Com barrinha de slip (pau e bola) na base — e o pau e bola também virou elemento solto do editor.",
+            "en": "Artificial horizon in the editor + two new sphere instruments (experimental): the Globe Horizon that spins with heading like the Draken ball, and the Ball (АГД), gridded like the classic Russian all-attitude indicator. With a slip strip (needle and ball) at the bottom — and turn & slip is now a standalone editor element too.",
+            "ru": "Авиагоризонт в редакторе + два новых шаровых прибора (экспериментально): Горизонт-Шар, вращающийся с курсом как шар Draken, и Шар (АГД) с сеткой как классический русский АГД. С полосой скольжения (стрелка и шарик) внизу — и указатель поворота теперь тоже отдельный элемент редактора."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Presets de bom senso: HDG vira compasso 360° contínuo, V/S nasce com o zero à esquerda, ALT vira altímetro de anel com o ponteiro dando a volta. E o velocímetro adota a VNE REAL da aeronave — escala e zonas se ajustam a cada avião.",
+            "en": "Sensible presets: HDG becomes a continuous 360° compass, V/S is born with zero on the left, ALT becomes a ring altimeter with the needle wrapping around. And the airspeed dial adopts the aircraft's REAL VNE — scale and zones adjust per plane.",
+            "ru": "Разумные пресеты: HDG становится непрерывным компасом 360°, V/S рождается с нулём слева, ALT — кольцевым высотомером со стрелкой, идущей по кругу. А прибор скорости берёт РЕАЛЬНЫЙ VNE самолёта — шкала и зоны подстраиваются под каждый самолёт."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "2ª tela: calibração móvel do head tracking (Volk) coordenada entre PC e celular, e feedback tátil — o aparelho vibra ao tocar nos botões (Android).",
+            "en": "2nd screen: mobile head-tracking (Volk) calibration coordinated between PC and phone, and haptic feedback — the device buzzes on button taps (Android).",
+            "ru": "2-й экран: мобильная калибровка слежения за головой (Volk), согласованная между ПК и телефоном, и тактильная отдача — устройство вибрирует при нажатии кнопок (Android)."
+          }
+        }
+      ]
+    },
     {
       "version": "0.36.8",
       "date": "2026-07-24",
