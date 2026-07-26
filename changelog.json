@@ -1,13 +1,64 @@
 {
   "schema": 1,
-  "generatedAt": "2026-07-26T16:06:06.678Z",
-  "latestVersion": "0.37.3",
+  "generatedAt": "2026-07-26T16:36:19.351Z",
+  "latestVersion": "0.38.0",
   "langs": [
     "pt",
     "en",
     "ru"
   ],
   "entries": [
+    {
+      "version": "0.38.0",
+      "date": "2026-07-26",
+      "title": {
+        "pt": "v0.38.0 — família de instrumentos premium: acabamento novo, reflexo de vidro, modo noturno e mais",
+        "en": "v0.38.0 — premium instrument family: new finish, glass reflection, night mode & more",
+        "ru": "v0.38.0 — премиальное семейство приборов: новая отделка, блик стекла, ночной режим и не только"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "TODOS os instrumentos Classic ganharam um acabamento premium e consistente: aro de metal com profundidade, mostrador off-white e vidro — do velocímetro, altímetro, proa e horizonte ao VOR, ILS e coordenador de curva.",
+            "en": "EVERY Classic instrument got a premium, consistent finish: a metal bezel with depth, an off-white dial and glass — from airspeed, altimeter, heading and horizon to VOR, ILS and turn coordinator.",
+            "ru": "ВСЕ приборы Classic получили премиальную единообразную отделку: металлический ободок с глубиной, off-white циферблат и стекло — от указателя скорости, высотомера, курса и авиагоризонта до VOR, ILS и координатора разворота."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "O reflexo do vidro reage à inclinação da aeronave: uma estria de luz varre o mostrador conforme você inclina, e some quando você voa de cabeça pra baixo — como um instrumento de verdade.",
+            "en": "The glass reflection reacts to the aircraft's attitude: a streak of light sweeps across the dial as you bank, and vanishes when you fly inverted — like a real instrument.",
+            "ru": "Блик стекла реагирует на положение самолёта: полоса света скользит по циферблату при крене и исчезает при полёте вверх ногами — как настоящий прибор."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Modo noturno com lâmpada de cabine: escurece o painel e acende uma luz quente (laranja/amarelo/verde) vinda de cima, pra voo noturno.",
+            "en": "Night mode with a cockpit lamp: dims the panel and lights a warm glow (amber/yellow/green) from the top, for night flying.",
+            "ru": "Ночной режим с лампой кабины: затемняет панель и зажигает тёплый свет (янтарь/жёлтый/зелёный) сверху, для ночных полётов."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Tremor de agulha (buffet) opcional, por aeronave: a agulha vibra de leve perto do estol e da VNE — com uma aba de ajuste e simulação ao vivo. Desligado por padrão.",
+            "en": "Optional needle tremor (buffet), per aircraft: the needle shakes slightly near stall and VNE — with a settings tab and live simulation. Off by default.",
+            "ru": "Опциональное дрожание стрелки (баффет), по самолёту: стрелка слегка дрожит у срыва и VNE — со вкладкой настроек и живой симуляцией. Выключено по умолчанию."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "As melhorias premium também chegam aos gauges customizados do Luna. E o estilo antes chamado \"astarojna\" agora se chama \"Original\".",
+            "en": "The premium upgrades also reach your custom Luna gauges. And the style formerly called \"astarojna\" is now called \"Original\".",
+            "ru": "Премиум-улучшения также доступны для ваших кастомных приборов Luna. А стиль, ранее называвшийся «astarojna», теперь называется «Original»."
+          }
+        }
+      ]
+    },
     {
       "version": "0.37.3",
       "date": "2026-07-26",
