@@ -1,13 +1,40 @@
 {
   "schema": 1,
-  "generatedAt": "2026-07-26T15:22:00.950Z",
-  "latestVersion": "0.37.2",
+  "generatedAt": "2026-07-26T16:06:06.678Z",
+  "latestVersion": "0.37.3",
   "langs": [
     "pt",
     "en",
     "ru"
   ],
   "entries": [
+    {
+      "version": "0.37.3",
+      "date": "2026-07-26",
+      "title": {
+        "pt": "v0.37.3 — reflexo de vidro linear e natural + lâmpada que ilumina",
+        "en": "v0.37.3 — linear, natural glass reflection + a lamp that illuminates",
+        "ru": "v0.37.3 — линейный естественный блик стекла + лампа, которая освещает"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "O reflexo do vidro virou uma ESTRIA linear de luz (antes era um círculo opaco que \"passeava\"): mais natural, varre o mostrador conforme a inclinação, e SOME quando você voa de cabeça pra baixo — o próprio avião faz sombra sobre o painel.",
+            "en": "The glass reflection is now a LINEAR light streak (was an opaque circle that \"wandered\"): more natural, it sweeps across the dial with bank, and VANISHES when you fly inverted — the airframe itself shadows the panel.",
+            "ru": "Блик стекла теперь ЛИНЕЙНАЯ полоса света (был непрозрачный круг, что «блуждал»): естественнее, скользит по циферблату при крене и ИСЧЕЗАЕТ при полёте вверх ногами — сам планёр затеняет панель."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "A lâmpada do modo noturno agora ILUMINA os instrumentos com luz quente pálida (em vez de tingir tudo de laranja), num facho mais concentrado no topo — dá pra ler melhor à noite.",
+            "en": "The night-mode lamp now ILLUMINATES the instruments with pale warm light (instead of tinting everything orange), in a tighter pool at the top — easier to read at night.",
+            "ru": "Лампа ночного режима теперь ОСВЕЩАЕТ приборы бледным тёплым светом (а не красит всё в оранжевый), более узким пятном сверху — читать ночью легче."
+          }
+        }
+      ]
+    },
     {
       "version": "0.37.2",
       "date": "2026-07-26",
