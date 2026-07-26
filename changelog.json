@@ -1,13 +1,64 @@
 {
   "schema": 1,
-  "generatedAt": "2026-07-26T04:45:01.100Z",
-  "latestVersion": "0.37.1",
+  "generatedAt": "2026-07-26T15:22:00.950Z",
+  "latestVersion": "0.37.2",
   "langs": [
     "pt",
     "en",
     "ru"
   ],
   "entries": [
+    {
+      "version": "0.37.2",
+      "date": "2026-07-26",
+      "title": {
+        "pt": "v0.37.2 — VOR/ILS/Turn premium, reflexo que reage ao bank, modo noturno + tremor de agulha",
+        "en": "v0.37.2 — VOR/ILS/Turn premium, reflection reacts to bank, night mode + needle tremor",
+        "ru": "v0.37.2 — VOR/ILS/Turn премиум, блик реагирует на крен, ночной режим + дрожание стрелки"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "VOR, ILS e Turn Coordinator entraram na família premium: mesmo aro de metal, vidro e mostrador off-white dos outros — mantendo o verde do CDI (VOR) e as barras amarelas (ILS), que são convenção de aviação.",
+            "en": "VOR, ILS and Turn Coordinator joined the premium family: the same metal bezel, glass and off-white dial as the rest — keeping the green CDI (VOR) and yellow bars (ILS), which are aviation convention.",
+            "ru": "VOR, ILS и Turn Coordinator вошли в премиум-семейство: тот же металлический ободок, стекло и off-white циферблат — с сохранением зелёного CDI (VOR) и жёлтых планок (ILS), это авиационная конвенция."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "O reflexo do vidro agora REAGE À INCLINAÇÃO: a luz fica \"parada\" no mundo enquanto o instrumento rola com a aeronave, e o brilho varre o mostrador. Ligado por padrão (Ajustes → Estilo, dá pra desligar).",
+            "en": "Glass reflection now REACTS TO BANK: the light stays fixed in the world while the instrument rolls with the aircraft, and the glare sweeps across the dial. On by default (Settings → Style, can be turned off).",
+            "ru": "Блик стекла теперь РЕАГИРУЕТ НА КРЕН: свет «стоит на месте» в мире, пока прибор кренится с самолётом, и блик скользит по циферблату. Включено по умолчанию (Настройки → Стиль, можно выключить)."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Modo noturno + lâmpada de cabine: escurece o painel e acende um brilho quente de cima-pro-centro, cor à escolha (laranja/amarelo/verde). Só em jogo/overlay/2ª tela; o escurecimento é capado pra não apagar os ponteiros.",
+            "en": "Night mode + cockpit lamp: dims the panel and lights a warm glow from top-center, your choice of color (amber/yellow/green). Game/overlay/2nd-screen only; dimming is capped so it won't kill the needles.",
+            "ru": "Ночной режим + лампа кабины: затемняет панель и зажигает тёплое свечение сверху-по-центру, цвет на выбор (янтарь/жёлтый/зелёный). Только в игре/оверлее/2-м экране; затемнение ограничено, чтобы не гасить стрелки."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Tremor de agulha (buffet), DESLIGADO por padrão: a agulha vibra de leve perto do estol e da VNE (por aeronave, usando AoA e VNE reais), suave no cruzeiro. Aba própria em Ajustes com simulação ao vivo — segure a barra pra sentir o tremor máximo.",
+            "en": "Needle tremor (buffet), OFF by default: the needle shakes slightly near stall and VNE (per aircraft, using real AoA and VNE), gentle in cruise. Its own Settings tab with a live simulation — hold the slider to feel the max tremor.",
+            "ru": "Дрожание стрелки (баффет), ВЫКЛючено по умолчанию: стрелка слегка дрожит у срыва и VNE (по самолёту, по реальным AoA и VNE), спокойно в крейсере. Своя вкладка в настройках с живой симуляцией — удерживайте ползунок, чтобы почувствовать максимум."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "As melhorias premium (aro metálico + vidro + reflexo que reage ao bank) agora também podem ser aplicadas aos seus gauges customizados do Luna.",
+            "en": "The premium upgrades (metal bezel + glass + bank-reactive reflection) can now also be applied to your custom Luna gauges.",
+            "ru": "Премиум-улучшения (металлический ободок + стекло + блик, реагирующий на крен) теперь можно применить и к своим кастомным приборам Luna."
+          }
+        }
+      ]
+    },
     {
       "version": "0.37.1",
       "date": "2026-07-26",
