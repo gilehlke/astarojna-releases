@@ -1,13 +1,32 @@
 {
   "schema": 1,
-  "generatedAt": "2026-07-26T16:36:19.351Z",
-  "latestVersion": "0.38.0",
+  "generatedAt": "2026-07-26T20:57:11.859Z",
+  "latestVersion": "0.38.1",
   "langs": [
     "pt",
     "en",
     "ru"
   ],
   "entries": [
+    {
+      "version": "0.38.1",
+      "date": "2026-07-26",
+      "title": {
+        "pt": "v0.38.1 — leitura digital embaixo dos mostradores agora é opcional",
+        "en": "v0.38.1 — the digital reading below each dial is now optional",
+        "ru": "v0.38.1 — цифровое значение под циферблатом теперь опционально"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "As leituras digitais que apareciam embaixo de cada mostrador (velocidade, RPM, altitude, combustível…) agora ficam DESLIGADAS por padrão, deixando o painel mais limpo. Quer alguma de volta? Clique-direito no gauge → editar → \"Mostrar leitura embaixo\". Os números DENTRO do mostrador continuam iguais.",
+            "en": "The digital readings that appeared below each dial (speed, RPM, altitude, fuel…) are now OFF by default for a cleaner panel. Want one back? Right-click the gauge → edit → \"Show reading below\". The numbers INSIDE the dial are unchanged.",
+            "ru": "Цифровые значения, что показывались под каждым циферблатом (скорость, обороты, высота, топливо…), теперь ВЫКЛючены по умолчанию — панель чище. Нужно вернуть? Правый клик по прибору → редактировать → «Показывать значение снизу». Числа ВНУТРИ циферблата не изменились."
+          }
+        }
+      ]
+    },
     {
       "version": "0.38.0",
       "date": "2026-07-26",
