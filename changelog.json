@@ -1,13 +1,48 @@
 {
   "schema": 1,
-  "generatedAt": "2026-07-25T22:26:49.139Z",
-  "latestVersion": "0.37.0",
+  "generatedAt": "2026-07-26T04:45:01.100Z",
+  "latestVersion": "0.37.1",
   "langs": [
     "pt",
     "en",
     "ru"
   ],
   "entries": [
+    {
+      "version": "0.37.1",
+      "date": "2026-07-26",
+      "title": {
+        "pt": "v0.37.1 — família Classic repaginada: acabamento premium + reflexo de vidro ajustável",
+        "en": "v0.37.1 — Classic family redesigned: premium finish + adjustable glass reflection",
+        "ru": "v0.37.1 — семейство Classic обновлено: премиальная отделка + настраиваемый блик стекла"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Toda a família Classic ficou premium e consistente: aro de metal (gunmetal) com leve chanfro, profundidade entre aro/vidro/mostrador, cúpula de vidro suave e mostrador off-white — do velocímetro e altímetro à proa, VSI, combustível, G e horizonte artificial (que agora fica sob o vidro, como um giro de verdade).",
+            "en": "The whole Classic family is now premium and consistent: a gunmetal bezel with a subtle bevel, depth between bezel/glass/dial, a soft glass dome and an off-white dial — from airspeed and altimeter to heading, VSI, fuel, G and the artificial horizon (now sitting under the glass, like a real gyro).",
+            "ru": "Всё семейство Classic стало премиальным и единообразным: ободок под gunmetal с лёгкой фаской, глубина между ободком/стеклом/циферблатом, мягкий стеклянный купол и off-white циферблат — от указателя скорости и высотомера до курса, вариометра, топлива, перегрузки и авиагоризонта (теперь под стеклом, как настоящий гироскоп)."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "O reflexo do vidro virou ajuste do perfil (Ajustes → Estilo, só no Classic): Nenhum, Pouco ou Médio (padrão). Médio traz a cúpula premium; Nenhum deixa o mostrador mais limpo.",
+            "en": "Glass reflection is now a profile setting (Settings → Style, Classic only): None, Low or Medium (default). Medium gives the premium dome; None keeps the dial cleaner.",
+            "ru": "Блик стекла теперь настраивается в профиле (Настройки → Стиль, только Classic): Нет, Слабый или Средний (по умолчанию). «Средний» даёт премиальный купол; «Нет» — более чистый циферблат."
+          }
+        },
+        {
+          "category": "refactor",
+          "text": {
+            "pt": "O estilo antes chamado \"astarojna\" agora se chama \"Original\" em todo o app — muda só o nome; o visual (fósforo verde) continua idêntico.",
+            "en": "The style formerly called \"astarojna\" is now \"Original\" across the app — only the name changes; the look (green phosphor) is identical.",
+            "ru": "Стиль, ранее называвшийся «astarojna», теперь называется «Original» во всём приложении — меняется только название; вид (зелёный фосфор) идентичен."
+          }
+        }
+      ]
+    },
     {
       "version": "0.37.0",
       "date": "2026-07-25",
