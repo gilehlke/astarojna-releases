@@ -1,13 +1,48 @@
 {
   "schema": 1,
-  "generatedAt": "2026-07-26T20:57:11.859Z",
-  "latestVersion": "0.38.1",
+  "generatedAt": "2026-07-28T00:31:35.838Z",
+  "latestVersion": "0.38.2",
   "langs": [
     "pt",
     "en",
     "ru"
   ],
   "entries": [
+    {
+      "version": "0.38.2",
+      "date": "2026-07-27",
+      "title": {
+        "pt": "v0.38.2 — cada simulador com o seu app: painel do War Thunder blindado",
+        "en": "v0.38.2 — one app per simulator: the War Thunder panel is now shielded",
+        "ru": "v0.38.2 — каждому симулятору своё: панель War Thunder защищена"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "O botão de jogo da tela de abertura agora manda de verdade: entrando no DCS, os instrumentos que aquele simulador não alimenta (manete, temperaturas de óleo/água, radiador, mapa e chat do War Thunder) somem da lista, em vez de ficarem mostrando \"—\" pra sempre.",
+            "en": "The game button on the start screen now really matters: in DCS, instruments that simulator cannot feed (throttle, oil/water temperatures, radiator, the War Thunder map and chat) disappear from the list instead of showing \"—\" forever.",
+            "ru": "Кнопка игры на стартовом экране теперь решает по-настоящему: в DCS приборы, которые этот симулятор не питает (РУД, температуры масла/воды, радиатор, карта и чат War Thunder), исчезают из списка вместо вечного «—»."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Perfis por simulador: um perfil novo nasce marcado com o jogo em que você o criou e só aparece nele. Os perfis que você já tem continuam aparecendo nos dois (nada mudou de lugar). No seletor, o botão ⇄ cria uma cópia pro outro simulador.",
+            "en": "Per-simulator profiles: a new profile is tagged with the game you created it in and only shows up there. Profiles you already have keep showing in both (nothing moved). In the picker, the ⇄ button makes a copy for the other simulator.",
+            "ru": "Профили по симулятору: новый профиль помечается игрой, в которой создан, и виден только в ней. Уже существующие профили по-прежнему видны в обеих (ничего не переместилось). В списке кнопка ⇄ создаёт копию для другого симулятора."
+          }
+        },
+        {
+          "category": "refactor",
+          "text": {
+            "pt": "Por dentro: o que cada simulador entrega passou a viver num lugar só, o que abre caminho pras novidades do DCS (janela de ajuste barométrico, vento, modo noturno automático) sem risco de mexer no que já funciona no War Thunder.",
+            "en": "Under the hood: what each simulator provides now lives in a single place, clearing the way for the DCS features (barometric setting window, wind, automatic night mode) without risking what already works in War Thunder.",
+            "ru": "Внутри: то, что даёт каждый симулятор, теперь живёт в одном месте — это открывает путь к новинкам DCS (окно барометрической установки, ветер, автоматический ночной режим) без риска для того, что уже работает в War Thunder."
+          }
+        }
+      ]
+    },
     {
       "version": "0.38.1",
       "date": "2026-07-26",
