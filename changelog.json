@@ -1,13 +1,56 @@
 {
   "schema": 1,
-  "generatedAt": "2026-07-28T16:44:18.110Z",
-  "latestVersion": "0.38.2",
+  "generatedAt": "2026-07-29T17:17:33.278Z",
+  "latestVersion": "0.39.1",
   "langs": [
     "pt",
     "en",
     "ru"
   ],
   "entries": [
+    {
+      "version": "0.39.1",
+      "date": "2026-07-28",
+      "title": {
+        "pt": "v0.39.1 — DCS: combustível de volta, 2º motor, curva e aviso de servidor",
+        "en": "v0.39.1 — DCS: fuel is back, second engine, turn rate and server warning",
+        "ru": "v0.39.1 — DCS: топливо вернулось, второй двигатель, разворот и предупреждение сервера"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "COMBUSTÍVEL no DCS voltou a funcionar. O jogo entrega a quantidade em quilos, e o app esperava uma fração — resultado: o mostrador ficava em traço desde que o DCS entrou. Agora mostra os quilos e a porcentagem (a capacidade é aprendida no primeiro voo de cada aeronave).",
+            "en": "FUEL works again in DCS. The game reports quantity in kilograms and the app expected a fraction — so the gauge had been showing a dash ever since DCS support shipped. It now shows kilograms and a percentage (capacity is learned on the first flight of each aircraft).",
+            "ru": "ТОПЛИВО снова работает в DCS. Игра отдаёт количество в килограммах, а приложение ожидало долю — поэтому прибор показывал прочерк с самого запуска поддержки DCS. Теперь показываются килограммы и проценты (ёмкость запоминается в первом полёте на каждом самолёте)."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Aeronaves BIMOTOR (F-15, Su-27, F/A-18, F-14…) mostravam só um motor: o app lia apenas o esquerdo. Agora os dois aparecem no painel de motores.",
+            "en": "TWIN-ENGINE aircraft (F-15, Su-27, F/A-18, F-14…) showed a single engine: the app only read the left one. Both now appear in the engine panel.",
+            "ru": "ДВУХДВИГАТЕЛЬНЫЕ самолёты (F-15, Су-27, F/A-18, F-14…) показывали один двигатель: приложение читало только левый. Теперь видны оба."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "O pau-e-bola voltou a funcionar no DCS — a agulha de curva não tinha fonte de dado e ficava parada.",
+            "en": "The turn & slip indicator works again in DCS — the turn needle had no data source and just sat still.",
+            "ru": "Указатель разворота и скольжения снова работает в DCS — у стрелки разворота не было источника данных."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Servidor de multiplayer que desliga o export agora é EXPLICADO em vez de deixar o app mudo. E a instalação no DCS ficou à prova de bala: ela nunca reescreve o seu Export.lua (só acrescenta uma linha no fim) e ainda guarda uma cópia de segurança — o SRS, o Tacview e o DCS-BIOS ficam intactos.",
+            "en": "A multiplayer server that disables export is now EXPLAINED instead of leaving the app silent. And installing into DCS is bulletproof: it never rewrites your Export.lua (it only appends one line) and keeps a backup — SRS, Tacview and DCS-BIOS stay untouched.",
+            "ru": "Сервер, отключивший экспорт, теперь ОБЪЯСНЯЕТСЯ, а не оставляет приложение немым. И установка в DCS стала пуленепробиваемой: она никогда не перезаписывает ваш Export.lua (только дописывает строку в конец) и хранит резервную копию — SRS, Tacview и DCS-BIOS остаются нетронутыми."
+          }
+        }
+      ]
+    },
     {
       "version": "0.38.2",
       "date": "2026-07-27",
