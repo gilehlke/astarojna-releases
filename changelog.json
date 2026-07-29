@@ -1,13 +1,40 @@
 {
   "schema": 1,
-  "generatedAt": "2026-07-29T17:17:33.278Z",
-  "latestVersion": "0.39.1",
+  "generatedAt": "2026-07-29T18:01:33.637Z",
+  "latestVersion": "0.39.2",
   "langs": [
     "pt",
     "en",
     "ru"
   ],
   "entries": [
+    {
+      "version": "0.39.2",
+      "date": "2026-07-29",
+      "title": {
+        "pt": "v0.39.2 — DCS: a telemetria realmente chega agora",
+        "en": "v0.39.2 — DCS: telemetry actually arrives now",
+        "ru": "v0.39.2 — DCS: телеметрия наконец доходит"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "O DCS não enviava NADA pro app — e não era por pouco: nosso script pedia a biblioteca de rede sem antes apontar onde ela mora dentro do jogo. O pedido falhava em silêncio e o envio nunca começava. Foi o primeiro teste numa máquina com o DCS instalado que revelou isso; agora o caminho é montado como a própria Eagle Dynamics recomenda, e a telemetria chega.",
+            "en": "DCS was sending NOTHING to the app — and not by a small margin: our script asked for the networking library without first pointing at where it lives inside the game. The request failed silently and the sending never started. The very first test on a machine with DCS installed exposed it; the path is now set up the way Eagle Dynamics itself recommends, and telemetry flows.",
+            "ru": "DCS не отправлял приложению НИЧЕГО: наш скрипт запрашивал сетевую библиотеку, не указав, где она лежит внутри игры. Запрос молча падал, и отправка никогда не начиналась. Это вскрылось при первом же тесте на машине с установленным DCS; теперь путь настраивается так, как рекомендует сама Eagle Dynamics, и телеметрия идёт."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "O script passou a manter um diário próprio em Saved Games\\DCS\\Logs\\Astarojna.log, dizendo se conseguiu abrir a conexão e, se não, por quê. Era essa cegueira — erro engolido sem deixar rastro — que escondeu o problema acima.",
+            "en": "The script now keeps its own diary at Saved Games\\DCS\\Logs\\Astarojna.log, saying whether it managed to open the connection and, if not, why. That blindness — an error swallowed without a trace — is what hid the problem above.",
+            "ru": "Скрипт ведёт собственный журнал в Saved Games\\DCS\\Logs\\Astarojna.log: удалось ли открыть соединение и, если нет, почему. Именно эта слепота — проглоченная без следа ошибка — и скрывала проблему выше."
+          }
+        }
+      ]
+    },
     {
       "version": "0.39.1",
       "date": "2026-07-28",
