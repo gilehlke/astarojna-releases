@@ -1,13 +1,40 @@
 {
   "schema": 1,
-  "generatedAt": "2026-07-29T18:01:33.637Z",
-  "latestVersion": "0.39.2",
+  "generatedAt": "2026-07-31T15:00:40.893Z",
+  "latestVersion": "0.39.3",
   "langs": [
     "pt",
     "en",
     "ru"
   ],
   "entries": [
+    {
+      "version": "0.39.3",
+      "date": "2026-07-31",
+      "title": {
+        "pt": "v0.39.3 — DCS: ângulo de ataque e taxa de curva corrigidos em voo",
+        "en": "v0.39.3 — DCS: angle of attack and turn rate fixed in flight",
+        "ru": "v0.39.3 — DCS: угол атаки и скорость разворота исправлены в полёте"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "O ÂNGULO DE ATAQUE vinha em 400° (o valor era convertido duas vezes) — o alarme de estol dispararia direto. Agora marca os 6 a 13° reais, medidos em voo no Su-25T.",
+            "en": "ANGLE OF ATTACK was reading 400° (the value was being converted twice) — the stall alarm would fire non-stop. It now shows the real 6 to 13°, measured in flight on the Su-25T.",
+            "ru": "УГОЛ АТАКИ показывал 400° (значение переводилось дважды) — сигнализация срыва срабатывала бы постоянно. Теперь это реальные 6-13°, измеренные в полёте на Су-25Т."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "A TAXA DE CURVA estava com o sinal trocado e a magnitude dez vezes menor do que a real. Agora ela vem da própria variação da proa no tempo, que é a definição de taxa de curva — funciona igual em qualquer aeronave, sem depender de convenção interna do simulador.",
+            "en": "TURN RATE had the sign flipped and a magnitude ten times smaller than reality. It now comes from how the heading itself changes over time, which is the definition of turn rate — it works the same on any aircraft, with no dependency on the simulator's internal axis convention.",
+            "ru": "СКОРОСТЬ РАЗВОРОТА имела обратный знак и величину в десять раз меньше реальной. Теперь она берётся из самого изменения курса во времени — это и есть определение скорости разворота, одинаково работает на любом самолёте и не зависит от внутренних осей симулятора."
+          }
+        }
+      ]
+    },
     {
       "version": "0.39.2",
       "date": "2026-07-29",
