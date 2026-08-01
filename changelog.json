@@ -1,13 +1,40 @@
 {
   "schema": 1,
-  "generatedAt": "2026-08-01T20:29:17.712Z",
-  "latestVersion": "0.39.6",
+  "generatedAt": "2026-08-01T20:46:57.079Z",
+  "latestVersion": "0.39.7",
   "langs": [
     "pt",
     "en",
     "ru"
   ],
   "entries": [
+    {
+      "version": "0.39.7",
+      "date": "2026-08-01",
+      "title": {
+        "pt": "v0.39.7 — A seta do vento estava invertida",
+        "en": "v0.39.7 — The wind arrow pointed the wrong way",
+        "ru": "v0.39.7 — Стрелка ветра смотрела не туда"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "A SETA DO VENTO apontava pro lado errado: vento de proa aparecia como seta subindo. Agora ela voa COM o vento, como no ND — apontando pra baixo o ar entra pelo nariz e sai pela cauda (vento de proa); pra cima, e de cauda.",
+            "en": "THE WIND ARROW pointed the wrong way: a headwind showed as an arrow going up. It now flies WITH the wind, like on an ND — pointing down means the air comes in at the nose and leaves at the tail (headwind); pointing up is a tailwind.",
+            "ru": "СТРЕЛКА ВЕТРА показывала в обратную сторону: встречный ветер выглядел как стрелка вверх. Теперь она летит ВМЕСТЕ с ветром, как на ND — вниз значит, что воздух входит в нос и уходит к хвосту (встречный); вверх — попутный."
+          }
+        },
+        {
+          "category": "refactor",
+          "text": {
+            "pt": "O gauge de vento ficou so com o essencial: direcao, velocidade e a seta, tudo em branco. As componentes de proa e de traves sairam a pedido do dono — viravam informacao demais em curta final, e o piloto tira de cabeca pela seta.",
+            "en": "The wind gauge is down to the essentials: direction, speed and the arrow, all in white. The headwind and crosswind components were removed at the owner’s request — too much information on short final, and the pilot reads it off the arrow anyway.",
+            "ru": "Гейдж ветра оставили с самым нужным: направление, скорость и стрелка, всё белым. Составляющие встречного и бокового ветра убраны по просьбе владельца — слишком много информации на коротком финальном, а пилот читает это по стрелке."
+          }
+        }
+      ]
+    },
     {
       "version": "0.39.6",
       "date": "2026-08-01",
