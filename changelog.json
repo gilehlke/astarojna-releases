@@ -1,13 +1,48 @@
 {
   "schema": 1,
-  "generatedAt": "2026-07-31T15:00:40.893Z",
-  "latestVersion": "0.39.3",
+  "generatedAt": "2026-08-01T18:17:27.821Z",
+  "latestVersion": "0.39.4",
   "langs": [
     "pt",
     "en",
     "ru"
   ],
   "entries": [
+    {
+      "version": "0.39.4",
+      "date": "2026-08-01",
+      "title": {
+        "pt": "v0.39.4 — DCS: ajuste do altímetro, vento e modo noturno automático",
+        "en": "v0.39.4 — DCS: altimeter setting, wind and automatic night mode",
+        "ru": "v0.39.4 — DCS: установка высотомера, ветер и автоматический ночной режим"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "O ALTÍMETRO ganhou a janela de ajuste barométrico com botão de verdade: gire com a rolagem do mouse, clicando e arrastando, ou com o dedo na tela — e duplo clique volta ao padrão. Em hPa, inHg ou mmHg (as aeronaves russas usam mmHg). E o ajuste MENTE como na vida real: erre a pressão e o ponteiro erra a altitude junto.",
+            "en": "The ALTIMETER got a barometric setting window with a real knob: turn it with the mouse wheel, by click-dragging, or with your finger on screen — and double-click returns to standard. In hPa, inHg or mmHg (Russian aircraft use mmHg). And the setting LIES like real life: get the pressure wrong and the needle gets the altitude wrong with it.",
+            "ru": "У ВЫСОТОМЕРА появилось окошко барометрической установки с настоящей ручкой: крутите колёсиком мыши, зажав и потянув, или пальцем на экране — двойной щелчок возвращает стандарт. В гПа, дюймах рт. ст. или мм рт. ст. (на русских самолётах — мм рт. ст.). И установка ВРЁТ как в жизни: ошиблись с давлением — стрелка ошибётся с высотой."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "VENTO: direção e velocidade com uma seta apontando de onde ele sopra, relativa ao seu nariz. Quando você baixa o trem ou chega perto do solo, aparecem também as componentes de proa e de través — que é o que decide se dá pra pousar naquela pista.",
+            "en": "WIND: direction and speed with an arrow pointing where it blows from, relative to your nose. Drop the gear or get close to the ground and the headwind and crosswind components appear too — the numbers that decide whether that runway is usable.",
+            "ru": "ВЕТЕР: направление и скорость со стрелкой, показывающей, откуда он дует, относительно вашего носа. Выпустили шасси или снизились — появляются встречная и боковая составляющие, те самые цифры, которые решают, годится ли полоса."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "MODO NOTURNO AUTOMÁTICO pela hora da missão: o painel escurece sozinho ao anoitecer e clareia ao amanhecer, com transição suave. O interruptor manual continua valendo — o painel obedece ao mais escuro dos dois.",
+            "en": "AUTOMATIC NIGHT MODE by mission time: the panel dims itself at dusk and brightens at dawn, with a smooth transition. The manual switch still works — the panel obeys whichever of the two is darker.",
+            "ru": "АВТОМАТИЧЕСКИЙ НОЧНОЙ РЕЖИМ по времени миссии: панель сама темнеет в сумерках и светлеет на рассвете, плавно. Ручной выключатель по-прежнему работает — панель слушается того из двух, что темнее."
+          }
+        }
+      ]
+    },
     {
       "version": "0.39.3",
       "date": "2026-07-31",
