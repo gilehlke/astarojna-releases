@@ -1,13 +1,32 @@
 {
   "schema": 1,
-  "generatedAt": "2026-08-01T20:46:57.079Z",
-  "latestVersion": "0.39.7",
+  "generatedAt": "2026-08-01T20:59:33.378Z",
+  "latestVersion": "0.39.8",
   "langs": [
     "pt",
     "en",
     "ru"
   ],
   "entries": [
+    {
+      "version": "0.39.8",
+      "date": "2026-08-01",
+      "title": {
+        "pt": "v0.39.8 — Leitura do vento centralizada",
+        "en": "v0.39.8 — Wind reading properly centred",
+        "ru": "v0.39.8 — Показание ветра выровнено по центру"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "A leitura do vento subia um tico dentro do aparelho. A linha de base do texto passou a ser calculada a mao, em vez de depender de um alinhamento que cada renderizador trata do seu jeito — agora o corpo do numero fica no meio exato, em qualquer tela.",
+            "en": "The wind reading sat a touch high inside the device. The text baseline is now computed by hand instead of relying on an alignment each renderer treats differently — the body of the number now sits dead centre, on any screen.",
+            "ru": "Показание ветра сидело чуть выше центра прибора. Базовая линия текста теперь считается вручную, а не полагается на выравнивание, которое каждый рендерер трактует по-своему — тело цифр теперь ровно по середине, на любом экране."
+          }
+        }
+      ]
+    },
     {
       "version": "0.39.7",
       "date": "2026-08-01",
