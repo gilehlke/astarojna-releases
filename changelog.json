@@ -1,13 +1,75 @@
 {
   "schema": 1,
-  "generatedAt": "2026-08-01T20:59:33.378Z",
-  "latestVersion": "0.39.8",
+  "generatedAt": "2026-08-01T22:15:28.819Z",
+  "latestVersion": "0.39.10",
   "langs": [
     "pt",
     "en",
     "ru"
   ],
   "entries": [
+    {
+      "version": "0.39.10",
+      "date": "2026-08-01",
+      "title": {
+        "pt": "v0.39.10 — Head tracking no DCS + a luz do noturno",
+        "en": "v0.39.10 — Head tracking in DCS + the night lamp",
+        "ru": "v0.39.10 — Трекинг головы в DCS + лампа ночного режима"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "HEAD TRACKING NO DCS: o nosso emissor apagava, 90 vezes por segundo, o campo que o DCS usa pra se apresentar — a gente escrevia a pose por cima da conversa e o jogo nunca reagia. Agora ele preserva o que nao e dele e responde o aperto de mao. No War Thunder nunca deu problema porque o WT le por outro caminho.",
+            "en": "HEAD TRACKING IN DCS: our emitter was erasing, 90 times a second, the field DCS uses to introduce itself — we wrote the pose right over the conversation and the game never reacted. It now preserves what isn’t ours and answers the handshake. War Thunder never suffered because it reads through a different path.",
+            "ru": "ТРЕКИНГ ГОЛОВЫ В DCS: наш передатчик 90 раз в секунду стирал поле, которым DCS представляется — мы писали позу поверх самого разговора, и игра не реагировала. Теперь он сохраняет чужое и отвечает на рукопожатие. В War Thunder проблемы не было: он читает другим путём."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "A DICA DA TELA do head tracking mandava FECHAR o OpenTrack. Isso vale pro War Thunder e e o contrario do que o DCS precisa: la o OpenTrack tem que estar INSTALADO (o DCS carrega um componente dele), mas fechado. O texto agora separa os dois jogos.",
+            "en": "THE ON-SCREEN HINT for head tracking told you to CLOSE OpenTrack. That is true for War Thunder and the opposite of what DCS needs: there OpenTrack must be INSTALLED (DCS loads a component of it) but closed. The text now separates the two games.",
+            "ru": "ПОДСКАЗКА НА ЭКРАНЕ советовала ЗАКРЫТЬ OpenTrack. Это верно для War Thunder и противоположно тому, что нужно DCS: там OpenTrack должен быть УСТАНОВЛЕН (DCS грузит его компонент), но закрыт. Текст теперь разделяет две игры."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "A LAMPADA DE CABINE nao iluminava: fazia um borrao claro e ainda PIORAVA o contraste. Era erro de mistura de luz — agora o preto continua preto e o que acende sao as marcas, os numeros e o ponteiro, como em cabine de verdade.",
+            "en": "THE COCKPIT LAMP did not light anything: it made a bright smear and actually LOWERED contrast. It was a light-blending mistake — now black stays black and what lights up are the markings, the numbers and the needle, like a real cockpit.",
+            "ru": "ЛАМПА КАБИНЫ ничего не освещала: давала светлое пятно и УХУДШАЛА контраст. Это была ошибка смешивания света — теперь чёрное остаётся чёрным, а загораются метки, цифры и стрелка, как в настоящей кабине."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.39.9",
+      "date": "2026-08-01",
+      "title": {
+        "pt": "v0.39.9 — Modo noturno: o automatico volta a mandar",
+        "en": "v0.39.9 — Night mode: automatic is in charge again",
+        "ru": "v0.39.9 — Ночной режим: автоматика снова главная"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "O AUTOMATICO PELA HORA DA MISSAO era anulado pelo interruptor manual: voce escolhia automatico, voava de dia e o painel ficava noturno. Pior, o knob Dimmer ligava o manual sozinho ao baixar o brilho. Agora quem escolhe automatico entrega o controle pro relogio.",
+            "en": "AUTOMATIC BY MISSION TIME was overridden by the manual switch: you picked automatic, flew in daylight and the panel stayed dark. Worse, the Dimmer knob turned the manual switch on by itself when you lowered brightness. Now picking automatic hands control to the clock.",
+            "ru": "АВТОМАТИКА ПО ВРЕМЕНИ МИССИИ перебивалась ручным выключателем: вы выбирали автомат, летели днём, а панель оставалась ночной. Хуже: ручка Dimmer сама включала ручной режим при снижении яркости. Теперь выбор автомата отдаёт управление часам."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "O OVERLAY e a 2a TELA ignoravam o automatico por completo — so olhavam o interruptor. Era por isso que o celular ficava noturno numa partida de dia. Os tres agora fazem a mesma conta.",
+            "en": "THE OVERLAY and the 2ND SCREEN ignored automatic entirely — they only looked at the switch. That is why the phone went dark in a daytime match. All three now do the same maths.",
+            "ru": "ОВЕРЛЕЙ и 2-Й ЭКРАН вовсе не учитывали автоматику — смотрели только на выключатель. Поэтому телефон темнел в дневном бою. Теперь все трое считают одинаково."
+          }
+        }
+      ]
+    },
     {
       "version": "0.39.8",
       "date": "2026-08-01",
