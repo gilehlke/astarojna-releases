@@ -1,13 +1,56 @@
 {
   "schema": 1,
-  "generatedAt": "2026-08-01T18:17:27.821Z",
-  "latestVersion": "0.39.4",
+  "generatedAt": "2026-08-01T19:59:50.688Z",
+  "latestVersion": "0.39.5",
   "langs": [
     "pt",
     "en",
     "ru"
   ],
   "entries": [
+    {
+      "version": "0.39.5",
+      "date": "2026-08-01",
+      "title": {
+        "pt": "v0.39.5 — Modo noturno sai do porão: menu próprio, tour e botão de dimmer",
+        "en": "v0.39.5 — Night mode out of the basement: own menu, tour and a dimmer knob",
+        "ru": "v0.39.5 — Ночной режим выходит из подвала: свой раздел, тур и ручка яркости"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "O MODO NOTURNO agora tem MENU PRÓPRIO nas Configurações (antes ficava espremido no Geral, e ninguém achava). E, na primeira abertura, um TOUR mostra o painel normal e o noturno lado a lado pra você calibrar do seu jeito — dá pra rever pelo botão do menu quando quiser.",
+            "en": "NIGHT MODE now has ITS OWN MENU in Settings (it used to be squeezed inside General, where nobody found it). And on first launch a TOUR shows the normal and the night panel side by side so you can set it to taste — you can reopen it any time from the menu.",
+            "ru": "У НОЧНОГО РЕЖИМА теперь СВОЙ РАЗДЕЛ в настройках (раньше он был зажат внутри «Общих», и его никто не находил). А при первом запуске ТУР показывает обычную и ночную панель рядом, чтобы настроить под себя — открыть его заново можно из меню."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "GAUGE DIMMER, na categoria Comandos: o botão de brilho da cabine, pra clarear ou escurecer sem sair do voo. Uma aba escolhe se ele controla a LÂMPADA ou o PAINEL, e ele mexe exatamente no mesmo ajuste do menu — nunca discordam.",
+            "en": "DIMMER GAUGE, under Controls: the cockpit brightness knob, to brighten or darken without leaving the flight. A tab picks whether it drives the LAMP or the PANEL, and it writes to the exact same setting as the menu — they never disagree.",
+            "ru": "ГЕЙДЖ DIMMER, в разделе «Управление»: ручка яркости кабины, чтобы прибавить или убавить свет не выходя из полёта. Вкладка выбирает, чем он управляет — ЛАМПОЙ или ПАНЕЛЬЮ, — и пишет ровно в ту же настройку, что и меню."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "O VENTO virou um APARELHO de verdade: caixa metálica com telinha digital, e um botão do lado que troca a leitura entre km/h e nós (o vento é reportado em nós no mundo real, mesmo em cabine que mostra o resto em km/h). De quebra, ele parou de vazar pelas bordas do espaço dele.",
+            "en": "WIND became a real DEVICE: a metal case with a digital screen, and a button beside it that switches the reading between km/h and knots (wind is reported in knots in the real world, even in cockpits that show everything else in km/h). It also stopped spilling outside its own space.",
+            "ru": "ВЕТЕР стал настоящим ПРИБОРОМ: металлический корпус с цифровым экранчиком и кнопка сбоку, которая переключает показания между км/ч и узлами (в реальности ветер сообщают в узлах даже там, где остальное в км/ч). Заодно он перестал вылезать за свои границы."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "A categoria \"Superfícies\" virou \"COMANDOS\" — ela deixou de ser só trem e flap e passou a abrigar os controles de cabine.",
+            "en": "The \"Surfaces\" category is now \"CONTROLS\" — it outgrew gear and flaps and now holds the cockpit controls too.",
+            "ru": "Категория «Поверхности» стала «УПРАВЛЕНИЕ» — она переросла шасси и закрылки и теперь вмещает органы управления кабиной."
+          }
+        }
+      ]
+    },
     {
       "version": "0.39.4",
       "date": "2026-08-01",
