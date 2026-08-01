@@ -1,13 +1,32 @@
 {
   "schema": 1,
-  "generatedAt": "2026-08-01T19:59:50.688Z",
-  "latestVersion": "0.39.5",
+  "generatedAt": "2026-08-01T20:29:17.712Z",
+  "latestVersion": "0.39.6",
   "langs": [
     "pt",
     "en",
     "ru"
   ],
   "entries": [
+    {
+      "version": "0.39.6",
+      "date": "2026-08-01",
+      "title": {
+        "pt": "v0.39.6 — Ajuste no botao de dimmer",
+        "en": "v0.39.6 — Dimmer knob fix",
+        "ru": "v0.39.6 — Правка ручки Dimmer"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "No gauge Dimmer, a porcentagem batia em cima do proprio botao no estilo Original. As tres faixas (mostrador, leitura e abas LUZ/PAINEL) agora nao se encostam em nenhum dos dois estilos.",
+            "en": "On the Dimmer gauge the percentage overlapped the knob itself in the Original style. The three bands (dial, reading and the LIGHT/PANEL tabs) no longer touch each other in either style.",
+            "ru": "В гейдже Dimmer проценты налезали на саму ручку в стиле Original. Теперь три полосы (шкала, показание и вкладки ЛАМПА/ПАНЕЛЬ) не касаются друг друга ни в одном из стилей."
+          }
+        }
+      ]
+    },
     {
       "version": "0.39.5",
       "date": "2026-08-01",
