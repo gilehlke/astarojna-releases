@@ -1,13 +1,32 @@
 {
   "schema": 1,
-  "generatedAt": "2026-08-02T18:20:56.897Z",
-  "latestVersion": "0.39.13",
+  "generatedAt": "2026-08-02T18:51:49.994Z",
+  "latestVersion": "0.39.14",
   "langs": [
     "pt",
     "en",
     "ru"
   ],
   "entries": [
+    {
+      "version": "0.39.14",
+      "date": "2026-08-02",
+      "title": {
+        "pt": "v0.39.14 — Conserto da leitura travada em zero",
+        "en": "v0.39.14 — Fix for the reading frozen at zero",
+        "ru": "v0.39.14 — Исправление показаний, застывших на нуле"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "A v0.39.13 CONGELOU a leitura do head tracking em zero grau, com a captura funcionando perfeitamente. Causa: pra deixar o filtro antigo fora do caminho da suavizacao nova, eu tinha subido um parametro dele ao maximo — e esse filtro e um integrador que, com passo grande demais, ultrapassa o alvo, o erro cresce a cada volta e a conta vira NaN. O que escondeu o defeito: ele so acontece quando o laco roda mais devagar que 16 ms, e nos meus dois testes de bancada ele rodava a 8 e a 11 ms. Foi o diagnostico da captura, publicado NA MESMA VERSAO do bug, que mostrou que a maquina real roda a 23 ms. Agora sao dois consertos: a suavizacao nova nao passa mais pelo filtro antigo, e o filtro antigo ganhou um limite que impede o passo de ultrapassar o proprio erro — ele nunca mais pode virar NaN, em nenhuma maquina, com nenhum ajuste.",
+            "en": "v0.39.13 FROZE the head tracking reading at zero degrees while capture worked perfectly. Cause: to keep the old filter out of the way of the new smoothing, I had raised one of its parameters to the maximum — and that filter is an integrator which, with too large a step, overshoots the target, the error grows every turn, and the maths becomes NaN. What hid the defect: it only happens when the loop runs slower than 16 ms, and in my two bench tests it ran at 8 and 11 ms. The capture diagnostics, shipped IN THE SAME VERSION as the bug, is what revealed the real machine runs at 23 ms. Two fixes now: the new smoothing no longer goes through the old filter, and the old filter gained a limit that stops the step from overshooting its own error — it can never become NaN again, on any machine, with any setting.",
+            "ru": "В v0.39.13 показания трекинга ЗАМЕРЛИ на нуле градусов при полностью рабочем захвате. Причина: чтобы убрать старый фильтр с пути нового сглаживания, я поднял один его параметр до максимума — а этот фильтр является интегратором, который при слишком большом шаге проскакивает цель, ошибка растёт с каждым витком, и вычисление превращается в NaN. Что скрывало дефект: он проявляется только когда цикл идёт медленнее 16 мс, а в двух моих стендовых тестах он шёл на 8 и 11 мс. Диагностика захвата, вышедшая В ТОЙ ЖЕ ВЕРСИИ, что и баг, показала, что реальная машина работает на 23 мс. Теперь два исправления: новое сглаживание больше не проходит через старый фильтр, а старый фильтр получил ограничение, не позволяющее шагу превысить собственную ошибку."
+          }
+        }
+      ]
+    },
     {
       "version": "0.39.13",
       "date": "2026-08-02",
