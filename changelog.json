@@ -1,13 +1,32 @@
 {
   "schema": 1,
-  "generatedAt": "2026-08-02T19:14:15.965Z",
-  "latestVersion": "0.39.15",
+  "generatedAt": "2026-08-02T19:51:11.073Z",
+  "latestVersion": "0.39.16",
   "langs": [
     "pt",
     "en",
     "ru"
   ],
   "entries": [
+    {
+      "version": "0.39.16",
+      "date": "2026-08-02",
+      "title": {
+        "pt": "v0.39.16 — A luz de cabine agora ILUMINA",
+        "en": "v0.39.16 — The cockpit light now actually LIGHTS",
+        "ru": "v0.39.16 — Подсветка кабины теперь действительно СВЕТИТ"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "A LAMPADA DE CABINE deixou de ser um filme por cima do painel e passou a iluminar de verdade. Antes ela era uma camada desenhada sobre os mostradores, e camada nao ilumina: sobre fundo escuro ela CLAREAVA o fundo e o contraste CAIA — o oposto de acender uma luz. Pior, onde o mostrador e vazado a conta do navegador degenera e pinta a cor crua, que era o 'elemento opaco por cima' que se via. Agora a luz e um GANHO aplicado dentro do desenho de cada mostrador, que e o que uma luminaria faz num painel de verdade: cada ponto devolve luz proporcional ao quanto ele reflete. Medido: com a lampada no talo, o preto continua PRETO absoluto, a marca clara vai de 171 para 255, e o contraste SOBE de 216 para 229 — antes ele caia para 140. A luz tambem cai com a distancia, entao o mostrador embaixo do refletor recebe mais que o do canto, como numa cabine. E de dia nao ha filtro nenhum: custo zero.",
+            "en": "THE COCKPIT LAMP stopped being a film over the panel and now genuinely illuminates. It used to be a layer drawn on top of the instruments, and a layer cannot illuminate: over a dark background it BRIGHTENED the background and contrast FELL — the opposite of switching on a light. Worse, where an instrument is see-through the browser's compositing degenerates and paints the raw colour, which was the 'opaque element on top' people saw. The light is now a GAIN applied inside each instrument's drawing, which is what a lamp does to a real panel: every point returns light in proportion to how much it reflects. Measured: with the lamp at full, black stays absolutely BLACK, the bright marking goes from 171 to 255, and contrast RISES from 216 to 229 — it used to fall to 140. The light also falls off with distance, so an instrument under the reflector gets more than one in the corner, as in a real cockpit. And in daytime there is no filter at all: zero cost.",
+            "ru": "ЛАМПА КАБИНЫ перестала быть плёнкой поверх панели и теперь по-настоящему освещает. Раньше это был слой, нарисованный поверх приборов, а слой не может освещать: на тёмном фоне он ОСВЕТЛЯЛ фон, и контраст ПАДАЛ — противоположность включению света. Хуже того, там где прибор прозрачный, композиция браузера вырождается и красит чистым цветом — это и был тот «непрозрачный элемент сверху». Теперь свет — это УСИЛЕНИЕ, применяемое внутри рисунка каждого прибора, то есть именно то, что лампа делает с настоящей панелью. Измерено: при лампе на максимуме чёрный остаётся абсолютно ЧЁРНЫМ, светлая метка идёт с 171 до 255, а контраст РАСТЁТ с 216 до 229 — раньше он падал до 140. Свет также затухает с расстоянием. А днём фильтра нет вовсе: нулевая стоимость."
+          }
+        }
+      ]
+    },
     {
       "version": "0.39.15",
       "date": "2026-08-02",
