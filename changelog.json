@@ -1,13 +1,40 @@
 {
   "schema": 1,
-  "generatedAt": "2026-08-02T17:50:35.068Z",
-  "latestVersion": "0.39.12",
+  "generatedAt": "2026-08-02T18:20:56.897Z",
+  "latestVersion": "0.39.13",
   "langs": [
     "pt",
     "en",
     "ru"
   ],
   "entries": [
+    {
+      "version": "0.39.13",
+      "date": "2026-08-02",
+      "title": {
+        "pt": "v0.39.13 — Suavizacao por ATRASO + diagnostico da captura",
+        "en": "v0.39.13 — Delay-based smoothing + capture diagnostics",
+        "ru": "v0.39.13 — Сглаживание ЗАДЕРЖКОЙ + диагностика захвата"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "SUAVIZACAO POR ATRASO, ligada por padrao. Em vez de escorregar atras da sua cabeca e depois tentar adivinhar pra compensar, o app agora guarda as poses COM HORA e desenha o instante 'agora menos o atraso'. Como esse instante ja passou, sempre existem duas posicoes reais em volta dele — entao a saida INTERPOLA em vez de adivinhar, e por construcao nunca passa do ponto. Medido em bancada com uma camera ruim de proposito (15 quadros por segundo, irregular): o tranco caiu de 7,25 para 0,34 graus, e os quadros repetidos foram de 80% para ZERO. O ajuste agora e em MILISSEGUNDOS, com um modo AUTO que mede o ritmo da sua camera e escolhe sozinho.",
+            "en": "DELAY-BASED SMOOTHING, on by default. Instead of sliding behind your head and then guessing ahead to compensate, the app now stores poses WITH A TIMESTAMP and draws the moment 'now minus the delay'. Since that moment has already passed, there are always two real positions around it — so the output INTERPOLATES instead of guessing, and by construction never overshoots. Measured on a bench with a deliberately bad camera (15 frames per second, irregular): jerk fell from 7.25 to 0.34 degrees and repeated frames went from 80% to ZERO. The setting is now in MILLISECONDS, with an AUTO mode that measures your camera's rhythm and picks for you.",
+            "ru": "СГЛАЖИВАНИЕ ЗАДЕРЖКОЙ, включено по умолчанию. Вместо того чтобы тянуться за головой, а затем угадывать вперёд для компенсации, приложение хранит позы СО ВРЕМЕНЕМ и рисует момент «сейчас минус задержка». Этот момент уже прошёл, поэтому вокруг него всегда есть две реальные позиции — вывод ИНТЕРПОЛИРУЕТ, а не угадывает, и по построению никогда не проскакивает. Измерено на стенде с намеренно плохой камерой (15 кадров в секунду, неравномерно): рывок упал с 7,25 до 0,34 градуса, повторяющиеся кадры — с 80% до НУЛЯ. Настройка теперь в МИЛЛИСЕКУНДАХ, с режимом АВТО, который измеряет ритм вашей камеры."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "DIAGNOSTICO DA CAPTURA nos ajustes avancados. Existe porque a taxa caia pela metade em tela cheia e nao havia como saber por que. Mostra se a inferencia esta na GPU ou na CPU (o app tentava GPU e caia pra CPU EM SILENCIO — podia estar assim ha meses), o que a camera REALMENTE entrega, quanto custa cada inferencia e quantas voltas do laco acontecem sem quadro novo. Numero que ninguem ve e numero que nao existe.",
+            "en": "CAPTURE DIAGNOSTICS in advanced settings. It exists because the rate halved in fullscreen and there was no way to know why. It shows whether inference runs on GPU or CPU (the app tried GPU and fell back to CPU SILENTLY — it could have been that way for months), what the camera actually delivers, how long each inference costs, and how many loop turns happen with no new frame. A number nobody sees is a number that does not exist.",
+            "ru": "ДИАГНОСТИКА ЗАХВАТА в расширенных настройках. Появилась потому, что частота падала вдвое в полноэкранном режиме и не было способа узнать причину. Показывает, идёт ли инференс на GPU или CPU (приложение пробовало GPU и МОЛЧА переходило на CPU — так могло быть месяцами), что камера выдаёт на самом деле, сколько стоит каждый инференс и сколько витков цикла проходит без нового кадра."
+          }
+        }
+      ]
+    },
     {
       "version": "0.39.12",
       "date": "2026-08-02",
