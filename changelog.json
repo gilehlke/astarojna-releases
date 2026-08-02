@@ -1,13 +1,48 @@
 {
   "schema": 1,
-  "generatedAt": "2026-08-02T19:51:11.073Z",
-  "latestVersion": "0.39.16",
+  "generatedAt": "2026-08-02T20:11:58.097Z",
+  "latestVersion": "0.39.17",
   "langs": [
     "pt",
     "en",
     "ru"
   ],
   "entries": [
+    {
+      "version": "0.39.17",
+      "date": "2026-08-02",
+      "title": {
+        "pt": "v0.39.17 — Os dois reostatos da cabine",
+        "en": "v0.39.17 — The cockpit two rheostats",
+        "ru": "v0.39.17 — Два реостата кабины"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "A LAMPADA CLAREAVA OS INSTRUMENTOS DE DIA. Bastava ela estar ligada pra os mostradores ganharem brilho mesmo com o painel em dia pleno — o que nao faz sentido nenhum: luz acesa ao meio-dia nao muda nada que o olho veja. Agora a luz so tem efeito NO ESCURO, na medida da escuridao. Isso tambem entrega a intencao original do modo noturno: a hora da missao escurece o painel, e e o escuro que da sentido a acender a luz.",
+            "en": "THE LAMP WAS BRIGHTENING INSTRUMENTS IN DAYLIGHT. Merely having it on made the instruments brighter even with the panel in full day — which makes no sense: a lamp switched on at noon changes nothing the eye can see. The light now only has an effect IN THE DARK, in proportion to how dark it is. That also delivers night mode original intent: mission time darkens the panel, and it is the darkness that gives switching the light on a purpose.",
+            "ru": "ЛАМПА ОСВЕТЛЯЛА ПРИБОРЫ ДНЁМ. Достаточно было её включить, и приборы становились ярче даже при полном дневном режиме. Теперь свет действует только В ТЕМНОТЕ."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "AS DUAS ABAS DO DIMMER PASSARAM A FAZER COISAS DIFERENTES. Antes as duas mexiam no mesmo escurecimento por caminhos diferentes — erro de projeto. Agora sao os dois reostatos que existem numa cabine de verdade: PAINEL e a luz INTERNA do instrumento (uniforme, e a pintura das marcas que acende) e LUZ e a luminaria de cima (depende da posicao: quem esta sob o refletor recebe +48%, quem esta no rodape +4%). O PAINEL comeca em ZERO de proposito — a ideia e que escureca e voce acenda.",
+            "en": "THE DIMMER TWO TABS NOW DO DIFFERENT THINGS. They used to drive the same dimming by different paths — a design mistake. They are now the two rheostats a real cockpit has: PANEL is the instrument INTERNAL lighting (uniform; the painted markings are what glow) and LIGHT is the overhead lamp (position-dependent: under the reflector +48%, down at the footer +4%). PANEL starts at ZERO on purpose — the idea is that it gets dark and you switch it on.",
+            "ru": "ДВЕ ВКЛАДКИ ДИММЕРА ТЕПЕРЬ ДЕЛАЮТ РАЗНОЕ: ПАНЕЛЬ — внутренняя подсветка прибора (равномерная), а СВЕТ — верхний плафон (зависит от положения: под отражателем +48%, у нижнего края +4%)."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "A LUZ GANHOU TOM E CAIMENTO. A cor ficou bem mais marcada (o desvio entre canais subiu de 20% para 25%), a diferenca entre o topo e a base do painel ficou muito maior, e o fundo preto agora pega LEVEMENTE o tom da lampada em vez de ficar morto — mas de leve, sem voltar a ser aquele bloco chapado.",
+            "en": "THE LIGHT GAINED TONE AND FALLOFF. The colour is far more pronounced (channel spread up from 20% to 25%), the difference between the top and the bottom of the panel is much greater, and the black background now picks up a LITTLE of the lamp tone instead of staying dead — but only a little, without going back to that flat block.",
+            "ru": "СВЕТ ПОЛУЧИЛ ТОН И ЗАТУХАНИЕ. Цвет стал заметнее, разница между верхом и низом — намного больше, а чёрный фон чуть подхватывает тон лампы."
+          }
+        }
+      ]
+    },
     {
       "version": "0.39.16",
       "date": "2026-08-02",
