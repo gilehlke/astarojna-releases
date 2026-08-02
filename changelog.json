@@ -1,13 +1,48 @@
 {
   "schema": 1,
-  "generatedAt": "2026-08-02T18:51:49.994Z",
-  "latestVersion": "0.39.14",
+  "generatedAt": "2026-08-02T19:14:15.965Z",
+  "latestVersion": "0.39.15",
   "langs": [
     "pt",
     "en",
     "ru"
   ],
   "entries": [
+    {
+      "version": "0.39.15",
+      "date": "2026-08-02",
+      "title": {
+        "pt": "v0.39.15 — Atraso e suavizacao trabalham JUNTOS",
+        "en": "v0.39.15 — Delay and smoothing now work TOGETHER",
+        "ru": "v0.39.15 — Задержка и сглаживание работают ВМЕСТЕ"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "O ATRASO E A SUAVIZACAO viraram dois botoes que fazem coisas diferentes, e agora trabalham em cadeia. O atraso RESSAMPLEIA: pega a camera esparsa e irregular e devolve um sinal denso e liso, com latencia que voce escolhe. A suavizacao entao trabalha em cima de uma entrada limpa — e e ai que o caracter dela aparece de verdade. A ordem importa e e essa: filtrar primeiro e atrasar depois nao acrescenta nada, porque o sinal ja saiu denso do filtro. Medido com camera a 20 quadros por segundo irregular: a cadeia inteira segue a cabeca com 2,3 graus de erro e sai com 0,1 grau de tranco.",
+            "en": "DELAY AND SMOOTHING are now two knobs doing different jobs, chained. The delay RESAMPLES: it takes the sparse, irregular camera stream and returns a dense, smooth signal with a latency you choose. Smoothing then works on a clean input — and that is where its character really shows. The order matters and it is this one: filtering first and delaying after adds nothing, because the filter's output is already dense. Measured with an irregular 20 fps camera: the whole chain follows the head within 2.3 degrees and comes out with 0.1 degree of jerk.",
+            "ru": "ЗАДЕРЖКА И СГЛАЖИВАНИЕ стали двумя ручками с разными задачами и работают в цепочке. Задержка ПЕРЕДИСКРЕТИЗИРУЕТ: берёт разреженный неравномерный поток с камеры и возвращает плотный гладкий сигнал с выбранной вами задержкой. Сглаживание затем работает по чистому входу — и именно там проявляется его характер. Порядок важен и он именно такой: сначала фильтровать, потом задерживать — бессмысленно, потому что выход фильтра уже плотный. Измерено на неравномерной камере 20 кадров в секунду: вся цепочка следует за головой с ошибкой 2,3 градуса и выдаёт 0,1 градуса рывка."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "O AVISO DE EMISSAO dizia 'Enviando pro War Thunder' mesmo quando voce estava voando no DCS. Agora diz 'Enviando pro jogo'.",
+            "en": "THE EMIT NOTICE said 'Sending to War Thunder' even while you were flying in DCS. It now says 'Sending to the game'.",
+            "ru": "НАДПИСЬ О ПЕРЕДАЧЕ гласила «Отправка в War Thunder» даже когда вы летали в DCS. Теперь она гласит «Отправка в игру»."
+          }
+        },
+        {
+          "category": "refactor",
+          "text": {
+            "pt": "REMOVIDO O JOYSTICK VIRTUAL. O indicador de pouso automatico foi aposentado na v0.34.7 e sumiu da tela na hora — mas o codigo dele continuou dentro do app, e junto com ele a biblioteca que emula um controle de Xbox. Ninguem usava, ninguem mantinha, ninguem testava. Num programa que se apresenta como limpo perante anti-cheat, o instalador deixar de carregar uma biblioteca de emular controle nao e faxina, e postura. Se um dia existir 'cabeca como eixo de joystick', volta como recurso novo e decidido — nao como sobra.",
+            "en": "VIRTUAL JOYSTICK REMOVED. The autoland indicator was retired in v0.34.7 and disappeared from the screen immediately — but its code stayed inside the app, and with it the library that emulates an Xbox controller. Nobody used it, nobody maintained it, nobody tested it. In a program that presents itself as clean towards anti-cheat, the installer no longer shipping a controller-emulation library is not housekeeping, it is posture. If 'head as a joystick axis' ever exists, it comes back as a new, decided feature — not as a leftover.",
+            "ru": "УДАЛЁН ВИРТУАЛЬНЫЙ ДЖОЙСТИК. Индикатор автопосадки был выведен из эксплуатации в v0.34.7 и сразу исчез с экрана — но его код остался внутри приложения, а вместе с ним библиотека, эмулирующая контроллер Xbox. Никто им не пользовался, никто не поддерживал, никто не тестировал. Для программы, которая позиционирует себя как чистая перед анти-читом, отказ установщика от библиотеки эмуляции контроллера — это не уборка, а позиция."
+          }
+        }
+      ]
+    },
     {
       "version": "0.39.14",
       "date": "2026-08-02",
