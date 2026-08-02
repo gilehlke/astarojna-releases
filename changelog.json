@@ -1,13 +1,40 @@
 {
   "schema": 1,
-  "generatedAt": "2026-08-02T02:26:06.191Z",
-  "latestVersion": "0.39.11",
+  "generatedAt": "2026-08-02T17:50:35.068Z",
+  "latestVersion": "0.39.12",
   "langs": [
     "pt",
     "en",
     "ru"
   ],
   "entries": [
+    {
+      "version": "0.39.12",
+      "date": "2026-08-02",
+      "title": {
+        "pt": "v0.39.12 — Head tracking no DCS: era ordem de inicializacao",
+        "en": "v0.39.12 — DCS head tracking: it was startup order",
+        "ru": "v0.39.12 — Трекинг головы в DCS: дело было в порядке запуска"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "HEAD TRACKING NO DCS finalmente funciona. A causa nao era o dado que a gente manda: o DCS procura o rastreador de cabeca UMA VEZ, no arranque, e desiste. Nosso app so criava o canal quando a camera comecava a emitir — entao quem abrisse o DCS antes do Astarojna nunca era visto, e o sintoma era a cabeca muda, sem erro em lugar nenhum. Agora o canal nasce assim que voce abre a tela de head tracking, bem antes de o jogo subir. No War Thunder nunca deu problema porque ele procura o rastreador a cada quadro.",
+            "en": "DCS HEAD TRACKING finally works. The cause was not the data we send: DCS looks for the head tracker exactly once, at startup, and gives up. Our app only created the channel once the camera started emitting — so anyone launching DCS before Astarojna was never seen, and the symptom was a frozen head with no error anywhere. The channel is now created the moment you open the head tracking screen, well before the game starts. War Thunder never had this because it looks for the tracker every frame.",
+            "ru": "ТРЕКИНГ ГОЛОВЫ В DCS наконец работает. Причина была не в данных, которые мы отправляем: DCS ищет трекер головы ровно один раз, при старте, и сдаётся. Наше приложение создавало канал только когда камера начинала передавать позу — поэтому у тех, кто запускал DCS раньше Astarojna, трекер не находился никогда, а симптомом была неподвижная голова без единой ошибки. Теперь канал создаётся сразу при открытии экрана трекинга, задолго до запуска игры. В War Thunder этой проблемы не было, потому что он ищет трекер каждый кадр."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "PARAR A CAMERA NAO DERRUBA MAIS O JOGO. Antes, desligar a camera ou so trocar de aba destruia o canal — e um DCS ja rodando perdia o rastreador PARA SEMPRE, sem jeito de voltar a nao ser reiniciando o jogo. Agora parar apenas zera a pose (o jogo volta a olhar pra frente) e o canal continua de pe. E a tela ganhou um aviso em ambar: no DCS, abra o Astarojna ANTES do jogo.",
+            "en": "STOPPING THE CAMERA NO LONGER KILLS THE GAME. Previously, turning the camera off — or merely switching tabs — destroyed the channel, and a running DCS lost the tracker FOR GOOD, with no way back short of restarting the game. Stopping now only zeroes the pose (the game looks straight ahead) and the channel stays up. The screen also gained an amber notice: in DCS, open Astarojna BEFORE the game.",
+            "ru": "ОСТАНОВКА КАМЕРЫ БОЛЬШЕ НЕ ЛОМАЕТ ИГРУ. Раньше выключение камеры — или простое переключение вкладки — уничтожало канал, и запущенный DCS терял трекер НАВСЕГДА, вернуть его можно было только перезапуском игры. Теперь остановка лишь обнуляет позу (игра смотрит прямо), а канал остаётся живым. На экране также появилось янтарное предупреждение: в DCS открывайте Astarojna ДО игры."
+          }
+        }
+      ]
+    },
     {
       "version": "0.39.11",
       "date": "2026-08-01",
