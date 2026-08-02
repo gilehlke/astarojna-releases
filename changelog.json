@@ -1,13 +1,48 @@
 {
   "schema": 1,
-  "generatedAt": "2026-08-01T22:15:28.819Z",
-  "latestVersion": "0.39.10",
+  "generatedAt": "2026-08-02T02:26:06.191Z",
+  "latestVersion": "0.39.11",
   "langs": [
     "pt",
     "en",
     "ru"
   ],
   "entries": [
+    {
+      "version": "0.39.11",
+      "date": "2026-08-01",
+      "title": {
+        "pt": "v0.39.11 — Mapa do DCS: a pista aponta pro lado certo",
+        "en": "v0.39.11 — DCS map: the runway points the right way",
+        "ru": "v0.39.11 — Карта DCS: полоса указывает в верную сторону"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "PISTA APONTANDO PRO NORTE: a base de aerodromos guardava proa ZERO sempre que a fonte publica vinha sem esse campo — 68% das pistas do mundo, desenhadas como se corressem norte-sul. O Batumi era uma delas. Agora a proa sai da coordenada das duas cabeceiras quando existe (e ai a pista aparece no lugar exato, nao centrada no ponto do aerodromo), do campo de proa quando existe, e do numero da pista em ultimo caso. 81% das pistas ficam orientadas; entre os aerodromos grandes, 1170 de 1172. Quem continua sem fonte vira circulo — o circulo diz 'nao sei', o traco errado dizia 'e por aqui'.",
+            "en": "RUNWAYS POINTING NORTH: the airfield database stored heading ZERO whenever the public source left that field blank — 68% of the world's runways, drawn as if they ran north-south. Batumi was one of them. The heading now comes from the coordinates of both thresholds when they exist (and then the runway is drawn where it actually is, not centred on the airport point), from the heading field when that exists, and from the runway number as a last resort. 81% of runways are now oriented; among large airports, 1170 out of 1172. The ones with no source at all become a circle — a circle says 'unknown', a wrong line said 'this way'.",
+            "ru": "ПОЛОСЫ, СМОТРЯЩИЕ НА СЕВЕР: база аэродромов хранила курс НОЛЬ каждый раз, когда в открытом источнике это поле было пустым — 68% полос мира рисовались так, будто идут с севера на юг. Батуми был одной из них. Теперь курс берётся из координат обоих порогов, если они есть (и тогда полоса рисуется точно на своём месте, а не по центру точки аэродрома), из поля курса, если оно есть, и из номера полосы в крайнем случае. Ориентированы 81% полос; среди крупных аэродромов — 1170 из 1172. Те, для которых источника нет вовсе, становятся кружком: кружок говорит «не знаю», а неверная черта говорила «вот сюда»."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "TERRA E AGUA quase nao se distinguiam: a separacao entre as duas era de 4% de brilho, e a linha da costa sumia assim que o brilho da tela caia. Subiu pra 12%, a costa ganhou traco claro, e cidade, rio e fronteira agora aparecem sem clarear a carta — continua escura pra voo noturno.",
+            "en": "LAND AND WATER were nearly indistinguishable: only 4% of brightness separated them, and the coastline vanished as soon as screen brightness dropped. It is now 12%, the coast got a brighter stroke, and cities, rivers and borders read without washing out the chart — still dark enough for night flying.",
+            "ru": "СУША И ВОДА почти не различались: разница яркости была 4%, и береговая линия исчезала, как только падала яркость экрана. Теперь 12%, берег получил более светлую линию, а города, реки и границы читаются, не осветляя карту — она по-прежнему тёмная для ночного полёта."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "NOME DE AERODROMO EM CIMA DO AVIAO: o codigo era escrito sempre do lado direito do simbolo, entao caia por cima do seu proprio aviao quando voce estava sobre o campo, e por cima de outro nome quando dois campos ficavam perto. Agora cada nome procura um canto livre em volta do simbolo, ganha contorno escuro pra sobreviver a mancha urbana, e some se nao couber. As bases sem codigo ICAO (Senaki, Gudauta, Ozurgeti) deixaram de ser bolinha muda e passaram a mostrar o nome.",
+            "en": "AIRFIELD NAME ON TOP OF YOUR AIRCRAFT: the code was always written to the right of the symbol, so it landed on your own aircraft when you were over the field, and on another name when two fields were close. Each name now looks for a free corner around its symbol, gets a dark outline so it survives urban areas, and disappears if it does not fit. Bases with no ICAO code (Senaki, Gudauta, Ozurgeti) went from mute circles to showing their name.",
+            "ru": "НАЗВАНИЕ АЭРОДРОМА ПОВЕРХ САМОЛЁТА: код всегда писался справа от символа, поэтому попадал на ваш собственный самолёт, когда вы были над аэродромом, и на чужое название, когда два аэродрома оказывались рядом. Теперь каждое название ищет свободный угол вокруг символа, получает тёмный контур, чтобы выжить над городской застройкой, и исчезает, если не помещается. Базы без кода ИКАО (Сенаки, Гудаута, Озургети) перестали быть немыми кружками и показывают название."
+          }
+        }
+      ]
+    },
     {
       "version": "0.39.10",
       "date": "2026-08-01",
