@@ -1,13 +1,32 @@
 {
   "schema": 1,
-  "generatedAt": "2026-08-02T20:11:58.097Z",
-  "latestVersion": "0.39.17",
+  "generatedAt": "2026-08-02T20:50:47.876Z",
+  "latestVersion": "0.39.18",
   "langs": [
     "pt",
     "en",
     "ru"
   ],
   "entries": [
+    {
+      "version": "0.39.18",
+      "date": "2026-08-02",
+      "title": {
+        "pt": "v0.39.18 — Da pra testar o modo noturno em terra",
+        "en": "v0.39.18 — You can now test night mode on the ground",
+        "ru": "v0.39.18 — Ночной режим теперь можно проверить на земле"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "AJUSTAR O NOTURNO EXIGIA VOAR DE MADRUGADA. O escurecimento automatico segue a hora da MISSAO, entao sem uma missao noturna nao dava pra ver o efeito nem calibrar a lampada — e ninguem sobe uma missao as tres da manha so pra mexer num slider. Agora as Configuracoes, na secao Noturno, tem um SIMULADOR DE HORA: liga, arrasta de meia-noite a meia-noite, e o painel reage na hora em TODAS as janelas (principal, overlay e segunda tela). Ha atalhos pras horas que interessam, inclusive duas no meio do crepusculo, que e onde a transicao aparece. A hora simulada NAO fica salva de proposito: e bancada, nao configuracao — ninguem deve descobrir semanas depois que o painel esta escuro porque esqueceu um teste ligado.",
+            "en": "TUNING NIGHT MODE MEANT FLYING AT 3 AM. Automatic dimming follows MISSION time, so without a night mission you could not see the effect or tune the lamp — and nobody launches a 3 AM mission just to move a slider. Settings, under the Night section, now has a TIME SIMULATOR: switch it on, drag from midnight to midnight, and the panel reacts instantly in EVERY window (main, overlay and second screen). There are shortcuts for the times that matter, two of them mid-twilight, which is where the transition shows. The simulated time is deliberately NOT saved: it is a workbench, not a setting — nobody should discover weeks later that their panel is dark because they left a test running.",
+            "ru": "Настройка ночного режима требовала полёта ночью. Автоматическое затемнение следует времени МИССИИ, так что без ночной миссии эффект не увидеть. Теперь в настройках есть СИМУЛЯТОР ВРЕМЕНИ: включите и тяните — панель реагирует сразу во ВСЕХ окнах. Симулированное время намеренно НЕ сохраняется."
+          }
+        }
+      ]
+    },
     {
       "version": "0.39.17",
       "date": "2026-08-02",
