@@ -1,13 +1,56 @@
 {
   "schema": 1,
-  "generatedAt": "2026-08-06T15:59:34.413Z",
-  "latestVersion": "0.39.59",
+  "generatedAt": "2026-08-06T18:39:10.402Z",
+  "latestVersion": "0.39.60",
   "langs": [
     "pt",
     "en",
     "ru"
   ],
   "entries": [
+    {
+      "version": "0.39.60",
+      "date": "2026-08-06",
+      "title": {
+        "pt": "Presets por simulador e edição centralizada",
+        "en": "Per-simulator presets and centralized editing",
+        "ru": "Пресеты по симуляторам и единый редактор"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Presets de War Thunder e DCS agora são cópias independentes; a clonagem entre jogos remove automaticamente gauges incompatíveis.",
+            "en": "War Thunder and DCS presets are now independent copies; cloning between games automatically removes incompatible gauges.",
+            "ru": "Пресеты War Thunder и DCS теперь независимы; при клонировании между играми несовместимые приборы удаляются автоматически."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Os painéis aparecem como cards flutuantes no centro e entram no editor em duas colunas, com lista e canvas usando scroll independente.",
+            "en": "Panels now appear as floating cards in the center and enter a two-column editor with independent scrolling for the list and canvas.",
+            "ru": "Панели показаны как плавающие карточки и открываются в двухколоночном редакторе с независимой прокруткой списка и холста."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Espelhamento virou um procedimento aberto por QR code; configurações DCS ganharam indicação pulsante de prontidão ou falha.",
+            "en": "Device mirroring is now an open QR-code procedure; DCS settings gained a pulsing ready or failure indicator.",
+            "ru": "Зеркалирование стало открытой процедурой с QR-кодом; настройки DCS получили пульсирующий индикатор готовности или ошибки."
+          }
+        },
+        {
+          "category": "refactor",
+          "text": {
+            "pt": "Launcher agrupa apenas gerações oficiais, corrige o nome da conta e permite três tamanhos persistentes de interface antes do login.",
+            "en": "The launcher groups official release lines only, fixes the account greeting, and offers three persistent interface sizes before sign-in.",
+            "ru": "Лаунчер показывает только официальные линии версий, исправляет имя аккаунта и предлагает три сохраняемых размера интерфейса до входа."
+          }
+        }
+      ]
+    },
     {
       "version": "0.39.59",
       "date": "2026-08-06",
