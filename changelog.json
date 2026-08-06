@@ -1,13 +1,56 @@
 {
   "schema": 1,
-  "generatedAt": "2026-08-06T18:39:10.402Z",
-  "latestVersion": "0.39.60",
+  "generatedAt": "2026-08-06T19:12:44.612Z",
+  "latestVersion": "0.39.61",
   "langs": [
     "pt",
     "en",
     "ru"
   ],
   "entries": [
+    {
+      "version": "0.39.61",
+      "date": "2026-08-06",
+      "title": {
+        "pt": "Catálogo de painéis e edição direta",
+        "en": "Panel catalog and direct editing",
+        "ru": "Каталог панелей и прямое редактирование"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Os painéis do preset agora ficam lado a lado num carrossel horizontal, com continuidade visível nas bordas e sem cortar o preset selecionado no rodapé.",
+            "en": "Preset panels now sit side by side in a horizontal carousel, with visible continuation at the edges and no clipping of the selected preset in the footer.",
+            "ru": "Панели пресета теперь расположены в один ряд в горизонтальной карусели; продолжение видно по краям, а выбранный пресет внизу не обрезается."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "O clique direito no preset abre ações para clonar, renomear, atribuir foto ou ícone e excluir.",
+            "en": "Right-clicking a preset opens actions to clone, rename, assign a photo or icon, and delete it.",
+            "ru": "Правый щелчок по пресету открывает действия: клонировать, переименовать, назначить фото или значок и удалить."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "As chaves do DCS voltaram ao fluxo principal; o checklist mantém as verificações externas de monitor, resolução e janela.",
+            "en": "DCS switches are back in the main flow; the checklist still verifies external monitor, resolution, and window requirements.",
+            "ru": "Переключатели DCS возвращены в основной поток; чек-лист по-прежнему проверяет монитор, разрешение и положение окна."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Gauges selecionados ficam acima dos demais, ganham quatro alças e podem ser redimensionados pela roda do mouse; os comandos de adicionar permanecem fixos.",
+            "en": "Selected gauges stay above the others, gain four resize handles, and can be resized with the mouse wheel; add controls remain pinned.",
+            "ru": "Выбранный прибор отображается поверх остальных, получает четыре ручки размера и меняет размер колесом мыши; кнопки добавления закреплены сверху."
+          }
+        }
+      ]
+    },
     {
       "version": "0.39.60",
       "date": "2026-08-06",
