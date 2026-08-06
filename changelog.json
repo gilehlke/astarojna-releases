@@ -1,13 +1,56 @@
 {
   "schema": 1,
-  "generatedAt": "2026-08-06T00:20:23.358Z",
-  "latestVersion": "0.39.18",
+  "generatedAt": "2026-08-06T15:59:34.413Z",
+  "latestVersion": "0.39.59",
   "langs": [
     "pt",
     "en",
     "ru"
   ],
   "entries": [
+    {
+      "version": "0.39.59",
+      "date": "2026-08-06",
+      "title": {
+        "pt": "Inicializador e central de voo em uma janela",
+        "en": "Launcher and flight workspace in one window",
+        "ru": "Лаунчер и единое рабочее окно полёта"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Novo inicializador com login, últimas versões oficiais, verificação obrigatória de atualização e entrada Prepare to Take Off.",
+            "en": "New launcher with sign-in, official release news, mandatory update verification, and a Prepare to Take Off entry point.",
+            "ru": "Новый лаунчер с входом, новостями официальных выпусков, обязательной проверкой обновления и кнопкой Prepare to Take Off."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Simulador, editores, head tracking, espelhamento, configurações, suporte Luna e Luna Gauges agora vivem numa barra única.",
+            "en": "Simulator, panel editors, head tracking, device mirroring, settings, Luna support, and Luna Gauges now share one navigation bar.",
+            "ru": "Симулятор, редакторы, трекинг головы, зеркалирование, настройки, поддержка Luna и Luna Gauges теперь находятся в одной панели навигации."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Presets e telas ficam sempre visíveis: Base usa 2 telas e Premium até 5, com slots bloqueados claros e modo Ready to Fly sem distrações.",
+            "en": "Presets and screens stay visible: Base uses 2 screens and Premium up to 5, with clear locked slots and a distraction-free Ready to Fly mode.",
+            "ru": "Пресеты и экраны всегда видны: Base использует 2 экрана, Premium — до 5; заблокированные слоты понятны, а Ready to Fly убирает отвлекающие элементы."
+          }
+        },
+        {
+          "category": "refactor",
+          "text": {
+            "pt": "O checklist das telas do F/A-18C virou procedimento por switches; o Luna Gauges ficou livre para experimentar e exige Supporter apenas ao salvar.",
+            "en": "The F/A-18C display checklist now uses aircraft-style switches; Luna Gauges is open for experimentation and requires Supporter only when saving.",
+            "ru": "Проверка экранов F/A-18C оформлена как авиационные переключатели; Luna Gauges открыт для экспериментов, а Supporter нужен только для сохранения."
+          }
+        }
+      ]
+    },
     {
       "version": "0.39.18",
       "date": "2026-08-02",
