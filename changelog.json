@@ -1,13 +1,56 @@
 {
   "schema": 1,
-  "generatedAt": "2026-08-20T19:53:48.778Z",
-  "latestVersion": "0.39.61",
+  "generatedAt": "2026-08-20T20:02:01.964Z",
+  "latestVersion": "0.40.0",
   "langs": [
     "pt",
     "en",
     "ru"
   ],
   "entries": [
+    {
+      "version": "0.40.0",
+      "date": "2026-08-20",
+      "title": {
+        "pt": "DCS World oficialmente suportado",
+        "en": "DCS World officially supported",
+        "ru": "Официальная поддержка DCS World"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "O DCS World agora é oficialmente suportado: telemetria, mostradores digitais do cockpit no painel e no tablet, e head tracking — tudo dentro do app.",
+            "en": "DCS World is now officially supported: telemetry, digital cockpit displays on your panel and tablet, and head tracking — all inside the app.",
+            "ru": "DCS World теперь официально поддерживается: телеметрия, цифровые дисплеи кабины на панели и планшете, и трекинг головы — всё внутри приложения."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Mostradores digitais muito mais fluidos: nova captura de imagem, taxa de quadros estável e fim das piscadas pretas.",
+            "en": "Much smoother cockpit displays: new image capture, stable frame rate, and no more black flickers.",
+            "ru": "Дисплеи кабины стали заметно плавнее: новый захват изображения, стабильная частота кадров и никаких чёрных миганий."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Head tracking funcionando no DCS, com instalação feita pelo próprio app.",
+            "en": "Head tracking working in DCS, installed by the app itself.",
+            "ru": "Трекинг головы работает в DCS — приложение устанавливает всё само."
+          }
+        },
+        {
+          "category": "refactor",
+          "text": {
+            "pt": "Configuração do DCS polida: um checklist guiado deixa tudo pronto em poucos cliques — o app escreve as configurações do jogo por você.",
+            "en": "Polished DCS setup: a guided checklist gets everything ready in a few clicks — the app writes the game's settings for you.",
+            "ru": "Отполированная настройка DCS: пошаговый чек-лист готовит всё за пару кликов — приложение само записывает настройки игры."
+          }
+        }
+      ]
+    },
     {
       "version": "0.39.61",
       "date": "2026-08-06",
