@@ -1,13 +1,64 @@
 {
   "schema": 1,
-  "generatedAt": "2026-08-20T20:17:56.085Z",
-  "latestVersion": "0.40.0",
+  "generatedAt": "2026-08-22T21:24:07.855Z",
+  "latestVersion": "0.41.0",
   "langs": [
     "pt",
     "en",
     "ru"
   ],
   "entries": [
+    {
+      "version": "0.41.0",
+      "date": "2026-08-22",
+      "title": {
+        "pt": "Suporte com tickets, chat e caixa-preta",
+        "en": "Support with tickets, chat and a black box",
+        "ru": "Поддержка: тикеты, чат и «чёрный ящик»"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Nova página de suporte: abra um ticket, acompanhe o status na tabela e converse com o suporte num chat dentro do app — com aviso quando houver resposta.",
+            "en": "New support page: open a ticket, track its status in a table and talk to support in an in-app chat — with a notice when there's a reply.",
+            "ru": "Новая страница поддержки: создайте тикет, следите за статусом в таблице и общайтесь с поддержкой в чате прямо в приложении — с уведомлением об ответе."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Caixa-preta de diagnóstico: se o app (ou o PC) cair, na reabertura ele oferece enviar um relatório técnico com um clique — e você vê exatamente o que vai, antes de enviar.",
+            "en": "Diagnostic black box: if the app (or the PC) goes down, on reopen it offers to send a technical report in one click — and you see exactly what's in it before sending.",
+            "ru": "«Чёрный ящик» диагностики: если приложение (или ПК) упало, при следующем запуске оно предложит отправить технический отчёт в один клик — и вы видите его содержимое до отправки."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Modo seguro: se o último voo terminou mal com os mostradores ligados, a captura abre pausada — e o app agora se protege quando um monitor some no meio do voo.",
+            "en": "Safe mode: if the last flight ended badly with the displays running, capture starts paused — and the app now protects itself when a monitor drops mid-flight.",
+            "ru": "Безопасный режим: если прошлый полёт прервался при включённых дисплеях, захват запускается на паузе — и приложение теперь защищается, когда монитор пропадает в полёте."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Canal de Teste direto no inicializador (exclusivo Supporter) e avisos novos: VRAM apertada e receiver de home theater usado como monitor.",
+            "en": "Test channel right in the launcher (Supporter-exclusive) plus new warnings: tight VRAM and a home-theater receiver used as a monitor.",
+            "ru": "Канал «Тест» прямо в лаунчере (только для Supporters) и новые предупреждения: нехватка VRAM и AV-ресивер в роли монитора."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Centenas de textos que apareciam em português em outros idiomas foram traduzidos.",
+            "en": "Hundreds of strings that showed up in Portuguese in other languages are now translated.",
+            "ru": "Сотни строк, отображавшихся по-португальски в других языках, переведены."
+          }
+        }
+      ]
+    },
     {
       "version": "0.40.0",
       "date": "2026-08-20",
