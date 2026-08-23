@@ -1,13 +1,56 @@
 {
   "schema": 1,
-  "generatedAt": "2026-08-23T16:08:27.152Z",
-  "latestVersion": "0.41.0",
+  "generatedAt": "2026-08-23T18:33:10.707Z",
+  "latestVersion": "0.42.0",
   "langs": [
     "pt",
     "en",
     "ru"
   ],
   "entries": [
+    {
+      "version": "0.42.0",
+      "date": "2026-08-23",
+      "title": {
+        "pt": "Espelhamento de volta e mostradores mais estáveis",
+        "en": "Mirroring is back, and steadier displays",
+        "ru": "Зеркалирование вернулось, дисплеи стабильнее"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Corrigido: em alguns PCs o espelhamento no celular/tablet abria em tela preta. Voltou a funcionar.",
+            "en": "Fixed: on some PCs, mirroring to a phone/tablet opened as a black screen. It works again.",
+            "ru": "Исправлено: на некоторых ПК зеркалирование на телефон/планшет открывалось чёрным экраном. Снова работает."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Mostradores do DCS mais estáveis: com o jogo parado (menu, alt-tab), o app deixou de refazer a captura sem necessidade — menos picos de placa de vídeo.",
+            "en": "Steadier DCS displays: with the game idle (menu, alt-tab) the app no longer rebuilds the capture for nothing — fewer GPU spikes.",
+            "ru": "Дисплеи DCS стабильнее: когда игра простаивает (меню, alt-tab), приложение больше не пересоздаёт захват впустую — меньше пиков нагрузки на видеокарту."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Se a placa de vídeo começar a sofrer, o app reduz a própria cadência sozinho e volta ao normal quando aliviar.",
+            "en": "If the graphics card starts to struggle, the app slows its own rate down and returns to normal once it eases.",
+            "ru": "Если видеокарте становится тяжело, приложение само снижает частоту и возвращается к обычной, когда нагрузка спадает."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Mostradores em VR (experimental): a configuração de monitor que o app escreve agora pede ao DCS que desenhe os mostradores fora do headset. Reaplique a configuração do DCS para receber a mudança.",
+            "en": "Displays in VR (experimental): the monitor setup the app writes now asks DCS to draw the displays outside the headset. Re-apply the DCS setup to get the change.",
+            "ru": "Дисплеи в VR (экспериментально): настройка мониторов, которую пишет приложение, теперь просит DCS рисовать дисплеи вне шлема. Примените настройку DCS заново, чтобы получить изменение."
+          }
+        }
+      ]
+    },
     {
       "version": "0.41.0",
       "date": "2026-08-22",
