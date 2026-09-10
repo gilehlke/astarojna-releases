@@ -1,13 +1,64 @@
 {
   "schema": 1,
-  "generatedAt": "2026-09-07T20:46:42.051Z",
-  "latestVersion": "0.42.0",
+  "generatedAt": "2026-09-10T19:51:15.122Z",
+  "latestVersion": "0.42.55",
   "langs": [
     "pt",
     "en",
     "ru"
   ],
   "entries": [
+    {
+      "version": "0.42.55",
+      "date": "2026-09-10",
+      "title": {
+        "pt": "Teste: app completo e calibração da câmera",
+        "en": "Test release: complete app and camera calibration",
+        "ru": "Тестовая версия: полное приложение и калибровка камеры"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Preparado para a compra única do app completo: quando a conta receber o novo modelo no site, instrumentos, telas e canal Teste ficam incluídos.",
+            "en": "Ready for the complete app with a one-time purchase: instruments, screens and the Test channel are included when your account receives the new model on the website.",
+            "ru": "Подготовка к полной версии за разовый платёж: приборы, экраны и тестовый канал включаются, когда аккаунт на сайте перейдёт на новую модель."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Novo teste de sete dias corridos a partir do primeiro voo real, conforme a conta no site. Replays e prévias não iniciam esse prazo.",
+            "en": "A new seven-calendar-day trial starts with your first real flight, as enabled for your website account. Replays and previews do not start this period.",
+            "ru": "Новый пробный период длится семь календарных дней с первого настоящего полёта после его включения для аккаунта на сайте. Повторы и предпросмотр не запускают этот срок."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Supporter é apoio opcional: seu vencimento não remove recursos comprados. O acesso continua respeitando a licença e a sessão confirmadas pelo servidor.",
+            "en": "Supporter is optional support: its expiry does not remove purchased features. Access continues to follow the licence and session confirmed by the server.",
+            "ru": "Supporter — добровольная поддержка: окончание её срока не отключает купленные функции. Доступ по-прежнему определяется лицензией и сеансом, подтверждёнными сервером."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Beta da câmera no tablet: consulte as capacidades informadas pelo navegador e calibre a posição neutra com confirmação do PC.",
+            "en": "Tablet camera beta: inspect the capabilities reported by your browser and calibrate a neutral position with confirmation from the PC.",
+            "ru": "Бета камеры планшета: просмотр характеристик, сообщённых браузером, и калибровка нейтрального положения с подтверждением от ПК."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Asta Display no X-Plane com moldura fina, proporção preservada e uma dica de toque após o primeiro quadro desenhado.",
+            "en": "Asta Display in X-Plane has a thin frame, keeps the image aspect ratio and shows a touch hint after the first rendered frame.",
+            "ru": "Asta Display в X-Plane получил тонкую рамку, сохраняет пропорции изображения и показывает подсказку касания после первого отображённого кадра."
+          }
+        }
+      ]
+    },
     {
       "version": "0.42.0",
       "date": "2026-08-23",
