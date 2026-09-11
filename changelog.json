@@ -1,13 +1,78 @@
 {
   "schema": 1,
-  "generatedAt": "2026-09-10T19:51:15.122Z",
-  "latestVersion": "0.42.55",
+  "generatedAt": "2026-09-11T00:40:25.304Z",
+  "latestVersion": "0.42.58",
   "langs": [
     "pt",
     "en",
     "ru"
   ],
   "entries": [
+    {
+      "version": "0.42.58",
+      "date": "2026-09-10",
+      "title": {
+        "pt": "Asta Display em segundo plano",
+        "en": "Asta Display in the background",
+        "ru": "Asta Display в фоновом режиме"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "No X-Plane, minimizar um pop-out selecionado o mantém aberto atrás das outras janelas para continuar transmitindo. A seleção e as proporções do display são preservadas.",
+            "en": "In X-Plane, minimizing a selected pop-out keeps it open behind other windows so it can continue streaming. Display selection and proportions are preserved.",
+            "ru": "В X-Plane выбранное всплывающее окно после сворачивания остаётся открытым за другими окнами для продолжения трансляции. Выбор и пропорции дисплея сохраняются."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Os displays têm prioridade sobre as miniaturas do seletor. Corrigida a recepção no tablet quando os seletores abertos diferem dos do PC.",
+            "en": "Displays take priority over picker thumbnails. Fixed tablet reception when its open pickers differ from those on the PC.",
+            "ru": "Дисплеи получают приоритет перед миниатюрами. Исправлен приём кадров на планшете, когда открытые списки выбора отличаются от списков на ПК."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.42.57",
+      "date": null,
+      "title": {
+        "pt": "Diagnóstico local por MCP",
+        "en": "Local MCP diagnostics",
+        "ru": "Локальная диагностика MCP"
+      },
+      "changes": [
+        {
+          "category": "infra",
+          "text": {
+            "pt": "Integração de diagnóstico e ajustes de headtracking para desenvolvimento, restrita à conta do proprietário autenticada. Os comandos confirmam a aplicação e detectam conflitos com alterações feitas no app.",
+            "en": "Development diagnostics and headtracking adjustments, restricted to the authenticated owner account. Commands confirm application and detect conflicts with settings changed in the app.",
+            "ru": "Диагностика и настройка отслеживания головы для разработки доступны только после входа в учётную запись владельца. Команды подтверждают применение и обнаруживают конфликты с изменениями в приложении."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.42.56",
+      "date": "2026-09-10",
+      "title": {
+        "pt": "Teste: proteção contra travamento da captura",
+        "en": "Test release: capture freeze protection",
+        "ru": "Тестовая версия: защита интерфейса от зависания захвата"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "A atualização dos Asta Displays deixa de esperar pela captura do X-Plane, evitando que uma captura bloqueada paralise também a interface. A recuperação da imagem ainda está em validação.",
+            "en": "Updating Asta Displays no longer waits for X-Plane capture, preventing a stalled capture from also freezing the interface. Video recovery is still being validated.",
+            "ru": "Обновление Asta Display больше не ждёт захват X-Plane: зависший захват не блокирует интерфейс. Восстановление изображения ещё проверяется."
+          }
+        }
+      ]
+    },
     {
       "version": "0.42.55",
       "date": "2026-09-10",
