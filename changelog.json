@@ -1,13 +1,64 @@
 {
   "schema": 1,
-  "generatedAt": "2026-09-11T00:40:25.304Z",
-  "latestVersion": "0.42.58",
+  "generatedAt": "2026-09-15T20:24:02.186980+00:00",
+  "latestVersion": "0.43.0",
   "langs": [
     "pt",
     "en",
     "ru"
   ],
   "entries": [
+    {
+      "version": "0.43.0",
+      "date": "2026-09-15",
+      "title": {
+        "pt": "Seu cockpit, do seu jeito",
+        "en": "Your cockpit, your way",
+        "ru": "Ваша кабина — по вашим правилам"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Asta Deck com botões, switches, knobs, sliders e ignição; Asta Controls reúne alavancas de trem, flaps, hélice, mistura e airbrake.",
+            "en": "Asta Deck buttons, switches, knobs, sliders and ignition; Asta Controls combines gear, flaps, propeller, mixture and airbrake levers.",
+            "ru": "Кнопки, переключатели, регуляторы, ползунки и зажигание Asta Deck; Asta Controls объединяет рычаги шасси, закрылков, винта, смеси и воздушного тормоза."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Displays interativos do X-Plane, páginas independentes no tablet e assistente de comandos com presets e aprendizado pelo cockpit. Feedback depende da telemetria disponível.",
+            "en": "Interactive X-Plane displays, independent tablet pages and command presets/cockpit learning. Feedback depends on available telemetry.",
+            "ru": "Интерактивные дисплеи X-Plane, независимые страницы планшета и помощник команд с шаблонами и обучением по кабине. Обратная связь зависит от доступной телеметрии."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Instrumentos individuais por motor, modelos inspirados no Baron 58 e horizonte artificial de estilo soviético.",
+            "en": "Individual engine instruments, Baron 58-inspired designs and a Soviet-style attitude indicator.",
+            "ru": "Отдельные приборы для каждого двигателя, оформление в стиле Baron 58 и авиагоризонт советского типа."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Melhorias de headtracking e opções 1080p/4K na câmera para OBS, conforme suporte do dispositivo. TrueDepth nativo ainda não está incluído.",
+            "en": "Headtracking refinements and 1080p/4K OBS camera choices where supported. Native TrueDepth is not included.",
+            "ru": "Улучшения отслеживания головы и разрешения камеры OBS 1080p/4K при поддержке устройством. Нативный TrueDepth не включён."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Captura isolada com recuperação limitada e botão Tentar novamente. A validação ao vivo de reabertura GPS/radar, janelas minimizadas e DCS após esta mudança permanece pendente.",
+            "en": "Isolated capture with bounded recovery and Try again. Live GPS/radar reopening, minimized-window and DCS checks after this change remain pending.",
+            "ru": "Изолированный захват с ограниченным восстановлением и кнопкой повтора. Проверка повторного открытия GPS/радара, свёрнутых окон и DCS после изменения ещё предстоит."
+          }
+        }
+      ]
+    },
     {
       "version": "0.42.58",
       "date": "2026-09-10",
