@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-09-15T20:24:02.186980+00:00",
-  "latestVersion": "0.43.0",
+  "generatedAt": "2026-09-21T19:44:47.603Z",
+  "latestVersion": "0.42.66",
   "langs": [
     "pt",
     "en",
@@ -9,59 +9,151 @@
   ],
   "entries": [
     {
-      "version": "0.43.0",
-      "date": "2026-09-15",
+      "version": "0.42.66",
+      "date": "2026-09-13",
       "title": {
-        "pt": "Seu cockpit, do seu jeito",
-        "en": "Your cockpit, your way",
-        "ru": "Ваша кабина — по вашим правилам"
+        "pt": "Asta Deck modular",
+        "en": "Modular Asta Deck",
+        "ru": "Модульный Asta Deck"
       },
       "changes": [
         {
           "category": "feature",
           "text": {
-            "pt": "Asta Deck com botões, switches, knobs, sliders e ignição; Asta Controls reúne alavancas de trem, flaps, hélice, mistura e airbrake.",
-            "en": "Asta Deck buttons, switches, knobs, sliders and ignition; Asta Controls combines gear, flaps, propeller, mixture and airbrake levers.",
-            "ru": "Кнопки, переключатели, регуляторы, ползунки и зажигание Asta Deck; Asta Controls объединяет рычаги шасси, закрылков, винта, смеси и воздушного тормоза."
+            "pt": "Monte a grade com botões, knobs, chaves e alavancas no visual DDI. Chaves com tamanhos rápidos 1×1, 1×2, 2×2 e 4×4; desenhos centrais e posição dos rótulos personalizáveis.",
+            "en": "Build a grid of DDI-style buttons, knobs, switches and levers. Quick switch sizes: 1×1, 1×2, 2×2 and 4×4; customize center symbols and label placement.",
+            "ru": "Соберите сетку кнопок, регуляторов, переключателей и рычагов в стиле DDI. Размеры переключателей: 1×1, 1×2, 2×2 и 4×4; настройте символы и расположение подписей."
           }
         },
         {
           "category": "feature",
           "text": {
-            "pt": "Displays interativos do X-Plane, páginas independentes no tablet e assistente de comandos com presets e aprendizado pelo cockpit. Feedback depende da telemetria disponível.",
-            "en": "Interactive X-Plane displays, independent tablet pages and command presets/cockpit learning. Feedback depends on available telemetry.",
-            "ru": "Интерактивные дисплеи X-Plane, независимые страницы планшета и помощник команд с шаблонами и обучением по кабине. Обратная связь зависит от доступной телеметрии."
+            "pt": "Ignição simples ou seletor ampliado por toque; tampa vermelha funcional e volume por knob ou barra. Trem com alavanca animada e luzes por telemetria individual disponível. Asta Full passa a se chamar Asta Controls.",
+            "en": "Simple ignition or expanded touch selector; working red guard and volume knob or slider. Animated gear lever and lights driven by available individual telemetry. Asta Full is now Asta Controls.",
+            "ru": "Простое зажигание или увеличенный сенсорный селектор; рабочая красная крышка, громкость регулятором или ползунком. Анимация рычага шасси и лампы по доступной телеметрии отдельных стоек. Asta Full переименован в Asta Controls."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.42.62",
+      "date": null,
+      "title": {
+        "pt": "Novos controles de cockpit",
+        "en": "New cockpit controls",
+        "ru": "Новые органы управления"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Asta Deck beta: knobs, chaves de duas ou três posições, tampa vermelha, ignição e sliders. Modelos Asta Gear, Flaps, Prop e Full editáveis, com atalhos por posição. O slider envia atalhos ao soltar; não é um eixo analógico.",
+            "en": "Asta Deck beta: knobs, two- and three-position switches, red covers, ignition and sliders. Editable Asta Gear, Flaps, Prop and Full templates use position shortcuts. Sliders send shortcuts on release; they are not analog axes.",
+            "ru": "Бета Asta Deck: регуляторы, переключатели на две и три позиции, красная крышка, зажигание и ползунки. Редактируемые модели Asta Gear, Flaps, Prop и Full используют клавиши для позиций. Ползунок отправляет клавишу при отпускании; это не аналоговая ось."
           }
         },
         {
           "category": "feature",
           "text": {
-            "pt": "Instrumentos individuais por motor, modelos inspirados no Baron 58 e horizonte artificial de estilo soviético.",
-            "en": "Individual engine instruments, Baron 58-inspired designs and a Soviet-style attitude indicator.",
-            "ru": "Отдельные приборы для каждого двигателя, оформление в стиле Baron 58 и авиагоризонт советского типа."
+            "pt": "Horizonte russo com aeronave móvel. As alavancas separam posição solicitada e telemetria real. No X-Plane, Asta Prop lê a manete do motor 1; as três luzes de trem exigem mapeamento dos índices da aeronave. Sem sinal, mostram indisponibilidade.",
+            "en": "Russian horizon with a moving aircraft symbol. Levers separate requested position from actual telemetry. In X-Plane, Asta Prop reads the engine 1 handle; the three gear lights require aircraft index mapping. Missing signals remain unavailable.",
+            "ru": "Авиагоризонт с подвижным самолётом. Рычаги различают запрос и фактическую телеметрию. В X-Plane Asta Prop читает рычаг двигателя 1; три лампы шасси требуют назначения индексов стоек. При отсутствии сигнала данные не выдумываются."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.42.61",
+      "date": null,
+      "title": {
+        "pt": "Sua foto, suas conquistas",
+        "en": "Your photo, your achievements",
+        "ru": "Ваше фото и достижения"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Adicione uma foto à sua conta no app ou no site, ajuste recorte e zoom, salve ou remova. A foto permanece privada nesta versão; o nome nos créditos públicos não muda.",
+            "en": "Add a photo to your account in the app or website, adjust crop and zoom, save or remove it. Photos remain private in this version; your public credit name is unchanged.",
+            "ru": "Добавьте фото в аккаунт приложения или сайта, настройте кадрирование и масштаб, сохраните или удалите. Фото остаётся приватным; имя в публичных благодарностях не меняется."
           }
         },
         {
           "category": "feature",
           "text": {
-            "pt": "Melhorias de headtracking e opções 1080p/4K na câmera para OBS, conforme suporte do dispositivo. TrueDepth nativo ainda não está incluído.",
-            "en": "Headtracking refinements and 1080p/4K OBS camera choices where supported. Native TrueDepth is not included.",
-            "ru": "Улучшения отслеживания головы и разрешения камеры OBS 1080p/4K при поддержке устройством. Нативный TrueDepth не включён."
+            "pt": "Molduras cosméticas reconhecem marcos de horas confirmados pelo servidor. Não dependem de Supporter. Edições simultâneas avisam sobre conflito; imagens são validadas e normalizadas. Requer atualização do serviço de contas.",
+            "en": "Cosmetic frames recognise hour milestones confirmed by the server. Supporter is not required. Concurrent edits report conflicts; images are validated and normalised. Requires the account service update.",
+            "ru": "Декоративные рамки отмечают подтверждённые сервером рубежи часов. Supporter не требуется. Конфликты правок показываются; изображения проверяются и нормализуются. Требуется обновление сервиса аккаунтов."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.42.60",
+      "date": null,
+      "title": {
+        "pt": "Seu diário de voo",
+        "en": "Your flight log",
+        "ru": "Ваш лётный журнал"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "A conta agora mostra horas com cada simulador, dias ativos, atividade dos últimos 30 dias e marcos de 10, 100, 250, 500 e 1.000 horas. O histórico é privado, guardado no servidor e também aparece no site após a implantação do serviço.",
+            "en": "Your account now shows time with each simulator, active days, the last 30 days and milestones at 10, 100, 250, 500 and 1,000 hours. History is private, stored on the server and available on the website after the service update.",
+            "ru": "Аккаунт показывает часы в каждом симуляторе, активные дни, последние 30 дней и рубежи 10, 100, 250, 500 и 1000 часов. История хранится приватно на сервере и появится на сайте после обновления сервиса."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Tempo efetivamente no ar usa dados de contato com o solo do X-Plane. DCS e War Thunder registram tempo de sessão. Não inventamos horas antigas; editor, replay, dados antigos e pausas detectadas interrompem o registro.",
+            "en": "Airborne time uses X-Plane ground-contact data. DCS and War Thunder record session time. Earlier hours are not inferred; editors, replay, stale data and detected pauses interrupt recording.",
+            "ru": "Время в воздухе определяется по контакту с землёй в X-Plane. DCS и War Thunder учитывают время сессии. Старые часы не вычисляются; редактор, повторы, устаревшие данные и обнаруженные паузы прерывают учёт."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.42.59",
+      "date": null,
+      "title": {
+        "pt": "Seu cockpit completo, sua comunidade",
+        "en": "Your complete cockpit, your community",
+        "ru": "Полная кабина и ваше сообщество"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "A compra inclui criar, salvar e compartilhar Luna Gauges e personalizar painéis compatíveis. A bancada agora oferece orientação, importação por arquivo e recuperação do padrão anterior.",
+            "en": "Your purchase includes creating, saving and sharing Luna Gauges and editing compatible panels. The workshop now offers guidance, file import and recovery of the previous layout.",
+            "ru": "Покупка включает создание, сохранение и обмен приборами Luna, а также редактирование совместимых панелей. В мастерской есть подсказки, импорт файлов и восстановление предыдущего оформления."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Supporter é apoio voluntário. A conta reúne agradecimento, datas e histórico confirmados pelo servidor, placa opcional e créditos públicos com consentimento. A disponibilidade depende da atualização do serviço de contas.",
+            "en": "Supporter is voluntary support. Your account brings together personal thanks, server-confirmed dates and history, an optional plaque and opt-in public credits. Availability depends on the account service update.",
+            "ru": "Supporter — добровольная поддержка. В аккаунте доступны благодарность, подтверждённые сервером даты и история, необязательная табличка и публичные благодарности с согласия. Доступность зависит от обновления сервиса аккаунтов."
           }
         },
         {
           "category": "fix",
           "text": {
-            "pt": "Captura isolada com recuperação limitada e botão Tentar novamente. A validação ao vivo de reabertura GPS/radar, janelas minimizadas e DCS após esta mudança permanece pendente.",
-            "en": "Isolated capture with bounded recovery and Try again. Live GPS/radar reopening, minimized-window and DCS checks after this change remain pending.",
-            "ru": "Изолированный захват с ограниченным восстановлением и кнопкой повтора. Проверка повторного открытия GPS/радара, свёрнутых окон и DCS после изменения ещё предстоит."
+            "pt": "Rascunhos do Luna são recuperados ao reabrir. Importações são validadas antes de substituir criações. Ferramentas internas continuam protegidas; apoiar ou deixar de apoiar não muda as ferramentas compradas.",
+            "en": "Luna drafts return when you reopen the editor. Imports are validated before replacing creations. Internal tools remain protected; starting or ending support never changes purchased tools.",
+            "ru": "Черновики Luna восстанавливаются при открытии. Импорт проверяется перед заменой работ. Внутренние инструменты защищены; окончание поддержки не меняет купленные возможности."
           }
         }
       ]
     },
     {
       "version": "0.42.58",
-      "date": "2026-09-10",
+      "date": null,
       "title": {
         "pt": "Asta Display em segundo plano",
         "en": "Asta Display in the background",
