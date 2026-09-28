@@ -1,13 +1,80 @@
 {
   "schema": 1,
-  "generatedAt": "2026-09-22T15:58:20.464Z",
-  "latestVersion": "0.42.66",
+  "generatedAt": "2026-09-28T15:37:19.193Z",
+  "latestVersion": "0.45.0",
   "langs": [
     "pt",
     "en",
     "ru"
   ],
   "entries": [
+    {
+      "version": "0.45.0",
+      "date": "2026-09-28",
+      "title": {
+        "pt": "DCS guiado e melhorias dos displays",
+        "en": "Guided DCS setup and display improvements",
+        "ru": "Настройка DCS с помощником и улучшения дисплеев"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Configure o DCS com a Luna: uso, RWR compatível, espaço, telas e resolução, com revisão e conferência no PC e no dispositivo.",
+            "en": "Set up DCS with Luna: usage, compatible RWR, space, screens and resolution, with review and checks on the PC and connected device.",
+            "ru": "Настройте DCS с Луной: сценарий использования, совместимый RWR, пространство, экраны и разрешение, с проверкой на ПК и подключённом устройстве."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Salve presets pessoais, ajuste recortes e restaure ou remova a configuração com confirmação. O reposicionamento automático permanece desligado por padrão.",
+            "en": "Save personal presets, adjust crops, and restore or remove the configuration with confirmation. Automatic window repositioning remains off by default.",
+            "ru": "Сохраняйте личные пресеты, меняйте области захвата, восстанавливайте или удаляйте конфигурацию с подтверждением. Автоматическое перемещение окна по умолчанию отключено."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Verificação e aviso de preparação ao selecionar DCS; orientação para destacar janelas do X-Plane e usá-las no Asta Display.",
+            "en": "Preparation checks and warnings when selecting DCS; guidance for popping out X-Plane windows and using them in Asta Display.",
+            "ru": "Проверка подготовки и предупреждения при выборе DCS; инструкции по отделению окон X-Plane для Asta Display."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Headtracking exige ação explícita. Selecionar DCS não ativa FreeTrack nem escreve poses em um canal existente, protegendo o uso com OpenTrack.",
+            "en": "Headtracking requires an explicit action. Selecting DCS does not activate FreeTrack or write poses to an existing channel, protecting use with OpenTrack.",
+            "ru": "Отслеживание головы требует явного действия. Выбор DCS не активирует FreeTrack и не записывает позы в существующий канал, защищая работу с OpenTrack."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Ajustes de cores, gama e luminância; comparação Original/FSR 1/NIS por instrumento no tablet. Acima de 2× é experimental e não recupera detalhes ausentes.",
+            "en": "Color, gamma and luminance adjustments; Original/FSR 1/NIS comparison per instrument on the tablet. Above 2× is experimental and cannot recover missing detail.",
+            "ru": "Настройки цвета, гаммы и яркостной кривой; сравнение Original/FSR 1/NIS для каждого прибора на планшете. Увеличение свыше 2× экспериментально и не восстанавливает отсутствующие детали."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Biblioteca com análise simulada, organização por função, downloads, likes e navegação; melhorias na câmera OBS e nos diagnósticos.",
+            "en": "Library improvements: simulated analysis, grouping by function, downloads, likes and navigation; improvements to the OBS camera and diagnostics.",
+            "ru": "Библиотека: анализ с имитацией значений, группировка по функциям, загрузки, отметки «нравится» и навигация; улучшения камеры OBS и диагностики."
+          }
+        },
+        {
+          "category": "infra",
+          "text": {
+            "pt": "FSX Steam segue Beta; IL-2 Great Battles e MSFS 2024 sem telemetria de produção. Molduras F-15E/F-16C/C-130J seguem Beta, com fontes provisórias ou incompletas; exigem conferência no simulador.",
+            "en": "FSX Steam remains Beta; IL-2 Great Battles and MSFS 2024 have no production telemetry. F-15E/F-16C/C-130J frames remain Beta, with provisional or incomplete sources; checks in the simulator are required.",
+            "ru": "FSX Steam остаётся Beta; у IL-2 Great Battles и MSFS 2024 нет рабочей интеграции телеметрии. Рамки F-15E/F-16C/C-130J остаются Beta с временными или неполными источниками; необходима проверка в симуляторе."
+          }
+        }
+      ]
+    },
     {
       "version": "0.42.66",
       "date": "2026-09-13",
