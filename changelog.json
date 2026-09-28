@@ -1,13 +1,48 @@
 {
   "schema": 1,
-  "generatedAt": "2026-09-28T15:37:19.193Z",
-  "latestVersion": "0.45.0",
+  "generatedAt": "2026-09-28T18:36:44.695Z",
+  "latestVersion": "0.45.1",
   "langs": [
     "pt",
     "en",
     "ru"
   ],
   "entries": [
+    {
+      "version": "0.45.1",
+      "date": "2026-09-28",
+      "title": {
+        "pt": "Correções no menu DCS e nas telas",
+        "en": "DCS menu and display fixes",
+        "ru": "Исправления меню DCS и дисплеев"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Menu DCS limitado à vista principal.",
+            "en": "The DCS menu is limited to the main view.",
+            "ru": "Меню DCS доступно только в основном окне."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Fontes nomeadas corrigem a associação dos MFDs e recuperam perfis antigos. O RWR do F-16C continua experimental: exige autorização explícita e backup antes da instalação; não foi validado em voo.",
+            "en": "Named sources correct MFD assignment and repair older profiles. F-16C RWR remains experimental: explicit authorization and a backup are required before installation; it has not been flight-validated.",
+            "ru": "Именованные источники исправляют привязку MFD и восстанавливают старые профили. RWR F-16C остаётся экспериментальным: перед установкой нужны явное разрешение и резервная копия; проверка в полёте не проводилась."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Ajuste nas dicas do monitor guiado e no aviso de integridade do RWR.",
+            "en": "Refined the guided monitor hints and RWR integrity warning.",
+            "ru": "Уточнены подсказки настройки монитора и предупреждение о целостности RWR."
+          }
+        }
+      ]
+    },
     {
       "version": "0.45.0",
       "date": "2026-09-28",
