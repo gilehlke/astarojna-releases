@@ -1,13 +1,48 @@
 {
   "schema": 1,
-  "generatedAt": "2026-09-29T00:10:27.312Z",
-  "latestVersion": "0.45.3",
+  "generatedAt": "2026-09-29T14:48:38.198Z",
+  "latestVersion": "0.45.4",
   "langs": [
     "pt",
     "en",
     "ru"
   ],
   "entries": [
+    {
+      "version": "0.45.4",
+      "date": "2026-09-29",
+      "title": {
+        "pt": "Escolha de idioma antes do login",
+        "en": "Language selection before sign-in",
+        "ru": "Выбор языка до входа"
+      },
+      "changes": [
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Seletor de idioma no launcher antes do login, com bandeira, nome nativo e título alternante.",
+            "en": "Choose a language in the launcher before sign-in, with a flag, native name, and alternating title.",
+            "ru": "Выбирайте язык в лаунчере до входа: с флагом, названием на родном языке и сменяющимся заголовком."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "A primeira abertura aproveita o idioma do instalador ou do sistema operacional e preserva a escolha existente no tutorial, nos perfis e ao reabrir.",
+            "en": "First launch uses the installer or operating system language and preserves an existing choice in the tutorial, profiles, and when reopening.",
+            "ru": "При первом запуске используется язык установщика или операционной системы; существующий выбор сохраняется в обучении, профилях и при повторном открытии."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Textos do launcher nos dez idiomas; os títulos das versões se atualizam ao trocar o idioma, também offline usando o cache.",
+            "en": "Launcher text in ten languages; version titles update when switching languages, including offline using the cache.",
+            "ru": "Тексты лаунчера на десяти языках; заголовки версий обновляются при смене языка, в том числе офлайн с помощью кеша."
+          }
+        }
+      ]
+    },
     {
       "version": "0.45.3",
       "date": "2026-09-28",
