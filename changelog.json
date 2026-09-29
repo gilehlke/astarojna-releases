@@ -1,13 +1,83 @@
 {
   "schema": 1,
-  "generatedAt": "2026-09-28T18:36:44.695Z",
-  "latestVersion": "0.45.1",
+  "generatedAt": "2026-09-29T00:10:27.312Z",
+  "latestVersion": "0.45.3",
   "langs": [
     "pt",
     "en",
     "ru"
   ],
   "entries": [
+    {
+      "version": "0.45.3",
+      "date": "2026-09-28",
+      "title": {
+        "pt": "Configuração DCS previsível e recuperação",
+        "en": "Predictable DCS setup and recovery",
+        "ru": "Предсказуемая настройка DCS и восстановление"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Geometria do DCS corrigida pela área cliente; perfis personalizados, vistas e exportações preservados. Quando necessário, a medição é solicitada explicitamente.",
+            "en": "Corrected DCS geometry using the client area; personal profiles, views, and exports are preserved. Measurement is explicitly requested when needed.",
+            "ru": "Геометрия DCS исправлена с учётом клиентской области; личные профили, виды и экспорты сохранены. При необходимости измерение запрашивается явно."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "Retome um rascunho e ajuste captura, exportações e imagem separadamente, com etapas claras para aplicar e recuperar.",
+            "en": "Resume a draft and adjust capture, exports, and image settings separately, with clear apply and recovery steps.",
+            "ru": "Продолжайте черновик и отдельно настраивайте захват, экспорт и изображение; этапы применения и восстановления стали понятнее."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "NIS removido por instabilidade. Configurações antigas usam Original, mantendo cor e fator; FSR 1 continua disponível.",
+            "en": "NIS removed due to instability. Older settings use Original while preserving color and factor; FSR 1 remains available.",
+            "ru": "NIS удалён из-за нестабильности. Старые настройки используют Original, сохраняя цвет и коэффициент; FSR 1 остаётся доступен."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Correções no menu do DCS e nos MFDs, com instruções mais claras no configurador.",
+            "en": "Fixes to the DCS menu and MFDs, with clearer configurator guidance.",
+            "ru": "Исправлены меню DCS и MFD; пояснения в конфигураторе стали яснее."
+          }
+        }
+      ]
+    },
+    {
+      "version": "0.45.2",
+      "date": "2026-09-28",
+      "title": {
+        "pt": "Configurador DCS e F-16 Beta",
+        "en": "DCS setup and F-16 Beta",
+        "ru": "Настройка DCS и F-16 Beta"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Entrada mais clara, confirmação da instalação, RWR compartilhado e correções no cálculo de espaço e resolução.",
+            "en": "Clearer starting choice, installation confirmation, shared RWR option and corrected space and resolution calculations.",
+            "ru": "Понятный выбор при запуске, подтверждение установки, общая опция RWR и исправленный расчёт места и разрешения."
+          }
+        },
+        {
+          "category": "feature",
+          "text": {
+            "pt": "AoA e VVI do F-16 Beta na biblioteca. Validação real no simulador e tablet ainda pendente.",
+            "en": "F-16 AoA and VVI Beta added to the instrument library. Live simulator and tablet validation remains pending.",
+            "ru": "AoA и VVI F-16 Beta добавлены в библиотеку. Проверка в симуляторе и на планшете ещё предстоит."
+          }
+        }
+      ]
+    },
     {
       "version": "0.45.1",
       "date": "2026-09-28",
