@@ -1,13 +1,48 @@
 {
   "schema": 1,
-  "generatedAt": "2026-09-29T14:48:38.198Z",
-  "latestVersion": "0.45.4",
+  "generatedAt": "2026-09-29T18:37:41.982Z",
+  "latestVersion": "0.45.5",
   "langs": [
     "pt",
     "en",
     "ru"
   ],
   "entries": [
+    {
+      "version": "0.45.5",
+      "date": "2026-09-29",
+      "title": {
+        "pt": "Correções na configuração do DCS",
+        "en": "DCS setup fixes",
+        "ru": "Исправления настройки DCS"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Corrigida a criação do perfil de monitores na primeira configuração do DCS quando a pasta de destino ainda não existe.",
+            "en": "Fixed monitor profile creation during initial DCS setup when the destination folder does not yet exist.",
+            "ru": "Исправлено создание профиля мониторов при первоначальной настройке DCS, когда целевой папки ещё нет."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "A verificação de monitores atualiza a geometria e explica quando o DCS não renderiza a área disponível abaixo da tela principal, preservando escolhas e presets.",
+            "en": "Rechecking monitors updates the geometry and explains when DCS does not render the available area below the primary screen, while preserving choices and presets.",
+            "ru": "Повторная проверка мониторов обновляет геометрию и объясняет, когда DCS не выводит изображение в доступную область под основным экраном, сохраняя выбор и пресеты."
+          }
+        },
+        {
+          "category": "infra",
+          "text": {
+            "pt": "Diagnóstico de suporte mais preciso para erros de configuração, recortes inválidos e recuperação, com o perfil ativo e leituras limitadas dos arquivos.",
+            "en": "More precise support diagnostics for setup errors, invalid capture regions, and recovery, with the active profile and limited file readings.",
+            "ru": "Уточнена диагностика для поддержки при ошибках настройки, недопустимых областях захвата и восстановлении, с указанием активного профиля и ограниченными данными из файлов."
+          }
+        }
+      ]
+    },
     {
       "version": "0.45.4",
       "date": "2026-09-29",
