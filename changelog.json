@@ -1,13 +1,40 @@
 {
   "schema": 1,
-  "generatedAt": "2026-09-29T20:53:49.210Z",
-  "latestVersion": "0.45.6",
+  "generatedAt": "2026-09-30T14:49:35.241Z",
+  "latestVersion": "0.45.7",
   "langs": [
     "pt",
     "en",
     "ru"
   ],
   "entries": [
+    {
+      "version": "0.45.7",
+      "date": "2026-09-30",
+      "title": {
+        "pt": "Configuração DCS reconhecida e janela preservada",
+        "en": "DCS configuration recognized and window preserved",
+        "ru": "Конфигурация DCS распознана, состояние окна сохранено"
+      },
+      "changes": [
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Corrigido o aviso de configuração pendente ao reabrir quando o nome do perfil DCS difere apenas em maiúsculas e minúsculas.",
+            "en": "Fixed the pending configuration warning on reopen when the DCS profile name differs only in letter case.",
+            "ru": "Исправлено предупреждение о незавершённой настройке при повторном открытии, если имя профиля DCS отличается только регистром букв."
+          }
+        },
+        {
+          "category": "fix",
+          "text": {
+            "pt": "Ao retornar da tela de abertura, a área de trabalho recupera o tamanho, a posição e o estado maximizado salvos, respeitando os monitores disponíveis.",
+            "en": "When returning from the opening screen, the workspace restores its saved size, position, and maximized state, respecting the available monitors.",
+            "ru": "При возврате с заставки рабочая область восстанавливает сохранённые размер, положение и состояние развёрнутого окна с учётом доступных мониторов."
+          }
+        }
+      ]
+    },
     {
       "version": "0.45.6",
       "date": "2026-09-29",
